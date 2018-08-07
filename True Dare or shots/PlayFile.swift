@@ -9,6 +9,10 @@
 import UIKit
 
 class PlayFile: UIViewController {
+    @IBOutlet weak var Dare: UIButton!
+    @IBOutlet weak var True: UIButton!
+    @IBOutlet weak var Shot: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +24,16 @@ class PlayFile: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func DareAction(_ sender: UIButton) {
+    print("Dare")
+    }
+    
+    @IBAction func TrueAction(_ sender: UIButton) {
+        print("Dare")
+    }
+    
+    @IBAction func ShotAction(_ sender: UIButton) {
+        print("Shot")
+    }
     
 }
