@@ -12,6 +12,7 @@
 		F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCB9F211A33030023D48F /* PlayFile.swift */; };
 		F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCBA1211A335A0023D48F /* SettingsFile.swift */; };
 		F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCBA3211A336E0023D48F /* AddDare.swift */; };
+		F14FCBA6211B5E010023D48F /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCBA5211B5E010023D48F /* UsersTableViewController.swift */; };
 		F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E50D211933AF0070CD41 /* AppDelegate.swift */; };
 		F169E510211933AF0070CD41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E50F211933AF0070CD41 /* ViewController.swift */; };
 		F169E513211933AF0070CD41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F169E511211933AF0070CD41 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		F14FCB9F211A33030023D48F /* PlayFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayFile.swift; sourceTree = "<group>"; };
 		F14FCBA1211A335A0023D48F /* SettingsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFile.swift; sourceTree = "<group>"; };
 		F14FCBA3211A336E0023D48F /* AddDare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDare.swift; sourceTree = "<group>"; };
+		F14FCBA5211B5E010023D48F /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
 		F169E50A211933AF0070CD41 /* True Dare or shots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "True Dare or shots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F169E50D211933AF0070CD41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F169E50F211933AF0070CD41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				F14FCB9F211A33030023D48F /* PlayFile.swift */,
 				F14FCBA1211A335A0023D48F /* SettingsFile.swift */,
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
+				F14FCBA5211B5E010023D48F /* UsersTableViewController.swift */,
 			);
 			path = "True Dare or shots";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			files = (
 				F169E516211933AF0070CD41 /* True_Dare_or_shots.xcdatamodeld in Sources */,
 				F14FCB9C211A32520023D48F /* infofile.swift in Sources */,
+				F14FCBA6211B5E010023D48F /* UsersTableViewController.swift in Sources */,
 				F169E510211933AF0070CD41 /* ViewController.swift in Sources */,
 				F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */,
 				F14FCB9E211A32B10023D48F /* playersfile.swift in Sources */,
