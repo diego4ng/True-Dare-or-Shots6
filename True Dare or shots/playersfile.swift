@@ -128,7 +128,11 @@ usertable.reloadData()
         return cell!
     }
     
-    //
+    
+    
+    
+    
+    
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
@@ -137,6 +141,27 @@ usertable.reloadData()
         users.remove(at: indexPath.row)
         let indexPaths = [indexPath]
         tableView.deleteRows(at: indexPaths, with: .automatic)
+        
+//        www.youtube.com/watch?v=plw4ZkiUJlo
+//       if editingStyle==UITableViewCellEditingStyle.delete
+//        {
+//            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//            let managedContext = appDelegate.persistentContainer.viewContext
+//        let fetchRequest : NSFetchRequest<Users> = Users.fetchRequest()
+//
+//            managedContext.delete(self.users[indexPath.row])
+//            do{
+//        let results = try managedContext.fetch(fetchRequest)
+//        users = results as [NSManagedObject]
+//               try managedContext.save()
+//                self.users.removeAll()
+//                self.usertable.reloadData()
+//
+//            }
+//            catch{
+//
+//            }
+//        }
         
         
     }
