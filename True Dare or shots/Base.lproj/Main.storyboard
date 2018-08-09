@@ -128,14 +128,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
                             <tableView clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="M4Y-GO-Lab">
-                                <rect key="frame" x="68" y="107" width="239" height="424"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="ZTx-Mf-gyw">
-                                        <rect key="frame" x="0.0" y="28" width="239" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZTx-Mf-gyw" id="Lpl-47-1v7">
-                                            <rect key="frame" x="0.0" y="0.0" width="239" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -146,7 +146,7 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7l-3e-uNW">
-                                <rect key="frame" x="48" y="539" width="279" height="39"/>
+                                <rect key="frame" x="48" y="567" width="279" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Agregar">
                                     <color key="titleColor" red="0.95618730689999998" green="0.97680455450000003" blue="0.96817154270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -158,18 +158,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="N7l-3e-uNW" secondAttribute="trailing" constant="48" id="Dir-eh-VLX"/>
+                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="N7l-3e-uNW" secondAttribute="trailing" constant="48" id="6vj-qV-duV"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="48" id="E9k-be-Mhe"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="48" id="HNC-pb-Sk9"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="trailing" secondItem="iwi-nX-H8v" secondAttribute="trailing" id="HOl-GH-atj"/>
-                            <constraint firstItem="N7l-3e-uNW" firstAttribute="top" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="8" id="Jho-wE-ApX"/>
-                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="M4Y-GO-Lab" secondAttribute="trailing" constant="68" id="S1d-3r-qH6"/>
-                            <constraint firstItem="M4Y-GO-Lab" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="68" id="aiB-Bc-yYB"/>
-                            <constraint firstItem="iwi-nX-H8v" firstAttribute="bottom" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="87" id="b8D-0M-y7U"/>
-                            <constraint firstItem="N7l-3e-uNW" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="48" id="ihW-6q-8SD"/>
+                            <constraint firstItem="M4Y-GO-Lab" firstAttribute="trailing" secondItem="iwi-nX-H8v" secondAttribute="trailing" id="IHf-It-GaU"/>
+                            <constraint firstItem="M4Y-GO-Lab" firstAttribute="top" secondItem="LVZ-VA-3Bv" secondAttribute="top" id="NBd-4f-EXx"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="top" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="19" id="QYh-wJ-w6s"/>
+                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="M4Y-GO-Lab" secondAttribute="trailing" id="S1d-3r-qH6"/>
+                            <constraint firstItem="M4Y-GO-Lab" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" id="aiB-Bc-yYB"/>
+                            <constraint firstItem="iwi-nX-H8v" firstAttribute="bottom" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="70" id="b8D-0M-y7U"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="top" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="19" id="cud-1c-wYS"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="top" secondItem="LVZ-VA-3Bv" secondAttribute="top" id="o4R-p0-foB"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" id="poI-d9-TgV"/>
-                            <constraint firstItem="iwi-nX-H8v" firstAttribute="bottom" secondItem="N7l-3e-uNW" secondAttribute="bottom" constant="40" id="r0w-1h-av8"/>
+                            <constraint firstItem="M4Y-GO-Lab" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" id="r1c-bK-xTh"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="bottom" secondItem="iwi-nX-H8v" secondAttribute="bottom" id="tMv-tR-esk"/>
-                            <constraint firstItem="M4Y-GO-Lab" firstAttribute="top" secondItem="iwi-nX-H8v" secondAttribute="top" constant="87" id="zsX-NV-GpX"/>
+                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="N7l-3e-uNW" secondAttribute="trailing" constant="48" id="xpq-Hb-GNK"/>
+                            <constraint firstItem="M4Y-GO-Lab" firstAttribute="top" secondItem="iwi-nX-H8v" secondAttribute="top" constant="-20" id="zsX-NV-GpX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iwi-nX-H8v"/>
                     </view>
