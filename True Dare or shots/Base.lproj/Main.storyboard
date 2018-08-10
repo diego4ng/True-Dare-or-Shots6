@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhh-gp-6Io">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhh-gp-6Io">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Agregar Retos-->
+        <!--Add Dare-->
         <scene sceneID="p1X-BL-jGi">
             <objects>
                 <viewController id="3OP-Ua-GfV" customClass="AddDare" customModule="True_Dare_or_shots" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 40" translatesAutoresizingMaskIntoConstraints="NO" id="XG6-SS-Ho7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="XG6-SS-Ho7">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
                         </subviews>
@@ -31,14 +31,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4vl-lf-R57"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Agregar Retos" id="r69-dx-OTc"/>
+                    <tabBarItem key="tabBarItem" title="" image="adddateblack" selectedImage="adddatecolor" id="r69-dx-OTc"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Gz-kS-ZRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1404" y="930"/>
         </scene>
-        <!--Jugar-->
+        <!--Play File-->
         <scene sceneID="YSB-OU-eGL">
             <objects>
                 <viewController id="EJk-nF-oLO" customClass="PlayFile" customModule="True_Dare_or_shots" customModuleProvider="target" sceneMemberID="viewController">
@@ -74,7 +74,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yno-UT-Zn7"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Jugar" id="myj-fV-Pwi">
+                    <tabBarItem key="tabBarItem" selectedImage="logopng" systemItem="favorites" id="myj-fV-Pwi">
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -88,7 +88,7 @@
             </objects>
             <point key="canvasLocation" x="-306.39999999999998" y="929.68515742128943"/>
         </scene>
-        <!--Opciones-->
+        <!--Settings File-->
         <scene sceneID="PbS-Ac-BwY">
             <objects>
                 <viewController id="3Ig-TT-asn" customClass="SettingsFile" customModule="True_Dare_or_shots" customModuleProvider="target" sceneMemberID="viewController">
@@ -96,7 +96,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 40" translatesAutoresizingMaskIntoConstraints="NO" id="gfC-UW-Z9m">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="gfC-UW-Z9m">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
                         </subviews>
@@ -109,14 +109,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3qo-XE-KkL"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Opciones" id="utP-Ti-kSi"/>
+                    <tabBarItem key="tabBarItem" title="" image="settingsgray" selectedImage="settingscolor" id="utP-Ti-kSi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TyM-ST-8fG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="585" y="930"/>
         </scene>
-        <!--Jugadores-->
+        <!--Playersfile-->
         <scene sceneID="6n1-KD-2tl">
             <objects>
                 <viewController id="Myd-Nd-I8W" customClass="playersfile" customModule="True_Dare_or_shots" customModuleProvider="target" sceneMemberID="viewController">
@@ -124,7 +124,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 40" translatesAutoresizingMaskIntoConstraints="NO" id="t1U-59-NzG" customClass="pla">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="t1U-59-NzG" customClass="pla">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
                             <tableView clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="M4Y-GO-Lab">
@@ -146,10 +146,10 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7l-3e-uNW">
-                                <rect key="frame" x="48" y="567" width="279" height="39"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <rect key="frame" x="48" y="567" width="279" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Agregar">
-                                    <color key="titleColor" red="0.95618730689999998" green="0.97680455450000003" blue="0.96817154270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.079475080409999996" green="0.1878437972" blue="0.3532929266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="adduser:" destination="Myd-Nd-I8W" eventType="touchUpInside" id="MOK-v6-e72"/>
@@ -178,7 +178,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iwi-nX-H8v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Jugadores" id="Vow-mT-6dz"/>
+                    <tabBarItem key="tabBarItem" title="" image="adduserblack" selectedImage="addusercolor" id="Vow-mT-6dz"/>
                     <connections>
                         <outlet property="usertable" destination="M4Y-GO-Lab" id="Wu3-am-S28"/>
                     </connections>
@@ -187,7 +187,7 @@
             </objects>
             <point key="canvasLocation" x="1429.5999999999999" y="162.3688155922039"/>
         </scene>
-        <!--Info-->
+        <!--Infofile-->
         <scene sceneID="aJ4-Hw-jna">
             <objects>
                 <viewController id="nXS-RL-FAN" customClass="infofile" customModule="True_Dare_or_shots" customModuleProvider="target" sceneMemberID="viewController">
@@ -195,7 +195,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 40" translatesAutoresizingMaskIntoConstraints="NO" id="dM8-Lw-3KU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="dM8-Lw-3KU">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
                         </subviews>
@@ -216,7 +216,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7RR-2M-hcS"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" id="H6V-X6-gQl"/>
+                    <tabBarItem key="tabBarItem" title="" image="homeblack" selectedImage="homecolor" id="H6V-X6-gQl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCx-EB-KKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -226,7 +226,7 @@
         <scene sceneID="hoR-3B-KFL">
             <objects>
                 <tabBarController id="Fhh-gp-6Io" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xjQ-Cg-kfi">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="bottom 2" id="xjQ-Cg-kfi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.55307656526565552" green="0.357890784740448" blue="0.46037817001342773" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -246,6 +246,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Rectangle 40" width="375" height="667"/>
+        <image name="adddateblack" width="64" height="64"/>
+        <image name="adddatecolor" width="64" height="64"/>
+        <image name="adduserblack" width="64" height="64"/>
+        <image name="addusercolor" width="64" height="64"/>
+        <image name="bottom 2" width="375" height="49"/>
+        <image name="fondo" width="1563" height="2779"/>
+        <image name="home" width="1563" height="2779"/>
+        <image name="homeblack" width="64" height="64"/>
+        <image name="homecolor" width="64" height="64"/>
+        <image name="logopng" width="64" height="64"/>
+        <image name="settingscolor" width="64" height="64"/>
+        <image name="settingsgray" width="64" height="64"/>
     </resources>
 </document>
