@@ -56,6 +56,23 @@ class playersfile: UIViewController, UITableViewDataSource ,UITableViewDelegate 
                 completion: nil)
     }
     
+    // sirve para realizar la conexion con core data
+    func conexion () -> NSManagedObjectContext{
+        let appdelegate = UIApplication.shared.delegate as! AppDelegate
+        let managedContext = appdelegate.persistentContainer.viewContext
+        return managedContext
+    }
+    
+    func mostrarDatos(){
+        let contexto = conexion()
+        let fetchRequest :NSFetchRequest<Users> = Users.fetchRequest()
+        do {
+            users = try contexto.fetch(fetchRequest)
+        }catch let error as NSError{
+            print("No muestra nada",error)
+        }
+        
+    }
    
     func saveUsers(nameTask:String){
         //1  Si recuerdas la parte de teoría que vimos, hemos mencionado, que para guardar datos en Core Data, lo primero que debemos hacer es guardarlos en nuestro managed object context. Por tanto, lo que hacemos es recuperar nuestro managed object context a partir del appDelegate.
@@ -138,31 +155,21 @@ usertable.reloadData()
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        users.remove(at: indexPath.row)
-        let indexPaths = [indexPath]
-        tableView.deleteRows(at: indexPaths, with: .automatic)
+  let contexto = conexion()
+  let persona = users[indexPath.row]
         
-//        www.youtube.com/watch?v=plw4ZkiUJlo
-//       if editingStyle==UITableViewCellEditingStyle.delete
-//        {
-//            let appDelegate = UIApplication.shared.delegate as! AppDelegate
-//            let managedContext = appDelegate.persistentContainer.viewContext
-//        let fetchRequest : NSFetchRequest<Users> = Users.fetchRequest()
-//
-//            managedContext.delete(self.users[indexPath.row])
-//            do{
-//        let results = try managedContext.fetch(fetchRequest)
-//        users = results as [NSManagedObject]
-//               try managedContext.save()
-//                self.users.removeAll()
-//                self.usertable.reloadData()
-//
-//            }
-//            catch{
-//
-//            }
-//        }
-        
+        if editingStyle == .delete{
+            contexto.delete(persona)
+            
+            do{
+                try contexto.save()
+            }catch let error as NSError {
+                print("no se borro", error)
+            }
+        }
+      
+      mostrarDatos()
+     usertable.reloadData()
         
     }
     
