@@ -17,7 +17,7 @@ class PlayFile: UIViewController {
     private var swipeView: KKSwipeCardsView<[String: String]>!
     
     private var arrayOfCardDetails: [[String: String]] = [
-        ["name": "1", "image": "image1.png", "location": "Palace Grounds"],
+        ["name": "1", "image": "image1.png", "location": "xxxx"],
         ["name": "2", "image": "image2.png", "location": "Links Brewery"],
         ["name": "3", "image": "image3.png", "location": "Electronic City"],
         ["name": "4", "image": "image4.png", "location": "Sarjapur Road"],
