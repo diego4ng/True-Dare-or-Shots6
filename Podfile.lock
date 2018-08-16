@@ -1,0 +1,16 @@
+PODS:
+  - KKSwipeCards (0.1.1)
+
+DEPENDENCIES:
+  - KKSwipeCards
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KKSwipeCards
+
+SPEC CHECKSUMS:
+  KKSwipeCards: 8f9808aee68bf433cd3b85066cbef45a6cd34693
+
+PODFILE CHECKSUM: 9e6b962c73ea7134a9c122df33ed9e09d0ed92d7
+
+COCOAPODS: 1.5.0
