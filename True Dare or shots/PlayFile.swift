@@ -10,6 +10,7 @@ import UIKit
 import KKSwipeCards
 
 // github.com/kkvinokk/KKSwipeCards
+//github.com/d-32/DMSwipeCards
 
 class PlayFile: UIViewController {
 
