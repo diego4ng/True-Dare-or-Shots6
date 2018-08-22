@@ -7,6 +7,8 @@ target 'True Dare or shots' do
 
   # Pods for True Dare or shots
 	pod 'KKSwipeCards'
+	pod 'DMSwipeCards'
+
         
 
   target 'True Dare or shotsTests' do
