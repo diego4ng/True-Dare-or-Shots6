@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double KKSwipeCardsVersionNumber;
-FOUNDATION_EXPORT const unsigned char KKSwipeCardsVersionString[];
+FOUNDATION_EXPORT double DMSwipeCardsVersionNumber;
+FOUNDATION_EXPORT const unsigned char DMSwipeCardsVersionString[];
 

@@ -1,16 +1,16 @@
 PODS:
-  - KKSwipeCards (0.1.1)
+  - DMSwipeCards (1.0.3)
 
 DEPENDENCIES:
-  - KKSwipeCards
+  - DMSwipeCards
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - KKSwipeCards
+    - DMSwipeCards
 
 SPEC CHECKSUMS:
-  KKSwipeCards: 8f9808aee68bf433cd3b85066cbef45a6cd34693
+  DMSwipeCards: 0f2488120c13eb73366f01e87d1423495cde8ed4
 
-PODFILE CHECKSUM: 9e6b962c73ea7134a9c122df33ed9e09d0ed92d7
+PODFILE CHECKSUM: 28a0822c9a51d22f694261d9bfa3ae4ece9c6e56
 
 COCOAPODS: 1.5.0
