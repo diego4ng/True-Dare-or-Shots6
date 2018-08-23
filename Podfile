@@ -6,8 +6,10 @@ target 'True Dare or shots' do
   use_frameworks!
 
   # Pods for True Dare or shots
-	pod 'KKSwipeCards'
+	#pod 'KKSwipeCards'
 	pod 'DMSwipeCards'
+	
+	
 
         
 

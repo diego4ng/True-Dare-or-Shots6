@@ -378,11 +378,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KKSwipeCards/KKSwipeCards.framework",
+				"${BUILT_PRODUCTS_DIR}/DMSwipeCards/DMSwipeCards.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KKSwipeCards.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DMSwipeCards.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

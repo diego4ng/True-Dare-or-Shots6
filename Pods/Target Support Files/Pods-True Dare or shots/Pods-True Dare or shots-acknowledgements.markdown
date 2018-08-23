@@ -1,9 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## KKSwipeCards
+## DMSwipeCards
 
-Copyright (c) 2017 Vinoth Anandan <kkvinokk@gmail.com>
+Copyright (c) 2016 Dylan Marriott <dmarriott@evernote.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
