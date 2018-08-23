@@ -17,6 +17,8 @@ class PlayFile: UIViewController {
     private var swipeView: DMSwipeCardsView<String>!
     private var count = 0
     
+    var array: [String] = ["joel","diego es gay","pepe","anderson","diego2"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
