@@ -46,12 +46,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="gY8-s8-6yt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="gY8-s8-6yt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gY8-s8-6yt" firstAttribute="leading" secondItem="yno-UT-Zn7" secondAttribute="leading" id="6JH-qd-X6U"/>
+                            <constraint firstItem="gY8-s8-6yt" firstAttribute="top" secondItem="ZWR-2E-sUn" secondAttribute="top" id="RDn-MU-M73"/>
+                            <constraint firstItem="gY8-s8-6yt" firstAttribute="trailing" secondItem="yno-UT-Zn7" secondAttribute="trailing" id="mSm-Xv-I9v"/>
+                            <constraint firstItem="gY8-s8-6yt" firstAttribute="bottom" secondItem="yno-UT-Zn7" secondAttribute="bottom" id="n0U-H3-Kta"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yno-UT-Zn7"/>
                     </view>
                     <tabBarItem key="tabBarItem" selectedImage="logopng" systemItem="favorites" id="myj-fV-Pwi">
