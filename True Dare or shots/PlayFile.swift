@@ -19,6 +19,8 @@ class PlayFile: UIViewController {
     @IBOutlet weak var Dare: UIButton!
     @IBOutlet weak var Shot: UIButton!
     
+    var array: [String] = ["joel","diego es gay","pepe","anderson","diego2"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         etiqueta.text = "Play"
