@@ -23,6 +23,7 @@
 		F169E51B211933AF0070CD41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F169E519211933AF0070CD41 /* LaunchScreen.storyboard */; };
 		F169E526211933AF0070CD41 /* True_Dare_or_shotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E525211933AF0070CD41 /* True_Dare_or_shotsTests.swift */; };
 		F169E531211933AF0070CD41 /* True_Dare_or_shotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */; };
+		F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		F169E52C211933AF0070CD41 /* True Dare or shotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "True Dare or shotsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_Dare_or_shotsUITests.swift; sourceTree = "<group>"; };
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
 		FD7FD8377A6B7CE2275A08EE /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7B2DBBB2D65A055D43AAC7 /* Pods-True Dare or shotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +163,7 @@
 				F14FCB9F211A33030023D48F /* PlayFile.swift */,
 				F14FCBA1211A335A0023D48F /* SettingsFile.swift */,
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
+				F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */,
 			);
 			path = "True Dare or shots";
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				F14FCB9E211A32B10023D48F /* playersfile.swift in Sources */,
 				F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */,
 				F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */,
+				F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */,
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
