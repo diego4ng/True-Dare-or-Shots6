@@ -36,6 +36,7 @@ func conexion () -> NSManagedObjectContext{
     override func viewDidLoad() {
         super.viewDidLoad()
         etiqueta.text = "Play"
+        Name.text = ""
     }
     
     
@@ -52,6 +53,14 @@ func conexion () -> NSManagedObjectContext{
         
         Name.text = callUsers()
     }
+    
+   
+    @IBAction func Shot(_ sender: UIButton) {
+        etiqueta.text = "Shot"
+        sender.shake()
+        Name.text = callUsers()
+    }
+    
     
     func callUsers () -> String{
         let contexto = conexion()
@@ -73,11 +82,6 @@ func conexion () -> NSManagedObjectContext{
             print ("no mostro datos", error)
         }
         return nombrejugador!
-    }
-    
-    @IBAction func Shot(_ sender: UIButton) {
-        etiqueta.text = "Shot"
-        sender.shake()
     }
     
     
