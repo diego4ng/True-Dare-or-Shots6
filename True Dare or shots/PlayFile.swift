@@ -21,6 +21,8 @@ class PlayFile: UIViewController {
     @IBOutlet weak var Shot: UIButton!
     @IBOutlet weak var Turno: UILabel!
     @IBOutlet weak var Name: UILabel!
+    
+    var aux = 0
   
     //conexion con coreData
 func conexion () -> NSManagedObjectContext{
@@ -71,12 +73,24 @@ func conexion () -> NSManagedObjectContext{
             let resultado = try contexto.fetch(fetchrequest)
             print("numero de jugadores\(resultado.index(after: 1))")
             
-            for res in resultado as [NSManagedObject]{
-                let nombrejugador = res.value(forKey: "name")
+            if aux < (resultado.count){
+                var ddd = resultado as [NSManagedObject]
+                let nombrejugador = ddd[aux].value(forKey: "name")
                 Name.text = nombrejugador as? String
-                print("\(String(describing: nombrejugador))")
+                aux += 1
+                if aux == resultado.count{
+                        aux = 0
+                }
             }
             
+            
+            
+//            for res in resultado as [NSManagedObject]{
+//                let nombrejugado = res.value(forKey: "name")
+//                Name.text = nombrejugador[aux] as? String
+//                print("\(String(describing: nombrejugador))")
+//            }
+//
         } catch let error as NSError{
             print ("no mostro datos", error)
         }
