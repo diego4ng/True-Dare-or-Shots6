@@ -23,6 +23,7 @@ class PlayFile: UIViewController {
     @IBOutlet weak var Name: UILabel!
     
     var aux = 0
+    var nombrejugador : String?
   
     //conexion con coreData
 func conexion () -> NSManagedObjectContext{
@@ -41,24 +42,7 @@ func conexion () -> NSManagedObjectContext{
     @IBAction func True(_ sender: UIButton) {
         sender.pulsate()
         etiqueta.text = "Verdad"
-        
-        let contexto = conexion()
-        let fetchrequest : NSFetchRequest<Users> = Users.fetchRequest()
-        
-        do {
-            let resultado = try contexto.fetch(fetchrequest)
-            print("numero de jugadores\(resultado.index(after: 0))")
-            
-            for res in resultado as [NSManagedObject]{
-                let nombrejugador = res.value(forKey: "name")
-                Name.text = nombrejugador as? String
-                print("\(String(describing: nombrejugador))")
-            }
-        
-        } catch let error as NSError{
-            print ("no mostro datos", error)
-        }
-    
+        Name.text = callUsers()
     }
     
     
@@ -66,6 +50,10 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Reto"
         sender.flash()
         
+        Name.text = callUsers()
+    }
+    
+    func callUsers () -> String{
         let contexto = conexion()
         let fetchrequest : NSFetchRequest<Users> = Users.fetchRequest()
         
@@ -75,26 +63,16 @@ func conexion () -> NSManagedObjectContext{
             
             if aux < (resultado.count){
                 var ddd = resultado as [NSManagedObject]
-                let nombrejugador = ddd[aux].value(forKey: "name")
-                Name.text = nombrejugador as? String
+                nombrejugador = ddd[aux].value(forKey: "name") as? String
                 aux += 1
                 if aux == resultado.count{
-                        aux = 0
+                    aux = 0
                 }
             }
-            
-            
-            
-//            for res in resultado as [NSManagedObject]{
-//                let nombrejugado = res.value(forKey: "name")
-//                Name.text = nombrejugador[aux] as? String
-//                print("\(String(describing: nombrejugador))")
-//            }
-//
         } catch let error as NSError{
             print ("no mostro datos", error)
         }
-        
+        return nombrejugador!
     }
     
     @IBAction func Shot(_ sender: UIButton) {
