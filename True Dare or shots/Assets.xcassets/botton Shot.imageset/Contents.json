@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "botton Shot.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "adduserblack.png",
       "scale" : "2x"
     },
     {

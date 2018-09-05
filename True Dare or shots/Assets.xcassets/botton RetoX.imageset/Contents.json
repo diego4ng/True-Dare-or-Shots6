@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "botton RetoX.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "adduserblack.png",
       "scale" : "2x"
     },
     {
