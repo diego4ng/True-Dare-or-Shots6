@@ -116,7 +116,7 @@ class SettingsFile: UIViewController {
         return valor4
     }
     
-    
+    // recupera solo la configuracion a la ultima vez que se uso
     func recuperarconfiguracion(){
         let switchon:Int = UserDefaults.standard.object(forKey: "valor1") as! Int
         if (switchon == 0) {

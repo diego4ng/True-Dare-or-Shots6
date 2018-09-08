@@ -85,7 +85,7 @@ func conexion () -> NSManagedObjectContext{
     
     }
     
-    
+    //MANDA EL JUGADOR 
     func callUsers () -> String{
         let contexto = conexion()
         let fetchrequest : NSFetchRequest<Users> = Users.fetchRequest()
@@ -108,6 +108,7 @@ func conexion () -> NSManagedObjectContext{
         return nombrejugador!
     }
     
+    // RECUPERA LA CONFIGURACION ESTABLECIDA EN SETTINGS FILE
     func recuperarconfiguracion ()
     {
         let switchestado1 = UserDefaults.standard.object(forKey: "valor1")
