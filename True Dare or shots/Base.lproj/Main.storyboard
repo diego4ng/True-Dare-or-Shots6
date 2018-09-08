@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhh-gp-6Io">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhh-gp-6Io">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -161,6 +161,9 @@
                                 <rect key="frame" x="273" y="162" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="switch2tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="QyX-3i-cdr"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A morir ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUp-oj-Q4T">
                                 <rect key="frame" x="46" y="252" width="74" height="21"/>
@@ -187,6 +190,9 @@
                                 <rect key="frame" x="273" y="116" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.14615902304649353" green="0.42656326293945312" blue="0.63725727796554565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="switch1tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="jVN-gn-cV7"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dificultad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yD-AP-J7Z">
                                 <rect key="frame" x="46" y="50" width="93" height="21"/>
@@ -206,11 +212,17 @@
                                 <rect key="frame" x="273" y="254" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="switch4tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="BLp-IN-oSa"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJk-Ty-nKV">
                                 <rect key="frame" x="273" y="208" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="switch3tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="cDh-S4-dig"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -224,6 +236,12 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="settingsgray" selectedImage="settingscolor" id="utP-Ti-kSi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="switch1" destination="h74-WC-d4T" id="Sjj-dL-mu6"/>
+                        <outlet property="switch2" destination="jUm-zv-RYO" id="QsW-TV-RzE"/>
+                        <outlet property="switch3" destination="aJk-Ty-nKV" id="HLi-pt-qdP"/>
+                        <outlet property="switch4" destination="Xr2-hy-lB0" id="zaR-SI-odg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TyM-ST-8fG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
