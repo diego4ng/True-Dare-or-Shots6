@@ -55,10 +55,7 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Play"
         Name.text = ""
         retolabel.text = "Un botón te espera 😏"
-        
-        
-        
-       
+    
     }
     
 
@@ -67,6 +64,26 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Verdad"
         Name.text = callUsers()
         recuperarconfiguracion()
+        
+        
+//        var contador :Int = 0
+//            let tipodearreglo:Int = UserDefaults.standard.object(forKey: "valor1") as! Int
+//            if (tipodearreglo == 1) {
+//                contador = +1
+//                let selectarray = true
+//                print (selectarray)
+//            }else{
+//                
+//        }
+            
+        
+        let contadorderetos = arrayretos.count
+        let numerodereto = contadorderetos-1
+        let randomnumber = Int(arc4random_uniform(UInt32(numerodereto)))
+        let retofinal = (arrayretos[randomnumber])
+        retolabel.text = "\(retofinal)"
+        
+        
     }
     
     
@@ -85,7 +102,7 @@ func conexion () -> NSManagedObjectContext{
     
     }
     
-    //MANDA EL JUGADOR 
+    //MANDA EL JUGADOR
     func callUsers () -> String{
         let contexto = conexion()
         let fetchrequest : NSFetchRequest<Users> = Users.fetchRequest()
