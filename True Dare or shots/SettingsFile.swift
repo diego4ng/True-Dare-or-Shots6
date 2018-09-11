@@ -40,7 +40,7 @@ class SettingsFile: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        recuperarconfiguracion()
+        //recuperarconfiguracion()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -117,34 +117,34 @@ class SettingsFile: UIViewController {
     }
     
     // recupera solo la configuracion a la ultima vez que se uso
-    func recuperarconfiguracion(){
-        let switchon:Int = UserDefaults.standard.object(forKey: "valor1") as! Int
-        if (switchon == 0) {
-         switch1.setOn(false, animated:true)
-            }else{
-        switch1.setOn(true, animated:true)
-}
-        
-        let switchon2:Int = UserDefaults.standard.object(forKey: "valor2") as! Int
-        if (switchon2 == 0) {
-            switch2.setOn(false, animated:true)
-        }else{
-            switch2.setOn(true, animated:true)
-        }
-    
-        let switchon3:Int = UserDefaults.standard.object(forKey: "valor3") as! Int
-        if (switchon3 == 0) {
-            switch3.setOn(false, animated:true)
-        }else{
-            switch3.setOn(true, animated:true)
-        }
-        
-        let switchon4:Int = UserDefaults.standard.object(forKey: "valor4") as! Int
-        if (switchon4 == 0) {
-            switch4.setOn(false, animated:true)
-        }else{
-            switch4.setOn(true, animated:true)
-        }
-        
-}
+//    func recuperarconfiguracion(){
+//        let switchon:Int = UserDefaults.standard.object(forKey: "valor1") as! Int
+//        if (switchon == 0) {
+//         switch1.setOn(false, animated:true)
+//            }else{
+//        switch1.setOn(true, animated:true)
+//}
+//
+//        let switchon2:Int = UserDefaults.standard.object(forKey: "valor2") as! Int
+//        if (switchon2 == 0) {
+//            switch2.setOn(false, animated:true)
+//        }else{
+//            switch2.setOn(true, animated:true)
+//        }
+//
+//        let switchon3:Int = UserDefaults.standard.object(forKey: "valor3") as! Int
+//        if (switchon3 == 0) {
+//            switch3.setOn(false, animated:true)
+//        }else{
+//            switch3.setOn(true, animated:true)
+//        }
+//
+//        let switchon4:Int = UserDefaults.standard.object(forKey: "valor4") as! Int
+//        if (switchon4 == 0) {
+//            switch4.setOn(false, animated:true)
+//        }else{
+//            switch4.setOn(true, animated:true)
+//        }
+//
+//}
 }
