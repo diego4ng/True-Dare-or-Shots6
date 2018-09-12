@@ -39,6 +39,15 @@ class SettingsFile: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UserDefaults.standard.set(true, forKey:"valor1")
+        UserDefaults.standard.set(true, forKey:"valor2")
+        UserDefaults.standard.set(true, forKey:"valor3")
+        UserDefaults.standard.set(true, forKey:"valor4")
+        switch1.isOn = true
+        switch2.isOn = true
+        switch3.isOn = true
+        switch4.isOn = true
+        
         
         //recuperarconfiguracion()
         // Do any additional setup after loading the view, typically from a nib.

@@ -132,13 +132,13 @@ func conexion () -> NSManagedObjectContext{
         print("switch1 esta en:\(switchestado1)")
         
         let switchestado2 = UserDefaults.standard.bool(forKey: "valor2")
-        print("switch1 esta en:\(switchestado2)")
+        print("switch2 esta en:\(switchestado2)")
         
         let switchestado3 = UserDefaults.standard.bool(forKey: "valor3")
-        print("switch1 esta en:\(switchestado3)")
+        print("switch3 esta en:\(switchestado3)")
         
         let switchestado4 = UserDefaults.standard.bool(forKey: "valor4")
-        print("switch1 esta en:\(switchestado4)")
+        print("switch4 esta en:\(switchestado4)")
         
     }
     
