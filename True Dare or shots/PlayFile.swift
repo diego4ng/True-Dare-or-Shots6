@@ -25,6 +25,10 @@ class PlayFile: UIViewController {
     
     var aux = 0
     var nombrejugador : String?
+    var switchestado1 : Bool? = nil
+    var switchestado2 : Bool? = nil
+    var switchestado3 : Bool? = nil
+    var switchestado4 : Bool? = nil
     
     let arrayverdadx = ["1.-Alguna vez has tenido una relación de una noche? Si es así ¿Cuántas has tenido?",
                         "2.-¿De que carecteristica tuya eres demasiado consciente?",
@@ -86,21 +90,18 @@ class PlayFile: UIViewController {
                         "58.-",
                         "59.-¿Cuál es el menor tiempo que has tardado en llegar a un orgasmo?",]
     
+     let arrayverdad2 = ["verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6","verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6","verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6","verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6","verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6"]
+     let arrayverdad3 = ["verdad1.0", "verdad2.0", "verdad3.0","verdad4.0", "verdad5.0","verdad6.0","verdad1.0", "verdad2.0", "verdad3.0","verdad4.0", "verdad5.0","verdad6.0","verdad1.0", "verdad2.0", "verdad3.0","verdad4.0", "verdad5.0","verdad6.0","verdad1.0", "verdad2.0", "verdad3.0","verdad4.0", "verdad5.0","verdad6.0","verdad1.0", "verdad2.0", "verdad3.0","verdad4.0", "verdad5.0","verdad6.0"]
+    
+    
     let arrayretos = ["reto1", "reto2", "Reto3","Reto4", "Reto5","Reto 6"]
-    let arrayretos1 = ["reto1", "reto2", "Reto3","Reto4", "Reto5","Reto 6"]
-    let arrayretos2 = ["reto1", "reto2", "Reto3","Reto4", "Reto5","Reto 6"]
-    let arrayretos3 = ["reto1", "reto2", "Reto3","Reto4", "Reto5","Reto 6"]
-    
-    let arrayverdad = ["verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6"]
-    let arrayverdad1 = ["verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6"]
-    let arrayverdad2 = ["verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6"]
-    let arrayverdad3 = ["verdad1", "verdad2", "verdad3","verdad4", "verdad5","verdad6"]
-    
+
     let arrayShot = ["Shot1", "shot2", "shot3","shot3", "shot4","shot5"]
-    let arrayShot1 = ["Shot1", "shot2", "shot3","shot3", "shot4","shot5"]
-    let arrayShot2 = ["Shot1", "shot2", "shot3","shot3", "shot4","shot5"]
-    let arrayShot3 = ["Shot1", "shot2", "shot3","shot3", "shot4","shot5"]
     
+     let arrayShot2 = ["Shot1", "shot2", "shot3","shot3", "shot4","shot5"]
+  
+    
+    var arreglo_global_verdad = [String]()
     
     //conexion con coreData
 func conexion () -> NSManagedObjectContext{
@@ -124,23 +125,12 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Verdad"
         Name.text = callUsers()
         recuperarconfiguracion()
-        
-        
-//        var contador :Int = 0
-//            let tipodearreglo:Int = UserDefaults.standard.object(forKey: "valor1") as! Int
-//            if (tipodearreglo == 1) {
-//                contador = +1
-//                let selectarray = true
-//                print (selectarray)
-//            }else{
-//                
-//        }
-            
-        
-        let contadorderetos = arrayretos.count
+        agregarverdades()
+      
+        let contadorderetos = arreglo_global_verdad.count
         let numerodereto = contadorderetos-1
         let randomnumber = Int(arc4random_uniform(UInt32(numerodereto)))
-        let retofinal = (arrayretos[randomnumber])
+        let retofinal = (arreglo_global_verdad[randomnumber])
         retolabel.text = "\(retofinal)"
         
         
@@ -188,19 +178,43 @@ func conexion () -> NSManagedObjectContext{
     // RECUPERA LA CONFIGURACION ESTABLECIDA EN SETTINGS FILE
     func recuperarconfiguracion ()
     {
-        let switchestado1 = UserDefaults.standard.bool(forKey: "valor1")
+        switchestado1 = UserDefaults.standard.bool(forKey: "valor1")
         print("switch1 esta en:\(switchestado1)")
         
-        let switchestado2 = UserDefaults.standard.bool(forKey: "valor2")
+        switchestado2 = UserDefaults.standard.bool(forKey: "valor2")
         print("switch2 esta en:\(switchestado2)")
         
-        let switchestado3 = UserDefaults.standard.bool(forKey: "valor3")
+        switchestado3 = UserDefaults.standard.bool(forKey: "valor3")
         print("switch3 esta en:\(switchestado3)")
         
-        let switchestado4 = UserDefaults.standard.bool(forKey: "valor4")
+        switchestado4 = UserDefaults.standard.bool(forKey: "valor4")
         print("switch4 esta en:\(switchestado4)")
         
     }
     
+    
+    func agregarverdades(){
+        
+        if switchestado1!  {
+            arreglo_global_verdad.append(contentsOf:arrayverdadx)
+            print(" se agregro el arreglo 1")
+        } else{
+            print("no se agrego el arreglo 1")
+        }
+        
+        if switchestado2!  {
+            arreglo_global_verdad.append(contentsOf:arrayverdad2)
+            print(" se agregro el arreglo 2")
+        } else{
+            print("no se agrego el arreglo 2")
+        }
+        
+        if switchestado3!  {
+            arreglo_global_verdad.append(contentsOf:arrayverdad3)
+            print(" se agregro el arreglo 2")
+        } else{
+            print("no se agrego el arreglo 2")
+        }
+    }
     
 }
