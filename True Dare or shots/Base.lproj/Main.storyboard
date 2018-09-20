@@ -190,7 +190,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zGK-i1-chC">
                                 <rect key="frame" x="268" y="549" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch4_shot_tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="kz2-O5-e0T"/>
                                 </connections>
@@ -198,7 +198,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QKZ-xG-N5V">
                                 <rect key="frame" x="268" y="517" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch3_shot_tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="3An-hH-wfo"/>
                                 </connections>
@@ -206,7 +206,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1uu-hv-z9k">
                                 <rect key="frame" x="268" y="484" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch2_shot_tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="XVW-Og-OwH"/>
                                 </connections>
@@ -235,7 +235,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zLC-BG-wNW">
                                 <rect key="frame" x="268" y="452" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch1_shot_tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="7Mf-wU-f4M"/>
                                 </connections>
@@ -257,7 +257,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jUm-zv-RYO">
                                 <rect key="frame" x="268" y="130" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.98039215686274506" green="0.35294117647058826" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch2tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="QyX-3i-cdr"/>
                                 </connections>
@@ -286,7 +286,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h74-WC-d4T">
                                 <rect key="frame" x="268" y="96" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.14615902304649353" green="0.42656326293945312" blue="0.63725727796554565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.98039215686274506" green="0.35294117647058826" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch1tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="jVN-gn-cV7"/>
                                 </connections>
@@ -309,7 +309,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xr2-hy-lB0">
                                 <rect key="frame" x="268" y="195" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.98039215686274506" green="0.35294117647058826" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch4tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="BLp-IN-oSa"/>
                                 </connections>
@@ -317,7 +317,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJk-Ty-nKV">
                                 <rect key="frame" x="268" y="162" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.146159023" green="0.42656326290000002" blue="0.63725727799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.98039215686274506" green="0.35294117647058826" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="switch3tapped:" destination="3Ig-TT-asn" eventType="valueChanged" id="cDh-S4-dig"/>
                                 </connections>

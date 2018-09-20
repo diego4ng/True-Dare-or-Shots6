@@ -24,6 +24,7 @@
 		F169E526211933AF0070CD41 /* True_Dare_or_shotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E525211933AF0070CD41 /* True_Dare_or_shotsTests.swift */; };
 		F169E531211933AF0070CD41 /* True_Dare_or_shotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */; };
 		F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */; };
+		F19F8158215432E60000392E /* StringVerdadReto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8157215432E60000392E /* StringVerdadReto.swift */; };
 		F1D15212213F968200D269E0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D15211213F968200D269E0 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_Dare_or_shotsUITests.swift; sourceTree = "<group>"; };
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
+		F19F8157215432E60000392E /* StringVerdadReto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringVerdadReto.swift; sourceTree = "<group>"; };
 		F1D15211213F968200D269E0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FD7FD8377A6B7CE2275A08EE /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7B2DBBB2D65A055D43AAC7 /* Pods-True Dare or shotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		F169E501211933AE0070CD41 = {
 			isa = PBXGroup;
 			children = (
+				F19F8157215432E60000392E /* StringVerdadReto.swift */,
 				F169E50C211933AF0070CD41 /* True Dare or shots */,
 				F169E524211933AF0070CD41 /* True Dare or shotsTests */,
 				F169E52F211933AF0070CD41 /* True Dare or shotsUITests */,
@@ -412,6 +415,7 @@
 				F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */,
 				F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */,
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,
+				F19F8158215432E60000392E /* StringVerdadReto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
