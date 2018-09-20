@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "True Dare or shots/SettingsFile.swift"
-            timestampString = "558140937.757195"
+            timestampString = "559156975.7537659"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "switch1tapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
