@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "573a35a6995244c944715ee5a1674414"
+build_time: [1537557843, 262612000]
+inputs:
+  "/Users/joellozano/Documents/diegogo/proyect/Pods/DMSwipeCards/DMSwipeCards/Classes/DMSwipeCard.swift": [1536080240, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/Pods/DMSwipeCards/DMSwipeCards/Classes/DMSwipeCardsView.swift": [1536080240, 0]

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Products/Debug-iphonesimulator/DMSwipeCards/DMSwipeCards.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/DMSwipeCards.build/unextended-module.modulemap',
+    }]
+  }]
+}

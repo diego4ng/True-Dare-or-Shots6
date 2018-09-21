@@ -1,0 +1,479 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SettingsFile"
+provides-nominal:
+- "18True_Dare_or_shots12SettingsFileC"
+provides-member:
+- ["18True_Dare_or_shots12SettingsFileC", ""]
+provides-dynamic-lookup:
+- "switch1"
+- "switch1tapped"
+- "switch2"
+- "switch2tapped"
+- "switch3"
+- "switch3tapped"
+- "switch4"
+- "switch4tapped"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "SettingsFile"
+- !private "StringLiteralType"
+- "UISwitch"
+- "UIViewController"
+- !private "UserDefaults"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "isOn"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isOn"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "switch1"]
+- !private ["s7CVarArgP", "switch2"]
+- !private ["s7CVarArgP", "switch3"]
+- !private ["s7CVarArgP", "switch4"]
+- !private ["s7CVarArgP", "updateswitch1"]
+- !private ["s7CVarArgP", "updateswitch2"]
+- !private ["s7CVarArgP", "updateswitch3"]
+- !private ["s7CVarArgP", "updateswitch4"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isOn"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "switch1"]
+- !private ["s28CustomDebugStringConvertibleP", "switch2"]
+- !private ["s28CustomDebugStringConvertibleP", "switch3"]
+- !private ["s28CustomDebugStringConvertibleP", "switch4"]
+- !private ["s28CustomDebugStringConvertibleP", "updateswitch1"]
+- !private ["s28CustomDebugStringConvertibleP", "updateswitch2"]
+- !private ["s28CustomDebugStringConvertibleP", "updateswitch3"]
+- !private ["s28CustomDebugStringConvertibleP", "updateswitch4"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isOn"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "switch1"]
+- !private ["s23CustomStringConvertibleP", "switch2"]
+- !private ["s23CustomStringConvertibleP", "switch3"]
+- !private ["s23CustomStringConvertibleP", "switch4"]
+- !private ["s23CustomStringConvertibleP", "updateswitch1"]
+- !private ["s23CustomStringConvertibleP", "updateswitch2"]
+- !private ["s23CustomStringConvertibleP", "updateswitch3"]
+- !private ["s23CustomStringConvertibleP", "updateswitch4"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "UserDefaults"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isOn"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "set"]
+- !private ["s9EquatableP", "standard"]
+- !private ["s9EquatableP", "switch1"]
+- !private ["s9EquatableP", "switch2"]
+- !private ["s9EquatableP", "switch3"]
+- !private ["s9EquatableP", "switch4"]
+- !private ["s9EquatableP", "updateswitch1"]
+- !private ["s9EquatableP", "updateswitch2"]
+- !private ["s9EquatableP", "updateswitch3"]
+- !private ["s9EquatableP", "updateswitch4"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "UserDefaults"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isOn"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "set"]
+- !private ["s8HashableP", "standard"]
+- !private ["s8HashableP", "switch1"]
+- !private ["s8HashableP", "switch2"]
+- !private ["s8HashableP", "switch3"]
+- !private ["s8HashableP", "switch4"]
+- !private ["s8HashableP", "updateswitch1"]
+- !private ["s8HashableP", "updateswitch2"]
+- !private ["s8HashableP", "updateswitch3"]
+- !private ["s8HashableP", "updateswitch4"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isOn"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "switch1"]
+- !private ["So8NSCodingP", "switch2"]
+- !private ["So8NSCodingP", "switch3"]
+- !private ["So8NSCodingP", "switch4"]
+- !private ["So8NSCodingP", "updateswitch1"]
+- !private ["So8NSCodingP", "updateswitch2"]
+- !private ["So8NSCodingP", "updateswitch3"]
+- !private ["So8NSCodingP", "updateswitch4"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "switch1"]
+- !private ["So26NSExtensionRequestHandlingP", "switch2"]
+- !private ["So26NSExtensionRequestHandlingP", "switch3"]
+- !private ["So26NSExtensionRequestHandlingP", "switch4"]
+- !private ["So26NSExtensionRequestHandlingP", "updateswitch1"]
+- !private ["So26NSExtensionRequestHandlingP", "updateswitch2"]
+- !private ["So26NSExtensionRequestHandlingP", "updateswitch3"]
+- !private ["So26NSExtensionRequestHandlingP", "updateswitch4"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UISwitch"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isOn"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "standard"]
+- ["So8NSObjectC", "switch1"]
+- ["So8NSObjectC", "switch1tapped"]
+- ["So8NSObjectC", "switch2"]
+- ["So8NSObjectC", "switch2tapped"]
+- ["So8NSObjectC", "switch3"]
+- ["So8NSObjectC", "switch3tapped"]
+- ["So8NSObjectC", "switch4"]
+- ["So8NSObjectC", "switch4tapped"]
+- ["So8NSObjectC", "updateswitch1"]
+- ["So8NSObjectC", "updateswitch2"]
+- ["So8NSObjectC", "updateswitch3"]
+- ["So8NSObjectC", "updateswitch4"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "UserDefaults"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isOn"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "set"]
+- !private ["So16NSObjectProtocolP", "standard"]
+- !private ["So16NSObjectProtocolP", "switch1"]
+- !private ["So16NSObjectProtocolP", "switch2"]
+- !private ["So16NSObjectProtocolP", "switch3"]
+- !private ["So16NSObjectProtocolP", "switch4"]
+- !private ["So16NSObjectProtocolP", "updateswitch1"]
+- !private ["So16NSObjectProtocolP", "updateswitch2"]
+- !private ["So16NSObjectProtocolP", "updateswitch3"]
+- !private ["So16NSObjectProtocolP", "updateswitch4"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- ["18True_Dare_or_shots12SettingsFileC", "Bool"]
+- ["18True_Dare_or_shots12SettingsFileC", "UISwitch"]
+- !private ["18True_Dare_or_shots12SettingsFileC", "UserDefaults"]
+- ["18True_Dare_or_shots12SettingsFileC", "deinit"]
+- ["18True_Dare_or_shots12SettingsFileC", "init"]
+- !private ["18True_Dare_or_shots12SettingsFileC", "print"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch1"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch1tapped"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch2"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch2tapped"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch3"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch3tapped"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch4"]
+- ["18True_Dare_or_shots12SettingsFileC", "switch4tapped"]
+- ["18True_Dare_or_shots12SettingsFileC", "updateswitch1"]
+- ["18True_Dare_or_shots12SettingsFileC", "updateswitch2"]
+- ["18True_Dare_or_shots12SettingsFileC", "updateswitch3"]
+- ["18True_Dare_or_shots12SettingsFileC", "updateswitch4"]
+- ["18True_Dare_or_shots12SettingsFileC", "viewDidLoad"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isOn"]
+- !private ["So12UIAppearanceP", "isOn"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isOn"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "switch1"]
+- !private ["So21UIAppearanceContainerP", "switch2"]
+- !private ["So21UIAppearanceContainerP", "switch3"]
+- !private ["So21UIAppearanceContainerP", "switch4"]
+- !private ["So21UIAppearanceContainerP", "updateswitch1"]
+- !private ["So21UIAppearanceContainerP", "updateswitch2"]
+- !private ["So21UIAppearanceContainerP", "updateswitch3"]
+- !private ["So21UIAppearanceContainerP", "updateswitch4"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "switch1"]
+- !private ["So18UIContentContainerP", "switch2"]
+- !private ["So18UIContentContainerP", "switch3"]
+- !private ["So18UIContentContainerP", "switch4"]
+- !private ["So18UIContentContainerP", "updateswitch1"]
+- !private ["So18UIContentContainerP", "updateswitch2"]
+- !private ["So18UIContentContainerP", "updateswitch3"]
+- !private ["So18UIContentContainerP", "updateswitch4"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "isOn"]
+- !private ["So17UICoordinateSpaceP", "isOn"]
+- !private ["So13UIDynamicItemP", "isOn"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isOn"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "switch1"]
+- !private ["So18UIFocusEnvironmentP", "switch2"]
+- !private ["So18UIFocusEnvironmentP", "switch3"]
+- !private ["So18UIFocusEnvironmentP", "switch4"]
+- !private ["So18UIFocusEnvironmentP", "updateswitch1"]
+- !private ["So18UIFocusEnvironmentP", "updateswitch2"]
+- !private ["So18UIFocusEnvironmentP", "updateswitch3"]
+- !private ["So18UIFocusEnvironmentP", "updateswitch4"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "isOn"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isOn"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "switch1"]
+- !private ["So30UIPasteConfigurationSupportingP", "switch2"]
+- !private ["So30UIPasteConfigurationSupportingP", "switch3"]
+- !private ["So30UIPasteConfigurationSupportingP", "switch4"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateswitch1"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateswitch2"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateswitch3"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateswitch4"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UISwitch"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isOn"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "switch1"]
+- ["So11UIResponderC", "switch1tapped"]
+- ["So11UIResponderC", "switch2"]
+- ["So11UIResponderC", "switch2tapped"]
+- ["So11UIResponderC", "switch3"]
+- ["So11UIResponderC", "switch3tapped"]
+- ["So11UIResponderC", "switch4"]
+- ["So11UIResponderC", "switch4tapped"]
+- ["So11UIResponderC", "updateswitch1"]
+- ["So11UIResponderC", "updateswitch2"]
+- ["So11UIResponderC", "updateswitch3"]
+- ["So11UIResponderC", "updateswitch4"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isOn"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "switch1"]
+- !private ["So30UIResponderStandardEditActionsP", "switch2"]
+- !private ["So30UIResponderStandardEditActionsP", "switch3"]
+- !private ["So30UIResponderStandardEditActionsP", "switch4"]
+- !private ["So30UIResponderStandardEditActionsP", "updateswitch1"]
+- !private ["So30UIResponderStandardEditActionsP", "updateswitch2"]
+- !private ["So30UIResponderStandardEditActionsP", "updateswitch3"]
+- !private ["So30UIResponderStandardEditActionsP", "updateswitch4"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "switch1"]
+- !private ["So16UIStateRestoringP", "switch2"]
+- !private ["So16UIStateRestoringP", "switch3"]
+- !private ["So16UIStateRestoringP", "switch4"]
+- !private ["So16UIStateRestoringP", "updateswitch1"]
+- !private ["So16UIStateRestoringP", "updateswitch2"]
+- !private ["So16UIStateRestoringP", "updateswitch3"]
+- !private ["So16UIStateRestoringP", "updateswitch4"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So8UISwitchC", "isOn"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isOn"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "switch1"]
+- !private ["So18UITraitEnvironmentP", "switch2"]
+- !private ["So18UITraitEnvironmentP", "switch3"]
+- !private ["So18UITraitEnvironmentP", "switch4"]
+- !private ["So18UITraitEnvironmentP", "updateswitch1"]
+- !private ["So18UITraitEnvironmentP", "updateswitch2"]
+- !private ["So18UITraitEnvironmentP", "updateswitch3"]
+- !private ["So18UITraitEnvironmentP", "updateswitch4"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "isOn"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "UISwitch"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "switch1"]
+- ["So16UIViewControllerC", "switch1tapped"]
+- ["So16UIViewControllerC", "switch2"]
+- ["So16UIViewControllerC", "switch2tapped"]
+- ["So16UIViewControllerC", "switch3"]
+- ["So16UIViewControllerC", "switch3tapped"]
+- ["So16UIViewControllerC", "switch4"]
+- ["So16UIViewControllerC", "switch4tapped"]
+- ["So16UIViewControllerC", "updateswitch1"]
+- ["So16UIViewControllerC", "updateswitch2"]
+- ["So16UIViewControllerC", "updateswitch3"]
+- ["So16UIViewControllerC", "updateswitch4"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So12UserDefaultsC", "set"]
+- !private ["So12UserDefaultsC", "standard"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isOn"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switch1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switch2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switch3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switch4"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateswitch1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateswitch2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateswitch3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateswitch4"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "18True_Dare_or_shots12SettingsFileC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So8UISwitchC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So12UserDefaultsC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a7c51a2440cf81f05e6b211822f2e596"

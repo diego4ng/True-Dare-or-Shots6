@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Products/Debug-iphonesimulator/DMSwipeCards/DMSwipeCards.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DMSwipeCards-Swift.h",
+          'external-contents': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Products/Debug-iphonesimulator/DMSwipeCards/DMSwipeCards.framework/Headers/DMSwipeCards-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DMSwipeCards-umbrella.h",
+          'external-contents': "/Users/joellozano/Documents/diegogo/proyect/Pods/Target Support Files/DMSwipeCards/DMSwipeCards-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Products/Debug-iphonesimulator/DMSwipeCards/DMSwipeCards.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/DMSwipeCards.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Products/Debug-iphonesimulator/Pods_True_Dare_or_shots.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-True Dare or shots-umbrella.h",
+          'external-contents': "/Users/joellozano/Documents/diegogo/proyect/Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_True_Dare_or_shots-Swift.h",
+          'external-contents': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Products/Debug-iphonesimulator/Pods_True_Dare_or_shots.framework/Headers/Pods_True_Dare_or_shots-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Products/Debug-iphonesimulator/Pods_True_Dare_or_shots.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-True Dare or shots.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "7e57544efc6fae2d3ac8e203f950dc28"
+build_time: [1537563824, 455395000]
+inputs:
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/Preguntas.swift": [1537561251, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/infofile.swift": [1536080240, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/ViewController.swift": [1536080240, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/PlayFile.swift": [1537563824, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/CardView.swift": [1536691838, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/playersfile.swift": [1536080240, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/AddDare.swift": [1536080240, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/AppDelegate.swift": [1536080240, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/UIbottonextension.swift": [1536080240, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/True Dare or shots/SettingsFile.swift": [1537558741, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/True Dare or shots.build/Debug-iphonesimulator/True Dare or shots.build/DerivedSources/CoreDataGenerated/True_Dare_or_shots/Entity1+CoreDataClass.swift": [1537557852, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/True Dare or shots.build/Debug-iphonesimulator/True Dare or shots.build/DerivedSources/CoreDataGenerated/True_Dare_or_shots/Entity1+CoreDataProperties.swift": [1537557852, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/True Dare or shots.build/Debug-iphonesimulator/True Dare or shots.build/DerivedSources/CoreDataGenerated/True_Dare_or_shots/Users+CoreDataClass.swift": [1537557852, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/True Dare or shots.build/Debug-iphonesimulator/True Dare or shots.build/DerivedSources/CoreDataGenerated/True_Dare_or_shots/Users+CoreDataProperties.swift": [1537557852, 0]
+  "/Users/joellozano/Documents/diegogo/proyect/DerivedData/True Dare or shots/Build/Intermediates.noindex/True Dare or shots.build/Debug-iphonesimulator/True Dare or shots.build/DerivedSources/CoreDataGenerated/True_Dare_or_shots/True_Dare_or_shots+CoreDataModel.swift": [1537557852, 0]

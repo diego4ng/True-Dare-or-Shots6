@@ -1,0 +1,11 @@
+framework module DMSwipeCards {
+  umbrella header "DMSwipeCards-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DMSwipeCards.Swift {
+    header "DMSwipeCards-Swift.h"
+    requires objc
+}
