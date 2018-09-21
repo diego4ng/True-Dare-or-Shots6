@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F1791B248A4228CB8817839 /* Pods_True_Dare_or_shotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637306B35E54E307227E7F7A /* Pods_True_Dare_or_shotsTests.framework */; };
+		7B8272512155821B006D11E5 /* Preguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8272502155821B006D11E5 /* Preguntas.swift */; };
 		9232E1014AA77DF2269D7B8E /* Pods_True_Dare_or_shots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945105FC087E881ED2424B81 /* Pods_True_Dare_or_shots.framework */; };
 		AA0A505D93CC95ADFFFF941B /* Pods_True_Dare_or_shotsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F510D3C013EF067AC05562 /* Pods_True_Dare_or_shotsUITests.framework */; };
 		F14FCB9C211A32520023D48F /* infofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCB9B211A32520023D48F /* infofile.swift */; };
@@ -49,6 +50,7 @@
 		2A6380387C4143658CF2267A /* Pods-True Dare or shotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C6D60D2326B1530093CAE85 /* Pods-True Dare or shots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shots.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.release.xcconfig"; sourceTree = "<group>"; };
 		637306B35E54E307227E7F7A /* Pods_True_Dare_or_shotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_True_Dare_or_shotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8272502155821B006D11E5 /* Preguntas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preguntas.swift; sourceTree = "<group>"; };
 		7D5020453076FEC312370FC6 /* Pods-True Dare or shotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		945105FC087E881ED2424B81 /* Pods_True_Dare_or_shots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_True_Dare_or_shots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F510D3C013EF067AC05562 /* Pods_True_Dare_or_shotsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_True_Dare_or_shotsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,7 @@
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
 				F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */,
 				F1D15211213F968200D269E0 /* CardView.swift */,
+				7B8272502155821B006D11E5 /* Preguntas.swift */,
 			);
 			path = "True Dare or shots";
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F169E516211933AF0070CD41 /* True_Dare_or_shots.xcdatamodeld in Sources */,
+				7B8272512155821B006D11E5 /* Preguntas.swift in Sources */,
 				F14FCB9C211A32520023D48F /* infofile.swift in Sources */,
 				F169E510211933AF0070CD41 /* ViewController.swift in Sources */,
 				F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */,
