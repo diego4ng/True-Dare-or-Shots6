@@ -7,11 +7,21 @@
 //
 
 import UIKit
-import DMSwipeCards
 import CoreData
 
 // github.com/kkvinokk/KKSwipeCards
 //github.com/d-32/DMSwipeCards
+
+
+// Struct de Retos del juego
+
+struct Categorias {
+    
+    let categoria_name : String
+    let status_categoria : BooleanLiteralType
+    let subCategorias: [Preguntas]
+    
+}
 
 class PlayFile: UIViewController {
     
@@ -22,6 +32,17 @@ class PlayFile: UIViewController {
     @IBOutlet weak var Turno: UILabel!
     @IBOutlet weak var Name: UILabel!
     @IBOutlet weak var retolabel: UILabel!
+    
+    
+    
+    // Array de Preguntas
+    
+    var preguntas = [Preguntas]()
+    
+    // Array de Categorias (del juego, Verdad , shot, retos )
+    
+    var categorias = [Categorias]()
+    
     
     var aux = 0
     var nombrejugador : String?
@@ -116,7 +137,7 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Play"
         Name.text = ""
         retolabel.text = "Un botón te espera 😏"
-    
+        addPreguntas()
     }
     
 
@@ -124,14 +145,10 @@ func conexion () -> NSManagedObjectContext{
         sender.pulsate()
         etiqueta.text = "Verdad"
         Name.text = callUsers()
-        recuperarconfiguracion()
-        agregarverdades()
-      
-        let contadorderetos = arreglo_global_verdad.count
-        let numerodereto = contadorderetos-1
-        let randomnumber = Int(arc4random_uniform(UInt32(numerodereto)))
-        let retofinal = (arreglo_global_verdad[randomnumber])
-        retolabel.text = "\(retofinal)"
+        
+        configuracionPreguntas()
+        let randomnumber = Int(arc4random_uniform(UInt32()))
+        retolabel.text = showPreguntas(randomNumber: randomnumber)
         
         
     }
@@ -216,5 +233,54 @@ func conexion () -> NSManagedObjectContext{
             print("no se agrego el arreglo 2")
         }
     }
+    
+    func addPreguntas(){
+        let p1 = Preguntas.init(id: 1, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "¿Como te llamas?")
+        preguntas.append(p1)
+        let p2 = Preguntas.init(id: 2, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "Como estas?")
+        preguntas.append(p2)
+    }
+    
+    func addCategoria(status : Bool){
+        let verdad = Categorias.init(categoria_name: "verdad", status_categoria: status, subCategorias: preguntas)
+        categorias.append(verdad)
+    }
+    
+    func configuracionPreguntas ()
+    {
+        switchestado1 = UserDefaults.standard.bool(forKey: "valor1")
+        if  switchestado1! {
+            addCategoria(status: switchestado1!)
+        }else{
+            print("ERROR Switch 1 false")
+            let alert = UIAlertController(title: "Alerta",
+                                          message: "Activa la categoria en ..",
+                                          preferredStyle: .alert)
+            
+            let cancelAction = UIAlertAction(title: "Cancelar",
+                                             style: .default) { (action: UIAlertAction) -> Void in
+            }
+            
+            //Añadimos el TextField al UIAlertController
+            alert.addTextField {
+                (textField: UITextField) -> Void in
+            }
+            alert.addAction(cancelAction)
+            present(alert,
+                    animated: true,
+                    completion: nil)
+        }
+    }
+    
+    func showPreguntas(randomNumber : Int)-> String{
+        for cp in categorias {
+            if cp.status_categoria {
+                let question = preguntas[randomNumber].pregunta
+                return question
+            }
+        }
+        return "Switch desactivado"
+    }
+    
     
 }
