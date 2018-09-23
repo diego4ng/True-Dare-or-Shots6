@@ -128,8 +128,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yno-UT-Zn7"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="PRUEBA1-2" selectedImage="PRUEBA1-2" id="myj-fV-Pwi">
-                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <tabBarItem key="tabBarItem" title="" image="PRUEBA2" selectedImage="PRUEBA2" id="myj-fV-Pwi">
+                        <color key="badgeColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -410,12 +410,9 @@
                                     <outlet property="delegate" destination="Myd-Nd-I8W" id="gcn-MP-XvU"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7l-3e-uNW">
-                                <rect key="frame" x="48" y="567" width="279" height="32"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Agregar">
-                                    <color key="titleColor" red="0.079475080409999996" green="0.1878437972" blue="0.3532929266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7l-3e-uNW">
+                                <rect key="frame" x="113" y="563" width="148" height="19"/>
+                                <state key="normal" backgroundImage="AGREGAR JUGADORES BOTON3"/>
                                 <connections>
                                     <action selector="adduser:" destination="Myd-Nd-I8W" eventType="touchUpInside" id="MOK-v6-e72"/>
                                 </connections>
@@ -423,22 +420,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="N7l-3e-uNW" secondAttribute="trailing" constant="48" id="6vj-qV-duV"/>
-                            <constraint firstItem="N7l-3e-uNW" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="48" id="E9k-be-Mhe"/>
-                            <constraint firstItem="N7l-3e-uNW" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="48" id="HNC-pb-Sk9"/>
+                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="N7l-3e-uNW" secondAttribute="trailing" constant="114" id="6vj-qV-duV"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="113" id="E9k-be-Mhe"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" constant="113" id="HNC-pb-Sk9"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="trailing" secondItem="iwi-nX-H8v" secondAttribute="trailing" id="HOl-GH-atj"/>
                             <constraint firstItem="M4Y-GO-Lab" firstAttribute="trailing" secondItem="iwi-nX-H8v" secondAttribute="trailing" id="IHf-It-GaU"/>
                             <constraint firstItem="M4Y-GO-Lab" firstAttribute="top" secondItem="LVZ-VA-3Bv" secondAttribute="top" id="NBd-4f-EXx"/>
-                            <constraint firstItem="N7l-3e-uNW" firstAttribute="top" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="19" id="QYh-wJ-w6s"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="top" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="15" id="QYh-wJ-w6s"/>
                             <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="M4Y-GO-Lab" secondAttribute="trailing" id="S1d-3r-qH6"/>
                             <constraint firstItem="M4Y-GO-Lab" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" id="aiB-Bc-yYB"/>
                             <constraint firstItem="iwi-nX-H8v" firstAttribute="bottom" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="70" id="b8D-0M-y7U"/>
-                            <constraint firstItem="N7l-3e-uNW" firstAttribute="top" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="19" id="cud-1c-wYS"/>
+                            <constraint firstItem="N7l-3e-uNW" firstAttribute="top" secondItem="M4Y-GO-Lab" secondAttribute="bottom" constant="15" id="cud-1c-wYS"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="top" secondItem="LVZ-VA-3Bv" secondAttribute="top" id="o4R-p0-foB"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" id="poI-d9-TgV"/>
                             <constraint firstItem="M4Y-GO-Lab" firstAttribute="leading" secondItem="iwi-nX-H8v" secondAttribute="leading" id="r1c-bK-xTh"/>
                             <constraint firstItem="t1U-59-NzG" firstAttribute="bottom" secondItem="iwi-nX-H8v" secondAttribute="bottom" id="tMv-tR-esk"/>
-                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="N7l-3e-uNW" secondAttribute="trailing" constant="48" id="xpq-Hb-GNK"/>
+                            <constraint firstItem="iwi-nX-H8v" firstAttribute="trailing" secondItem="N7l-3e-uNW" secondAttribute="trailing" constant="114" id="xpq-Hb-GNK"/>
                             <constraint firstItem="M4Y-GO-Lab" firstAttribute="top" secondItem="iwi-nX-H8v" secondAttribute="top" constant="-20" id="zsX-NV-GpX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iwi-nX-H8v"/>
@@ -518,7 +515,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.55307656526565552" green="0.357890784740448" blue="0.46037817001342773" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="0.92849445343017578" green="0.51571434736251831" blue="0.30690103769302368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="nXS-RL-FAN" kind="relationship" relationship="viewControllers" id="Bxq-v9-HM3"/>
@@ -534,10 +531,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AGREGAR JUGADORES BOTON3" width="125" height="19"/>
         <image name="Agregarretos" width="50" height="51"/>
         <image name="CREADORESICON" width="50" height="59"/>
         <image name="JUGADORESICON" width="50" height="54"/>
-        <image name="PRUEBA1-2" width="60" height="56"/>
+        <image name="PRUEBA2" width="60" height="60"/>
         <image name="bottom 2" width="375" height="49"/>
         <image name="botton RetoX" width="445" height="257"/>
         <image name="botton ShotX" width="431" height="203"/>
