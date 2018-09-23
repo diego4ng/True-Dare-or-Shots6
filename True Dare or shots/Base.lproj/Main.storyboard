@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhh-gp-6Io">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhh-gp-6Io">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,7 +31,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4vl-lf-R57"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="adddateblack" selectedImage="adddatecolor" id="r69-dx-OTc"/>
+                    <tabBarItem key="tabBarItem" title="" image="Agregarretos" selectedImage="Agregarretos" id="r69-dx-OTc"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Gz-kS-ZRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -128,8 +128,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yno-UT-Zn7"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="logopng" systemItem="favorites" id="myj-fV-Pwi">
+                    <tabBarItem key="tabBarItem" title="" image="PRUEBA1-2" selectedImage="PRUEBA1-2" id="myj-fV-Pwi">
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -359,7 +360,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3qo-XE-KkL"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="settingsgray" selectedImage="settingscolor" id="utP-Ti-kSi"/>
+                    <tabBarItem key="tabBarItem" title="" image="configuracionesICON" selectedImage="configuracionesICON" id="utP-Ti-kSi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="switch1" destination="h74-WC-d4T" id="Sjj-dL-mu6"/>
@@ -442,7 +443,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iwi-nX-H8v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="adduserblack" selectedImage="addusercolor" id="Vow-mT-6dz"/>
+                    <tabBarItem key="tabBarItem" title="" image="JUGADORESICON" selectedImage="JUGADORESICON" id="Vow-mT-6dz"/>
                     <connections>
                         <outlet property="usertable" destination="M4Y-GO-Lab" id="Wu3-am-S28"/>
                     </connections>
@@ -503,7 +504,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7RR-2M-hcS"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="homeblack" selectedImage="homecolor" id="H6V-X6-gQl"/>
+                    <tabBarItem key="tabBarItem" title="" image="CREADORESICON" selectedImage="CREADORESICON" id="H6V-X6-gQl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCx-EB-KKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -517,7 +518,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.55307656526565552" green="0.357890784740448" blue="0.46037817001342773" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="0.34421959519386292" green="0.25302013754844666" blue="0.38005605340003967" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.92849445343017578" green="0.51571434736251831" blue="0.30690103769302368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="nXS-RL-FAN" kind="relationship" relationship="viewControllers" id="Bxq-v9-HM3"/>
@@ -533,22 +534,18 @@
         </scene>
     </scenes>
     <resources>
-        <image name="adddateblack" width="32" height="32"/>
-        <image name="adddatecolor" width="32" height="32"/>
-        <image name="adduserblack" width="32" height="32"/>
-        <image name="addusercolor" width="32" height="32"/>
+        <image name="Agregarretos" width="50" height="51"/>
+        <image name="CREADORESICON" width="50" height="59"/>
+        <image name="JUGADORESICON" width="50" height="54"/>
+        <image name="PRUEBA1-2" width="60" height="56"/>
         <image name="bottom 2" width="375" height="49"/>
         <image name="botton RetoX" width="445" height="257"/>
         <image name="botton ShotX" width="431" height="203"/>
         <image name="botton verdad" width="222" height="128"/>
         <image name="botton verdadX" width="445" height="256"/>
+        <image name="configuracionesICON" width="51" height="51"/>
         <image name="fondo" width="1563" height="2779"/>
         <image name="home" width="1563" height="2779"/>
-        <image name="homeblack" width="32" height="32"/>
-        <image name="homecolor" width="32" height="32"/>
-        <image name="logopng" width="64" height="64"/>
-        <image name="settingscolor" width="32" height="32"/>
-        <image name="settingsgray" width="32" height="32"/>
         <image name="twitter_PNG19" width="180" height="180"/>
     </resources>
 </document>
