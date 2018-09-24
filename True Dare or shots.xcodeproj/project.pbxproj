@@ -26,6 +26,9 @@
 		F169E531211933AF0070CD41 /* True_Dare_or_shotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */; };
 		F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */; };
 		F19F8158215432E60000392E /* StringVerdadReto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8157215432E60000392E /* StringVerdadReto.swift */; };
+		F19F815E21594B030000392E /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815D21594B030000392E /* CircleMenu.swift */; };
+		F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815F21594B3B0000392E /* CircleMenuLoader.swift */; };
+		F19F816221594B710000392E /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816121594B710000392E /* CircleMenuButton.swift */; };
 		F1D15212213F968200D269E0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D15211213F968200D269E0 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +78,10 @@
 		F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_Dare_or_shotsUITests.swift; sourceTree = "<group>"; };
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
-		F19F8157215432E60000392E /* StringVerdadReto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringVerdadReto.swift; sourceTree = "<group>"; };
+		F19F8157215432E60000392E /* StringVerdadReto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringVerdadReto.swift; path = ../StringVerdadReto.swift; sourceTree = "<group>"; };
+		F19F815D21594B030000392E /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
+		F19F815F21594B3B0000392E /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
+		F19F816121594B710000392E /* CircleMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
 		F1D15211213F968200D269E0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FD7FD8377A6B7CE2275A08EE /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7B2DBBB2D65A055D43AAC7 /* Pods-True Dare or shotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +141,6 @@
 		F169E501211933AE0070CD41 = {
 			isa = PBXGroup;
 			children = (
-				F19F8157215432E60000392E /* StringVerdadReto.swift */,
 				F169E50C211933AF0070CD41 /* True Dare or shots */,
 				F169E524211933AF0070CD41 /* True Dare or shotsTests */,
 				F169E52F211933AF0070CD41 /* True Dare or shotsUITests */,
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				F169E50D211933AF0070CD41 /* AppDelegate.swift */,
+				F19F8157215432E60000392E /* StringVerdadReto.swift */,
 				F169E50F211933AF0070CD41 /* ViewController.swift */,
 				F169E511211933AF0070CD41 /* Main.storyboard */,
 				F169E517211933AF0070CD41 /* Assets.xcassets */,
@@ -173,6 +179,7 @@
 				F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */,
 				F1D15211213F968200D269E0 /* CardView.swift */,
 				7B8272502155821B006D11E5 /* Preguntas.swift */,
+				F19F815C21594ACC0000392E /* New Group */,
 			);
 			path = "True Dare or shots";
 			sourceTree = "<group>";
@@ -193,6 +200,16 @@
 				F169E532211933AF0070CD41 /* Info.plist */,
 			);
 			path = "True Dare or shotsUITests";
+			sourceTree = "<group>";
+		};
+		F19F815C21594ACC0000392E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F19F815D21594B030000392E /* CircleMenu.swift */,
+				F19F815F21594B3B0000392E /* CircleMenuLoader.swift */,
+				F19F816121594B710000392E /* CircleMenuButton.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,12 +430,15 @@
 				F14FCB9C211A32520023D48F /* infofile.swift in Sources */,
 				F169E510211933AF0070CD41 /* ViewController.swift in Sources */,
 				F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */,
+				F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */,
 				F1D15212213F968200D269E0 /* CardView.swift in Sources */,
 				F14FCB9E211A32B10023D48F /* playersfile.swift in Sources */,
 				F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */,
 				F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */,
 				F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */,
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,
+				F19F815E21594B030000392E /* CircleMenu.swift in Sources */,
+				F19F816221594B710000392E /* CircleMenuButton.swift in Sources */,
 				F19F8158215432E60000392E /* StringVerdadReto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
