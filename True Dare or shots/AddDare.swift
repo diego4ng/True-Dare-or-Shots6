@@ -44,11 +44,11 @@ class AddDare: UIViewController, CircleMenuDelegate , UITextFieldDelegate {
                     normalIcon:"PRUEBA2",
                     selectedIcon:"PRUEBA1-2",
                     buttonsCount: 3,
-                    duration: 2,
+                    duration: 1,
                     distance: 120)
         button.backgroundColor = UIColor.lightGray
                 button.delegate = self
-                button.layer.cornerRadius = button.frame.size.width / 6
+                button.layer.cornerRadius = button.frame.size.width / 4
                 view.addSubview(button)
         
         // para hacer el delegado
@@ -111,5 +111,39 @@ class AddDare: UIViewController, CircleMenuDelegate , UITextFieldDelegate {
         textField.resignFirstResponder()
         return (true)
     }
+    
+    @IBAction func agregaraction(_ sender: UIButton) {
+        Agregatu.isHidden = true
+        true_dare_shot.isHidden = true
+        textfield.isHidden = true
+        Agregar.isHidden = true
+    
+        let alert = UIAlertController(title: "Agregado.....",
+                                      message: "Espera en la siguiente actualización tu reto agregado",
+                                      preferredStyle: .alert)
+        
+      
+        
+        
+        //Creamos el UIAlertAction que nos permitirá cancelar
+        let cancelAction = UIAlertAction(title: "OK",
+                                         style: .default) { (action: UIAlertAction) -> Void in
+        }
+        
+        
+    
+        
+        //Añadimos las dos UIAlertAction que hemos creado al UIAlertController
+       
+        alert.addAction(cancelAction)
+        
+        //Lanzamos el UIAlertController
+        present(alert,
+                animated: true,
+                completion: nil)
+        
+    }
+    
+    
 }
 
