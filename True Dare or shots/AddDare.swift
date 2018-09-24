@@ -19,9 +19,13 @@ extension UIColor {
 }
 
 
-class AddDare: UIViewController, CircleMenuDelegate {
+class AddDare: UIViewController, CircleMenuDelegate , UITextFieldDelegate {
     
     @IBOutlet weak var boton_seleccionado: UILabel!
+    @IBOutlet weak var Agregatu: UILabel!
+    @IBOutlet weak var true_dare_shot: UILabel!
+    @IBOutlet weak var textfield: UITextField!
+    @IBOutlet weak var Agregar: UIButton!
     
     //    let colors = [UIColor.redColor(), UIColor.grayColor(), UIColor.greenColor(), UIColor.purpleColor()]
     let items: [(icon: String, color: UIColor)] = [
@@ -44,8 +48,16 @@ class AddDare: UIViewController, CircleMenuDelegate {
                     distance: 120)
         button.backgroundColor = UIColor.lightGray
                 button.delegate = self
-                button.layer.cornerRadius = button.frame.size.width / 4.0
+                button.layer.cornerRadius = button.frame.size.width / 6
                 view.addSubview(button)
+        
+        // para hacer el delegado
+        self.textfield.delegate = self
+        //oculta los botones
+        Agregatu.isHidden = true
+        true_dare_shot.isHidden = true
+        textfield.isHidden = true
+        Agregar.isHidden = true
     }
     
     // MARK: <CircleMenuDelegate>
@@ -64,18 +76,40 @@ class AddDare: UIViewController, CircleMenuDelegate {
     func circleMenu(_: CircleMenu, buttonWillSelected _: UIButton, atIndex: Int) {
         print("button will selected: \(atIndex)")
         if atIndex == 0{
-        boton_seleccionado.text = "Verdad"
+            Agregatu.isHidden = false
+            true_dare_shot.isHidden = false
+            textfield.isHidden = false
+            boton_seleccionado.text = "Verdad"
+            Agregar.isHidden = false
         }
         if atIndex == 1{
+            Agregatu.isHidden = false
+            true_dare_shot.isHidden = false
+            textfield.isHidden = false
             boton_seleccionado.text = "Reto"
+            Agregar.isHidden = false
         }
         if atIndex == 2{
+            Agregatu.isHidden = false
+            true_dare_shot.isHidden = false
+            textfield.isHidden = false
             boton_seleccionado.text = "Shot"
+            Agregar.isHidden = false
         }
     }
     
     func circleMenu(_: CircleMenu, buttonDidSelected _: UIButton, atIndex: Int) {
         print("button did selected: \(atIndex)")
+    }
+    
+    // Funcion para esconder el teclado cuando tocamos la pantalla
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    // Funcion para esconder el teclado cuando presionamos return
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return (true)
     }
 }
 
