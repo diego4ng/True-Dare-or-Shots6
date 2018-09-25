@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F1791B248A4228CB8817839 /* Pods_True_Dare_or_shotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637306B35E54E307227E7F7A /* Pods_True_Dare_or_shotsTests.framework */; };
+		78BCF7C13C93620209DBBC92 /* libPods-True Dare or shotsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F79EECB2B20DF59E543834 /* libPods-True Dare or shotsUITests.a */; };
 		7B8272512155821B006D11E5 /* Preguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8272502155821B006D11E5 /* Preguntas.swift */; };
-		9232E1014AA77DF2269D7B8E /* Pods_True_Dare_or_shots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945105FC087E881ED2424B81 /* Pods_True_Dare_or_shots.framework */; };
-		AA0A505D93CC95ADFFFF941B /* Pods_True_Dare_or_shotsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F510D3C013EF067AC05562 /* Pods_True_Dare_or_shotsUITests.framework */; };
+		CB183E96FC960EDD81FBB9DC /* libPods-True Dare or shotsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 967B3217E0E08F8C2994F1F2 /* libPods-True Dare or shotsTests.a */; };
+		D2F3D0D773527C0E040ADC56 /* libPods-True Dare or shots.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D59737BAD33BB20A94ECB974 /* libPods-True Dare or shots.a */; };
 		F14FCB9C211A32520023D48F /* infofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCB9B211A32520023D48F /* infofile.swift */; };
 		F14FCB9E211A32B10023D48F /* playersfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCB9D211A32B10023D48F /* playersfile.swift */; };
 		F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCB9F211A33030023D48F /* PlayFile.swift */; };
@@ -29,6 +29,8 @@
 		F19F815E21594B030000392E /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815D21594B030000392E /* CircleMenu.swift */; };
 		F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815F21594B3B0000392E /* CircleMenuLoader.swift */; };
 		F19F816221594B710000392E /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816121594B710000392E /* CircleMenuButton.swift */; };
+		F19F816821599A3C0000392E /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816721599A3C0000392E /* Designable.swift */; };
+		F19F816A21599A730000392E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816921599A730000392E /* TabBarController.swift */; };
 		F1D15212213F968200D269E0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D15211213F968200D269E0 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,14 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14F79EECB2B20DF59E543834 /* libPods-True Dare or shotsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-True Dare or shotsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6380387C4143658CF2267A /* Pods-True Dare or shotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C6D60D2326B1530093CAE85 /* Pods-True Dare or shots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shots.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.release.xcconfig"; sourceTree = "<group>"; };
-		637306B35E54E307227E7F7A /* Pods_True_Dare_or_shotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_True_Dare_or_shotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8272502155821B006D11E5 /* Preguntas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preguntas.swift; sourceTree = "<group>"; };
 		7D5020453076FEC312370FC6 /* Pods-True Dare or shotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		945105FC087E881ED2424B81 /* Pods_True_Dare_or_shots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_True_Dare_or_shots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3F510D3C013EF067AC05562 /* Pods_True_Dare_or_shotsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_True_Dare_or_shotsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		967B3217E0E08F8C2994F1F2 /* libPods-True Dare or shotsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-True Dare or shotsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA71D1FB27C47D8C40CA6F62 /* Pods-True Dare or shots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shots.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.debug.xcconfig"; sourceTree = "<group>"; };
+		D59737BAD33BB20A94ECB974 /* libPods-True Dare or shots.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-True Dare or shots.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14FCB9B211A32520023D48F /* infofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infofile.swift; sourceTree = "<group>"; };
 		F14FCB9D211A32B10023D48F /* playersfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playersfile.swift; sourceTree = "<group>"; };
 		F14FCB9F211A33030023D48F /* PlayFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayFile.swift; sourceTree = "<group>"; };
@@ -82,6 +84,8 @@
 		F19F815D21594B030000392E /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
 		F19F815F21594B3B0000392E /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
 		F19F816121594B710000392E /* CircleMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
+		F19F816721599A3C0000392E /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		F19F816921599A730000392E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F1D15211213F968200D269E0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FD7FD8377A6B7CE2275A08EE /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7B2DBBB2D65A055D43AAC7 /* Pods-True Dare or shotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9232E1014AA77DF2269D7B8E /* Pods_True_Dare_or_shots.framework in Frameworks */,
+				D2F3D0D773527C0E040ADC56 /* libPods-True Dare or shots.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1791B248A4228CB8817839 /* Pods_True_Dare_or_shotsTests.framework in Frameworks */,
+				CB183E96FC960EDD81FBB9DC /* libPods-True Dare or shotsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA0A505D93CC95ADFFFF941B /* Pods_True_Dare_or_shotsUITests.framework in Frameworks */,
+				78BCF7C13C93620209DBBC92 /* libPods-True Dare or shotsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,9 +122,9 @@
 		06915452D0E1ACB2150054CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				945105FC087E881ED2424B81 /* Pods_True_Dare_or_shots.framework */,
-				637306B35E54E307227E7F7A /* Pods_True_Dare_or_shotsTests.framework */,
-				C3F510D3C013EF067AC05562 /* Pods_True_Dare_or_shotsUITests.framework */,
+				D59737BAD33BB20A94ECB974 /* libPods-True Dare or shots.a */,
+				967B3217E0E08F8C2994F1F2 /* libPods-True Dare or shotsTests.a */,
+				14F79EECB2B20DF59E543834 /* libPods-True Dare or shotsUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,10 +180,10 @@
 				F14FCB9F211A33030023D48F /* PlayFile.swift */,
 				F14FCBA1211A335A0023D48F /* SettingsFile.swift */,
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
-				F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */,
 				F1D15211213F968200D269E0 /* CardView.swift */,
 				7B8272502155821B006D11E5 /* Preguntas.swift */,
-				F19F815C21594ACC0000392E /* New Group */,
+				F19F816621599A070000392E /* swipetapbar */,
+				F19F815C21594ACC0000392E /* Add dare circle */,
 			);
 			path = "True Dare or shots";
 			sourceTree = "<group>";
@@ -202,14 +206,24 @@
 			path = "True Dare or shotsUITests";
 			sourceTree = "<group>";
 		};
-		F19F815C21594ACC0000392E /* New Group */ = {
+		F19F815C21594ACC0000392E /* Add dare circle */ = {
 			isa = PBXGroup;
 			children = (
 				F19F815D21594B030000392E /* CircleMenu.swift */,
+				F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */,
 				F19F815F21594B3B0000392E /* CircleMenuLoader.swift */,
 				F19F816121594B710000392E /* CircleMenuButton.swift */,
 			);
-			path = "New Group";
+			path = "Add dare circle";
+			sourceTree = "<group>";
+		};
+		F19F816621599A070000392E /* swipetapbar */ = {
+			isa = PBXGroup;
+			children = (
+				F19F816721599A3C0000392E /* Designable.swift */,
+				F19F816921599A730000392E /* TabBarController.swift */,
+			);
+			path = swipetapbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +237,6 @@
 				F169E506211933AF0070CD41 /* Sources */,
 				F169E507211933AF0070CD41 /* Frameworks */,
 				F169E508211933AF0070CD41 /* Resources */,
-				EC082ED0E71DFAD3D9E5850F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,24 +413,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EC082ED0E71DFAD3D9E5850F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DMSwipeCards/DMSwipeCards.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DMSwipeCards.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -431,9 +426,11 @@
 				F169E510211933AF0070CD41 /* ViewController.swift in Sources */,
 				F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */,
 				F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */,
+				F19F816A21599A730000392E /* TabBarController.swift in Sources */,
 				F1D15212213F968200D269E0 /* CardView.swift in Sources */,
 				F14FCB9E211A32B10023D48F /* playersfile.swift in Sources */,
 				F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */,
+				F19F816821599A3C0000392E /* Designable.swift in Sources */,
 				F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */,
 				F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */,
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,

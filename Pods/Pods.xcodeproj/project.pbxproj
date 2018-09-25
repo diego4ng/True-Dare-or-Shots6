@@ -7,192 +7,240 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FD748165530F4B3509D23BB2B2D32A4 /* Pods-True Dare or shotsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1209410981DFB7077B0B074AD9D32F /* Pods-True Dare or shotsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FE166075E26A2232FEB9B60A6B044C0 /* DMSwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52AA91152998F18F2401D90901E8F1 /* DMSwipeCard.swift */; };
-		2928703DA29DCBADB498740582AB31DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		59C86BDAFBAC6F5A3B1F275A8FEBCB31 /* DMSwipeCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA1DE8942D931CADDE769FEC96BD90 /* DMSwipeCardsView.swift */; };
-		69FDD0DEFAB9E47BAB0699EBFBA8F4B0 /* Pods-True Dare or shotsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D60294C8F1B17A1C61DFB52845CFCF5 /* Pods-True Dare or shotsUITests-dummy.m */; };
-		6E73E4249B0D0676F7045D34D4E946C3 /* Pods-True Dare or shots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB486AEE96B06C5B9E8D740817033D /* Pods-True Dare or shots-dummy.m */; };
-		79E55B09E634DDD3BC485FEE6271778E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		81774E9DDFBF8C351DC679EC1DCAF884 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8ECF4FC3FD8C4261D7F4FDED858709C1 /* DMSwipeCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB1964F74809A51F515E91F805AB2F /* DMSwipeCards-dummy.m */; };
-		9919567EE7A67FC8AC018B6E82B64449 /* Pods-True Dare or shots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E174D04CB7B33A6C6C36B1F2901B731 /* Pods-True Dare or shots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E789DD2BCCD3257A450FA5A1333AB74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A6805B60724033B138274C338EBE4C74 /* Pods-True Dare or shotsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69326D6065326C941DEAA542DEE28CE6 /* Pods-True Dare or shotsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B902888038A4E1D588FC2981FD7B01E5 /* DMSwipeCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA8D77E406EAD72980A804B3AFF0107 /* DMSwipeCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1E384101F344B0B1C5F1CC769F07CB4 /* Pods-True Dare or shotsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D0C22E69AEE554B49CA32712EB3E28 /* Pods-True Dare or shotsTests-dummy.m */; };
+		0020DC251DECB24D9CF5D45C79B5B90A /* SwipeableTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8FBF1F6E8407FB51DFDE2947965CD /* SwipeableTabBarController-dummy.m */; };
+		1C14F4189E69537C28C66ACA4D85755D /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5AC85C05CC68F405CA58C3AA66B5E5 /* SwipeTransitioningProtocol.swift */; };
+		2A065BD8234D473FBA2A4BE6E149F815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		45E7D5F9994604FCD598877C463EBD2A /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074A95695A05BB41D767EE454631953 /* SwipeableTabBarController.swift */; };
+		4B2082F1B7BDF3A7DA6CAD6BC7806889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6748C554DB89F3C53EEC5E95E8471F9F /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D08D8E0573C87786DD297940AEE9EB /* SwipeInteractor.swift */; };
+		85A845649C25DF9AAF3CC7E6FC36F7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F995C6581A91DE56094EBEE42B16963 /* Pods-True Dare or shots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C42B38C587569BFA307F4C78022FB502 /* Pods-True Dare or shots-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		914EC07EC7C0BEF1C703DCFFFCED7E6F /* DMSwipeCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C315156BEA68C05A48146C785A3CF9 /* DMSwipeCards-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A16B3833C50EFF15882AD204C1717449 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6A3B23060227A706AE7DE9C3FA944 /* UIKit+Extensions.swift */; };
+		B11E4D0FA24BD38F383FE5C5F480BFE8 /* DMSwipeCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFD15F75BF28449B0290CFDA40EE10 /* DMSwipeCards-dummy.m */; };
+		B4089F1047F381390A6F92E678655D43 /* DMSwipeCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E027DF63DA78F0849981E3EF5E7A64 /* DMSwipeCardsView.swift */; };
+		B7B3E635F0D6AC938DA936DD075B1A9A /* DMSwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744807F3DEA329732BDED1F824ABEEEC /* DMSwipeCard.swift */; };
+		C81755C681A6928B20BBD13C97B66469 /* Pods-True Dare or shotsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5674CBE1C341DFA243E8BCF34355B6 /* Pods-True Dare or shotsTests-dummy.m */; };
+		CB8C20D75AE97D6274DFDECD552158BF /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F0CF75820567D4E7C0D55AE19AA33C /* SwipeAnimationType.swift */; };
+		CF42205E328AEF10949D53324AAB0E79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E33261AC6079652DAA0865A0516F686B /* SwipeableTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 907D25F8694EFA8E466D68281524F286 /* SwipeableTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E430BFAB44952AD07C8A466FD262C112 /* Pods-True Dare or shotsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9FE1BA13837299E1CE114ABBEC4E4 /* Pods-True Dare or shotsUITests-dummy.m */; };
+		E4570CD55F1410F84B4BB6642A76428B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E6E5635B3BEAD9BF30B20B7F781B95A1 /* Pods-True Dare or shots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A542DAD5B2A5A5A2498A18637A007B /* Pods-True Dare or shots-dummy.m */; };
+		F6C0B17B4C3096EC2E4BFCC398826727 /* SwipeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26628D47768BA46538C6BB0A517B0D /* SwipeAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00C33FC37EBE077A5E3451BCE1ABD938 /* PBXContainerItemProxy */ = {
+		69E48F713DE345273441A2CAECB3CC8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42FC40EFC2E01B721586AB8005E58798;
+			remoteGlobalIDString = 494D8986642A179FA2FB992AD2D89916;
 			remoteInfo = "Pods-True Dare or shots";
 		};
-		D2E7F6E04EFF4CF2B90C7B7F0D2E729E /* PBXContainerItemProxy */ = {
+		B3E62D8A3A9260B486B3341DE59FEE16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FA0071A399690B9A95DB23C23FC8F072;
+			remoteGlobalIDString = 494D8986642A179FA2FB992AD2D89916;
+			remoteInfo = "Pods-True Dare or shots";
+		};
+		C8435FE8C41023808213104D164E2E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5323A3D949C49242D58FAB096737C198;
 			remoteInfo = DMSwipeCards;
 		};
-		D6038671C60707BDFDE0B72A86736908 /* PBXContainerItemProxy */ = {
+		D2719ACC7FDAF79EB57DAEB1F8168011 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42FC40EFC2E01B721586AB8005E58798;
-			remoteInfo = "Pods-True Dare or shots";
+			remoteGlobalIDString = 3039D39E58C6F953B76F33E90339D220;
+			remoteInfo = SwipeableTabBarController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017534ED46089A1994200927A6CE6E58 /* Pods-True Dare or shots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shots.release.xcconfig"; sourceTree = "<group>"; };
-		04AC2AB5447754135866A903290BC33F /* Pods-True Dare or shots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-True Dare or shots.modulemap"; sourceTree = "<group>"; };
-		08BF244A763AB17F32955E96F8B57B83 /* DMSwipeCards.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMSwipeCards.xcconfig; sourceTree = "<group>"; };
-		0E52AA91152998F18F2401D90901E8F1 /* DMSwipeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DMSwipeCard.swift; path = DMSwipeCards/Classes/DMSwipeCard.swift; sourceTree = "<group>"; };
-		2D60294C8F1B17A1C61DFB52845CFCF5 /* Pods-True Dare or shotsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-True Dare or shotsUITests-dummy.m"; sourceTree = "<group>"; };
-		35ADE2A28880BBAA87BA4E8BCBB35200 /* Pods-True Dare or shotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsTests.release.xcconfig"; sourceTree = "<group>"; };
-		384B34D24BF062037756A24D1448CF24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C47BECE8760DBF041E363AE3012DF61 /* Pods-True Dare or shotsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-True Dare or shotsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4397A203818EAB60E13F903EAC58DCDA /* Pods-True Dare or shotsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-True Dare or shotsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46B93F20C5369B52C5A4D3094BC2B031 /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F491B1A9F9BEB0751B397D97E6662D7 /* Pods-True Dare or shotsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsUITests-resources.sh"; sourceTree = "<group>"; };
-		58BF5DD2DB60C26B22AFC9D327BC047F /* Pods-True Dare or shots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shots.debug.xcconfig"; sourceTree = "<group>"; };
-		5A0B7A85687F58A6EEB6BAFEBD757A93 /* Pods-True Dare or shotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5C42F23828D2BA1ADED81BA6A84D5387 /* DMSwipeCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DMSwipeCards.modulemap; sourceTree = "<group>"; };
-		5E174D04CB7B33A6C6C36B1F2901B731 /* Pods-True Dare or shots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-True Dare or shots-umbrella.h"; sourceTree = "<group>"; };
+		00A25DFC3B64140AE54EF64A170A1022 /* Pods-True Dare or shotsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		01C8CE94E92FE13352194F33464ABFE7 /* Pods-True Dare or shots-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shots-resources.sh"; sourceTree = "<group>"; };
+		0F237A9995B97318717211A2BDE493C2 /* libPods-True Dare or shots.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-True Dare or shots.a"; path = "libPods-True Dare or shots.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EFD15F75BF28449B0290CFDA40EE10 /* DMSwipeCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMSwipeCards-dummy.m"; sourceTree = "<group>"; };
+		21D08D8E0573C87786DD297940AEE9EB /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/Classes/SwipeInteractor.swift; sourceTree = "<group>"; };
+		24F6A3B23060227A706AE7DE9C3FA944 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/Classes/UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		2B2CC728607250A593736260AC0E54F4 /* Pods-True Dare or shots-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-True Dare or shots-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C5674CBE1C341DFA243E8BCF34355B6 /* Pods-True Dare or shotsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-True Dare or shotsTests-dummy.m"; sourceTree = "<group>"; };
+		2C5F45E016CEABE2C88183604220CE62 /* Pods-True Dare or shotsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsTests-frameworks.sh"; sourceTree = "<group>"; };
+		2E86B5A95C6FBD3C51934A358F991AFE /* Pods-True Dare or shotsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-True Dare or shotsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31F3C5055772D88A9D5D04ACAF80679C /* Pods-True Dare or shotsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsTests-resources.sh"; sourceTree = "<group>"; };
+		35F0CF75820567D4E7C0D55AE19AA33C /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/Classes/SwipeAnimationType.swift; sourceTree = "<group>"; };
+		37706369FD16B78DDEFE768D61ABE2DD /* DMSwipeCards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMSwipeCards-prefix.pch"; sourceTree = "<group>"; };
+		3839CEBD4109A06F6B0FC0CDBB62780C /* Pods-True Dare or shotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF9FE1BA13837299E1CE114ABBEC4E4 /* Pods-True Dare or shotsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-True Dare or shotsUITests-dummy.m"; sourceTree = "<group>"; };
+		40A4859C2B9924F57B5C2B78F59F5B2A /* DMSwipeCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = DMSwipeCards.modulemap; path = ../../Headers/Public/DMSwipeCards/DMSwipeCards.modulemap; sourceTree = "<group>"; };
+		45027B229DF385958F122D42236E1B0F /* Pods-True Dare or shots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-True Dare or shots.modulemap"; sourceTree = "<group>"; };
+		45C5AAC0A3A208F54182E97055279A0C /* libSwipeableTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwipeableTabBarController.a; path = libSwipeableTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4744B38860F097F630D133BC6CD5A404 /* Pods-True Dare or shots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shots.debug.xcconfig"; sourceTree = "<group>"; };
+		50B8426259C145A0748911F50D4D901E /* Pods-True Dare or shotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5488F11D77FB2B19A58D6CEE705584BF /* Pods-True Dare or shots-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-True Dare or shots-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A965A22EC5C5E9D35424C1EEECBE981 /* Pods-True Dare or shotsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-True Dare or shotsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F5AC85C05CC68F405CA58C3AA66B5E5 /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/Classes/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68D0C22E69AEE554B49CA32712EB3E28 /* Pods-True Dare or shotsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-True Dare or shotsTests-dummy.m"; sourceTree = "<group>"; };
-		69326D6065326C941DEAA542DEE28CE6 /* Pods-True Dare or shotsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-True Dare or shotsUITests-umbrella.h"; sourceTree = "<group>"; };
-		69B239DD7AD0B16403C2305B69680879 /* Pods-True Dare or shotsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-True Dare or shotsTests.modulemap"; sourceTree = "<group>"; };
-		6A29020FA954B2F50A737082EDF838E9 /* Pods-True Dare or shotsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsTests-resources.sh"; sourceTree = "<group>"; };
-		6D592B990BABC76C275C3E11DC4C55B2 /* DMSwipeCards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMSwipeCards-prefix.pch"; sourceTree = "<group>"; };
-		7917505A54E6B765099A3456CD51A209 /* Pods-True Dare or shotsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsTests-frameworks.sh"; sourceTree = "<group>"; };
-		7D432B120D24579B18E510FCF1DD810B /* Pods_True_Dare_or_shotsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_True_Dare_or_shotsUITests.framework; path = "Pods-True Dare or shotsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E1B5C7157658BDAB7C628EE61FC0D3B /* Pods-True Dare or shots-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-True Dare or shots-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82C9E3322B0DF4747E573C082A0C246D /* Pods_True_Dare_or_shots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_True_Dare_or_shots.framework; path = "Pods-True Dare or shots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9010C8BB51C59BC16C436F6E4478A3CB /* Pods-True Dare or shotsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-True Dare or shotsUITests.modulemap"; sourceTree = "<group>"; };
+		6FF7CE50067ACE31F104A0796390FBBC /* libDMSwipeCards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDMSwipeCards.a; path = libDMSwipeCards.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		744807F3DEA329732BDED1F824ABEEEC /* DMSwipeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DMSwipeCard.swift; path = DMSwipeCards/Classes/DMSwipeCard.swift; sourceTree = "<group>"; };
+		7A46E0484827AED868B79BC08CE31017 /* libPods-True Dare or shotsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-True Dare or shotsUITests.a"; path = "libPods-True Dare or shotsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		907D25F8694EFA8E466D68281524F286 /* SwipeableTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwipeableTabBarController-umbrella.h"; path = "../../Headers/Public/SwipeableTabBarController/SwipeableTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		92DFF0E0D27FC8F7B664793A2E8B2690 /* SwipeableTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9465B1EB0BA753BB8751F59B5C60215E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B1FCB07A3F9D5174439B38636B0FE03 /* Pods-True Dare or shotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9EF6338196A2815C03401F137F371384 /* Pods-True Dare or shotsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-True Dare or shotsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9FA8D77E406EAD72980A804B3AFF0107 /* DMSwipeCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMSwipeCards-umbrella.h"; sourceTree = "<group>"; };
-		A9CF6A151DCF89A09A39A0C5E6F0AB21 /* Pods_True_Dare_or_shotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_True_Dare_or_shotsTests.framework; path = "Pods-True Dare or shotsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAA52F29D19EDB898674489155B1DB84 /* Pods-True Dare or shotsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-True Dare or shotsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ADA194231AC855C0B333E713A43D1932 /* DMSwipeCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DMSwipeCards.framework; path = DMSwipeCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9BB486AEE96B06C5B9E8D740817033D /* Pods-True Dare or shots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-True Dare or shots-dummy.m"; sourceTree = "<group>"; };
-		B9D7A7D1E057BF1D2C5DA78644077A5F /* Pods-True Dare or shotsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsUITests-frameworks.sh"; sourceTree = "<group>"; };
-		BC2469C9DFD4D40859F5FC96D8A6DFE3 /* Pods-True Dare or shots-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-True Dare or shots-acknowledgements.plist"; sourceTree = "<group>"; };
-		C64033A8BCC424DF89A1C2D6ED228D23 /* Pods-True Dare or shots-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shots-resources.sh"; sourceTree = "<group>"; };
-		CBCB1964F74809A51F515E91F805AB2F /* DMSwipeCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMSwipeCards-dummy.m"; sourceTree = "<group>"; };
-		D5EA1DE8942D931CADDE769FEC96BD90 /* DMSwipeCardsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DMSwipeCardsView.swift; path = DMSwipeCards/Classes/DMSwipeCardsView.swift; sourceTree = "<group>"; };
-		DA400E0E1A744272A9F60B7DAE0228C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB4424D94F3B936B7A4547DC4620C223 /* Pods-True Dare or shots-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shots-frameworks.sh"; sourceTree = "<group>"; };
-		EE1209410981DFB7077B0B074AD9D32F /* Pods-True Dare or shotsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-True Dare or shotsTests-umbrella.h"; sourceTree = "<group>"; };
-		FA454D849AA85B2AC9F39F0C893C8575 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A10FCE067C6A48840CADCBC26ACB56 /* Pods-True Dare or shots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shots.release.xcconfig"; sourceTree = "<group>"; };
+		9D872F4B48086A40DFA541780B28C840 /* Pods-True Dare or shotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E1205264ABFA32EA9D302B4265CDC3C /* Pods-True Dare or shotsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-True Dare or shotsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A06426099D671BB410624A0E9696C899 /* Pods-True Dare or shotsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-True Dare or shotsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6F8FBF1F6E8407FB51DFDE2947965CD /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
+		AB47919366E558EE69D863EAF1064EDB /* Pods-True Dare or shots-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shots-frameworks.sh"; sourceTree = "<group>"; };
+		B73774595E01CE862F84438E2BB058C0 /* Pods-True Dare or shotsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-True Dare or shotsUITests-resources.sh"; sourceTree = "<group>"; };
+		BBF33A641AB1C4B3F2DE8B126D6B7224 /* libPods-True Dare or shotsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-True Dare or shotsTests.a"; path = "libPods-True Dare or shotsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42B38C587569BFA307F4C78022FB502 /* Pods-True Dare or shots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-True Dare or shots-umbrella.h"; sourceTree = "<group>"; };
+		C5E027DF63DA78F0849981E3EF5E7A64 /* DMSwipeCardsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DMSwipeCardsView.swift; path = DMSwipeCards/Classes/DMSwipeCardsView.swift; sourceTree = "<group>"; };
+		E074A95695A05BB41D767EE454631953 /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/Classes/SwipeableTabBarController.swift; sourceTree = "<group>"; };
+		E6A542DAD5B2A5A5A2498A18637A007B /* Pods-True Dare or shots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-True Dare or shots-dummy.m"; sourceTree = "<group>"; };
+		E7ED804D61F9C77544395264657C65C4 /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC26628D47768BA46538C6BB0A517B0D /* SwipeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimation.swift; path = SwipeableTabBarController/Classes/SwipeAnimation.swift; sourceTree = "<group>"; };
+		EF8CB9016527F1549728874FC5386552 /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SwipeableTabBarController.modulemap; path = ../../Headers/Public/SwipeableTabBarController/SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
+		F261A50BB8EC0AD267AC5F274CFC4615 /* SwipeableTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.xcconfig; sourceTree = "<group>"; };
+		F8C315156BEA68C05A48146C785A3CF9 /* DMSwipeCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DMSwipeCards-umbrella.h"; path = "../../Headers/Public/DMSwipeCards/DMSwipeCards-umbrella.h"; sourceTree = "<group>"; };
+		F91327B59B1E368BF892405A681AD2E7 /* DMSwipeCards.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMSwipeCards.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A6F4AA956C0D5968C034733876B332C /* Frameworks */ = {
+		191AC659B51A9D8D53552342420CCC1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2928703DA29DCBADB498740582AB31DC /* Foundation.framework in Frameworks */,
+				CF42205E328AEF10949D53324AAB0E79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9078E59B861C3CC6EA0445EE4E36AC06 /* Frameworks */ = {
+		2A017E0C8D2BF302178BE129BD4FE4DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81774E9DDFBF8C351DC679EC1DCAF884 /* Foundation.framework in Frameworks */,
+				4B2082F1B7BDF3A7DA6CAD6BC7806889 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFCCE49DF63917D3F9382EAEB43B395E /* Frameworks */ = {
+		9A84FA4C015F44B8DE19B2D3D531CB78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E789DD2BCCD3257A450FA5A1333AB74 /* Foundation.framework in Frameworks */,
+				85A845649C25DF9AAF3CC7E6FC36F7FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB9C18A06AC0A6C032A7CBDCFE5FE9B /* Frameworks */ = {
+		BF326DD42F5B74E8CE67E96AEC50660C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E55B09E634DDD3BC485FEE6271778E /* Foundation.framework in Frameworks */,
+				E4570CD55F1410F84B4BB6642A76428B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF54C0AE0A529ED51761E7CEA938D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A065BD8234D473FBA2A4BE6E149F815 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A87522716D39F9AD69003C5F4C10252 /* Pods */ = {
+		00EC64A4FF42F8FD4F0454EF2D577A74 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				431202A6BBDE3CD5DB688556A7918E54 /* DMSwipeCards */,
+				9A212835BFDC9549B949296ED7224840 /* DMSwipeCards */,
+				9C8AE6F92575334A58A9C2097943B9C6 /* SwipeableTabBarController */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3E72A17409EADFBFB6B36DCE414B3BEA /* Targets Support Files */ = {
+		0123A3B5937D8EC5C81195BE4743AA4D /* Pods-True Dare or shotsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C27D71D2B359763BB81D5D2416B6714E /* Pods-True Dare or shots */,
-				7D813F1B1A0CBBB27A8A1FF3347AC6D8 /* Pods-True Dare or shotsTests */,
-				6C808B855667A0FEDE3B849832A21CA3 /* Pods-True Dare or shotsUITests */,
+				A06426099D671BB410624A0E9696C899 /* Pods-True Dare or shotsTests-acknowledgements.markdown */,
+				5A965A22EC5C5E9D35424C1EEECBE981 /* Pods-True Dare or shotsTests-acknowledgements.plist */,
+				2C5674CBE1C341DFA243E8BCF34355B6 /* Pods-True Dare or shotsTests-dummy.m */,
+				2C5F45E016CEABE2C88183604220CE62 /* Pods-True Dare or shotsTests-frameworks.sh */,
+				31F3C5055772D88A9D5D04ACAF80679C /* Pods-True Dare or shotsTests-resources.sh */,
+				E7ED804D61F9C77544395264657C65C4 /* Pods-True Dare or shotsTests.debug.xcconfig */,
+				9D872F4B48086A40DFA541780B28C840 /* Pods-True Dare or shotsTests.release.xcconfig */,
+			);
+			name = "Pods-True Dare or shotsTests";
+			path = "Target Support Files/Pods-True Dare or shotsTests";
+			sourceTree = "<group>";
+		};
+		22F964622503458D6281C51273CC7FBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A4859C2B9924F57B5C2B78F59F5B2A /* DMSwipeCards.modulemap */,
+				F91327B59B1E368BF892405A681AD2E7 /* DMSwipeCards.xcconfig */,
+				15EFD15F75BF28449B0290CFDA40EE10 /* DMSwipeCards-dummy.m */,
+				37706369FD16B78DDEFE768D61ABE2DD /* DMSwipeCards-prefix.pch */,
+				F8C315156BEA68C05A48146C785A3CF9 /* DMSwipeCards-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DMSwipeCards";
+			sourceTree = "<group>";
+		};
+		5612227A7C5B0874184C2D90FB52468D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75A0FBA33A05BFDF25ACA82DB1C1DE8 /* Pods-True Dare or shots */,
+				0123A3B5937D8EC5C81195BE4743AA4D /* Pods-True Dare or shotsTests */,
+				74EC23607A496A9804B8F39C894EB841 /* Pods-True Dare or shotsUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		431202A6BBDE3CD5DB688556A7918E54 /* DMSwipeCards */ = {
+		68CA8CADA27A212FE35EC8C4F3B3B704 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E52AA91152998F18F2401D90901E8F1 /* DMSwipeCard.swift */,
-				D5EA1DE8942D931CADDE769FEC96BD90 /* DMSwipeCardsView.swift */,
-				DDC4250E8DCFA0FB0E53DF558B876F45 /* Support Files */,
+				6FF7CE50067ACE31F104A0796390FBBC /* libDMSwipeCards.a */,
+				0F237A9995B97318717211A2BDE493C2 /* libPods-True Dare or shots.a */,
+				BBF33A641AB1C4B3F2DE8B126D6B7224 /* libPods-True Dare or shotsTests.a */,
+				7A46E0484827AED868B79BC08CE31017 /* libPods-True Dare or shotsUITests.a */,
+				45C5AAC0A3A208F54182E97055279A0C /* libSwipeableTabBarController.a */,
 			);
-			name = DMSwipeCards;
-			path = DMSwipeCards;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6C808B855667A0FEDE3B849832A21CA3 /* Pods-True Dare or shotsUITests */ = {
+		74EC23607A496A9804B8F39C894EB841 /* Pods-True Dare or shotsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FA454D849AA85B2AC9F39F0C893C8575 /* Info.plist */,
-				9010C8BB51C59BC16C436F6E4478A3CB /* Pods-True Dare or shotsUITests.modulemap */,
-				4397A203818EAB60E13F903EAC58DCDA /* Pods-True Dare or shotsUITests-acknowledgements.markdown */,
-				3C47BECE8760DBF041E363AE3012DF61 /* Pods-True Dare or shotsUITests-acknowledgements.plist */,
-				2D60294C8F1B17A1C61DFB52845CFCF5 /* Pods-True Dare or shotsUITests-dummy.m */,
-				B9D7A7D1E057BF1D2C5DA78644077A5F /* Pods-True Dare or shotsUITests-frameworks.sh */,
-				4F491B1A9F9BEB0751B397D97E6662D7 /* Pods-True Dare or shotsUITests-resources.sh */,
-				69326D6065326C941DEAA542DEE28CE6 /* Pods-True Dare or shotsUITests-umbrella.h */,
-				9B1FCB07A3F9D5174439B38636B0FE03 /* Pods-True Dare or shotsUITests.debug.xcconfig */,
-				5A0B7A85687F58A6EEB6BAFEBD757A93 /* Pods-True Dare or shotsUITests.release.xcconfig */,
+				2E86B5A95C6FBD3C51934A358F991AFE /* Pods-True Dare or shotsUITests-acknowledgements.markdown */,
+				9E1205264ABFA32EA9D302B4265CDC3C /* Pods-True Dare or shotsUITests-acknowledgements.plist */,
+				3BF9FE1BA13837299E1CE114ABBEC4E4 /* Pods-True Dare or shotsUITests-dummy.m */,
+				00A25DFC3B64140AE54EF64A170A1022 /* Pods-True Dare or shotsUITests-frameworks.sh */,
+				B73774595E01CE862F84438E2BB058C0 /* Pods-True Dare or shotsUITests-resources.sh */,
+				3839CEBD4109A06F6B0FC0CDBB62780C /* Pods-True Dare or shotsUITests.debug.xcconfig */,
+				50B8426259C145A0748911F50D4D901E /* Pods-True Dare or shotsUITests.release.xcconfig */,
 			);
 			name = "Pods-True Dare or shotsUITests";
 			path = "Target Support Files/Pods-True Dare or shotsUITests";
 			sourceTree = "<group>";
 		};
-		7D813F1B1A0CBBB27A8A1FF3347AC6D8 /* Pods-True Dare or shotsTests */ = {
+		7775A9816EA580D0FE2CAA6B4CD927A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA400E0E1A744272A9F60B7DAE0228C2 /* Info.plist */,
-				69B239DD7AD0B16403C2305B69680879 /* Pods-True Dare or shotsTests.modulemap */,
-				9EF6338196A2815C03401F137F371384 /* Pods-True Dare or shotsTests-acknowledgements.markdown */,
-				AAA52F29D19EDB898674489155B1DB84 /* Pods-True Dare or shotsTests-acknowledgements.plist */,
-				68D0C22E69AEE554B49CA32712EB3E28 /* Pods-True Dare or shotsTests-dummy.m */,
-				7917505A54E6B765099A3456CD51A209 /* Pods-True Dare or shotsTests-frameworks.sh */,
-				6A29020FA954B2F50A737082EDF838E9 /* Pods-True Dare or shotsTests-resources.sh */,
-				EE1209410981DFB7077B0B074AD9D32F /* Pods-True Dare or shotsTests-umbrella.h */,
-				46B93F20C5369B52C5A4D3094BC2B031 /* Pods-True Dare or shotsTests.debug.xcconfig */,
-				35ADE2A28880BBAA87BA4E8BCBB35200 /* Pods-True Dare or shotsTests.release.xcconfig */,
+				EF8CB9016527F1549728874FC5386552 /* SwipeableTabBarController.modulemap */,
+				F261A50BB8EC0AD267AC5F274CFC4615 /* SwipeableTabBarController.xcconfig */,
+				A6F8FBF1F6E8407FB51DFDE2947965CD /* SwipeableTabBarController-dummy.m */,
+				92DFF0E0D27FC8F7B664793A2E8B2690 /* SwipeableTabBarController-prefix.pch */,
+				907D25F8694EFA8E466D68281524F286 /* SwipeableTabBarController-umbrella.h */,
 			);
-			name = "Pods-True Dare or shotsTests";
-			path = "Target Support Files/Pods-True Dare or shotsTests";
+			name = "Support Files";
+			path = "../Target Support Files/SwipeableTabBarController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -200,10 +248,53 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1A87522716D39F9AD69003C5F4C10252 /* Pods */,
-				C7154F074C998DCF34A327AEB3B1785B /* Products */,
-				3E72A17409EADFBFB6B36DCE414B3BEA /* Targets Support Files */,
+				00EC64A4FF42F8FD4F0454EF2D577A74 /* Pods */,
+				68CA8CADA27A212FE35EC8C4F3B3B704 /* Products */,
+				5612227A7C5B0874184C2D90FB52468D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9A212835BFDC9549B949296ED7224840 /* DMSwipeCards */ = {
+			isa = PBXGroup;
+			children = (
+				744807F3DEA329732BDED1F824ABEEEC /* DMSwipeCard.swift */,
+				C5E027DF63DA78F0849981E3EF5E7A64 /* DMSwipeCardsView.swift */,
+				22F964622503458D6281C51273CC7FBA /* Support Files */,
+			);
+			name = DMSwipeCards;
+			path = DMSwipeCards;
+			sourceTree = "<group>";
+		};
+		9C8AE6F92575334A58A9C2097943B9C6 /* SwipeableTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E074A95695A05BB41D767EE454631953 /* SwipeableTabBarController.swift */,
+				EC26628D47768BA46538C6BB0A517B0D /* SwipeAnimation.swift */,
+				35F0CF75820567D4E7C0D55AE19AA33C /* SwipeAnimationType.swift */,
+				21D08D8E0573C87786DD297940AEE9EB /* SwipeInteractor.swift */,
+				5F5AC85C05CC68F405CA58C3AA66B5E5 /* SwipeTransitioningProtocol.swift */,
+				24F6A3B23060227A706AE7DE9C3FA944 /* UIKit+Extensions.swift */,
+				7775A9816EA580D0FE2CAA6B4CD927A7 /* Support Files */,
+			);
+			name = SwipeableTabBarController;
+			path = SwipeableTabBarController;
+			sourceTree = "<group>";
+		};
+		B75A0FBA33A05BFDF25ACA82DB1C1DE8 /* Pods-True Dare or shots */ = {
+			isa = PBXGroup;
+			children = (
+				45027B229DF385958F122D42236E1B0F /* Pods-True Dare or shots.modulemap */,
+				5488F11D77FB2B19A58D6CEE705584BF /* Pods-True Dare or shots-acknowledgements.markdown */,
+				2B2CC728607250A593736260AC0E54F4 /* Pods-True Dare or shots-acknowledgements.plist */,
+				E6A542DAD5B2A5A5A2498A18637A007B /* Pods-True Dare or shots-dummy.m */,
+				AB47919366E558EE69D863EAF1064EDB /* Pods-True Dare or shots-frameworks.sh */,
+				01C8CE94E92FE13352194F33464ABFE7 /* Pods-True Dare or shots-resources.sh */,
+				C42B38C587569BFA307F4C78022FB502 /* Pods-True Dare or shots-umbrella.h */,
+				4744B38860F097F630D133BC6CD5A404 /* Pods-True Dare or shots.debug.xcconfig */,
+				98A10FCE067C6A48840CADCBC26ACB56 /* Pods-True Dare or shots.release.xcconfig */,
+			);
+			name = "Pods-True Dare or shots";
+			path = "Target Support Files/Pods-True Dare or shots";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -214,35 +305,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C27D71D2B359763BB81D5D2416B6714E /* Pods-True Dare or shots */ = {
-			isa = PBXGroup;
-			children = (
-				384B34D24BF062037756A24D1448CF24 /* Info.plist */,
-				04AC2AB5447754135866A903290BC33F /* Pods-True Dare or shots.modulemap */,
-				7E1B5C7157658BDAB7C628EE61FC0D3B /* Pods-True Dare or shots-acknowledgements.markdown */,
-				BC2469C9DFD4D40859F5FC96D8A6DFE3 /* Pods-True Dare or shots-acknowledgements.plist */,
-				B9BB486AEE96B06C5B9E8D740817033D /* Pods-True Dare or shots-dummy.m */,
-				EB4424D94F3B936B7A4547DC4620C223 /* Pods-True Dare or shots-frameworks.sh */,
-				C64033A8BCC424DF89A1C2D6ED228D23 /* Pods-True Dare or shots-resources.sh */,
-				5E174D04CB7B33A6C6C36B1F2901B731 /* Pods-True Dare or shots-umbrella.h */,
-				58BF5DD2DB60C26B22AFC9D327BC047F /* Pods-True Dare or shots.debug.xcconfig */,
-				017534ED46089A1994200927A6CE6E58 /* Pods-True Dare or shots.release.xcconfig */,
-			);
-			name = "Pods-True Dare or shots";
-			path = "Target Support Files/Pods-True Dare or shots";
-			sourceTree = "<group>";
-		};
-		C7154F074C998DCF34A327AEB3B1785B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ADA194231AC855C0B333E713A43D1932 /* DMSwipeCards.framework */,
-				82C9E3322B0DF4747E573C082A0C246D /* Pods_True_Dare_or_shots.framework */,
-				A9CF6A151DCF89A09A39A0C5E6F0AB21 /* Pods_True_Dare_or_shotsTests.framework */,
-				7D432B120D24579B18E510FCF1DD810B /* Pods_True_Dare_or_shotsUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,119 +313,81 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DDC4250E8DCFA0FB0E53DF558B876F45 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C42F23828D2BA1ADED81BA6A84D5387 /* DMSwipeCards.modulemap */,
-				08BF244A763AB17F32955E96F8B57B83 /* DMSwipeCards.xcconfig */,
-				CBCB1964F74809A51F515E91F805AB2F /* DMSwipeCards-dummy.m */,
-				6D592B990BABC76C275C3E11DC4C55B2 /* DMSwipeCards-prefix.pch */,
-				9FA8D77E406EAD72980A804B3AFF0107 /* DMSwipeCards-umbrella.h */,
-				9465B1EB0BA753BB8751F59B5C60215E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DMSwipeCards";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		27A8270092994641FD7F20266B47ABF3 /* Headers */ = {
+		235C97B05980A4FD08EF7EC80C22364C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9919567EE7A67FC8AC018B6E82B64449 /* Pods-True Dare or shots-umbrella.h in Headers */,
+				E33261AC6079652DAA0865A0516F686B /* SwipeableTabBarController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D7A05CCD66664A0B78F3E1A52F01B30 /* Headers */ = {
+		617FADF54A16839BEF39A2ECD0B58E00 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B902888038A4E1D588FC2981FD7B01E5 /* DMSwipeCards-umbrella.h in Headers */,
+				8F995C6581A91DE56094EBEE42B16963 /* Pods-True Dare or shots-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		712C1400BB5BD82B6815560672D25CB8 /* Headers */ = {
+		F44683BEBA28F81AB0767BD7AB1BFC18 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD748165530F4B3509D23BB2B2D32A4 /* Pods-True Dare or shotsTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C91EA19BE78A768D203AE0581D8F338D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6805B60724033B138274C338EBE4C74 /* Pods-True Dare or shotsUITests-umbrella.h in Headers */,
+				914EC07EC7C0BEF1C703DCFFFCED7E6F /* DMSwipeCards-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		42FC40EFC2E01B721586AB8005E58798 /* Pods-True Dare or shots */ = {
+		3039D39E58C6F953B76F33E90339D220 /* SwipeableTabBarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B50516CD2A729E2A6569C462AEF963B /* Build configuration list for PBXNativeTarget "Pods-True Dare or shots" */;
+			buildConfigurationList = 472CFC8AE17403A8A371CD8FCED1CBDB /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */;
 			buildPhases = (
-				F3756266484884B48E164395790C9B2D /* Sources */,
-				AFCCE49DF63917D3F9382EAEB43B395E /* Frameworks */,
-				27A8270092994641FD7F20266B47ABF3 /* Headers */,
+				6AC1188949A4EA36171AC6C37AFCCC42 /* Sources */,
+				CDF54C0AE0A529ED51761E7CEA938D9C /* Frameworks */,
+				235C97B05980A4FD08EF7EC80C22364C /* Headers */,
+				43245138EF5A5A19568A3E6CE74BB8C0 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AF777A4FD45FB750CF02F574C62865B /* PBXTargetDependency */,
+			);
+			name = SwipeableTabBarController;
+			productName = SwipeableTabBarController;
+			productReference = 45C5AAC0A3A208F54182E97055279A0C /* libSwipeableTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		494D8986642A179FA2FB992AD2D89916 /* Pods-True Dare or shots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319BCEDAE82795D9164E80C9F27D8240 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shots" */;
+			buildPhases = (
+				8FD90883765CDF656A55EEA2F9910ADC /* Sources */,
+				9A84FA4C015F44B8DE19B2D3D531CB78 /* Frameworks */,
+				617FADF54A16839BEF39A2ECD0B58E00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B01E155A7A8827720C68C5B6069DFB /* PBXTargetDependency */,
+				7D59890F102983CBCAEB55B4F7CE6285 /* PBXTargetDependency */,
 			);
 			name = "Pods-True Dare or shots";
 			productName = "Pods-True Dare or shots";
-			productReference = 82C9E3322B0DF4747E573C082A0C246D /* Pods_True_Dare_or_shots.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 0F237A9995B97318717211A2BDE493C2 /* libPods-True Dare or shots.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		B715173774F0426BE949F08AEE3AE628 /* Pods-True Dare or shotsTests */ = {
+		5323A3D949C49242D58FAB096737C198 /* DMSwipeCards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6F5AC038EF2D8358CA4F239EBE15E40 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsTests" */;
+			buildConfigurationList = A44B293CCE7FAAF10E487CF882E559B0 /* Build configuration list for PBXNativeTarget "DMSwipeCards" */;
 			buildPhases = (
-				0C4BD64D335F6E792B32208592B85459 /* Sources */,
-				9078E59B861C3CC6EA0445EE4E36AC06 /* Frameworks */,
-				712C1400BB5BD82B6815560672D25CB8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2150D5080AD3BC293A29D2F21AFE455 /* PBXTargetDependency */,
-			);
-			name = "Pods-True Dare or shotsTests";
-			productName = "Pods-True Dare or shotsTests";
-			productReference = A9CF6A151DCF89A09A39A0C5E6F0AB21 /* Pods_True_Dare_or_shotsTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B71C8C187E5D60701E3D19C0503566FD /* Pods-True Dare or shotsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F91D558BB4BFAAABD993BF7378BE6A31 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsUITests" */;
-			buildPhases = (
-				1A7DA1C5CC80B2A05322969FE32DB743 /* Sources */,
-				3A6F4AA956C0D5968C034733876B332C /* Frameworks */,
-				C91EA19BE78A768D203AE0581D8F338D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF8B3EAB5A08E05D81602D14F7D22B6E /* PBXTargetDependency */,
-			);
-			name = "Pods-True Dare or shotsUITests";
-			productName = "Pods-True Dare or shotsUITests";
-			productReference = 7D432B120D24579B18E510FCF1DD810B /* Pods_True_Dare_or_shotsUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 354293B850292694E1F3B6321B05E31C /* Build configuration list for PBXNativeTarget "DMSwipeCards" */;
-			buildPhases = (
-				8F52F4DF3D6D32E67D1E76C470A45E22 /* Sources */,
-				EBB9C18A06AC0A6C032A7CBDCFE5FE9B /* Frameworks */,
-				5D7A05CCD66664A0B78F3E1A52F01B30 /* Headers */,
+				ABD697B4715A901AAD934CC46211BB76 /* Sources */,
+				191AC659B51A9D8D53552342420CCC1F /* Frameworks */,
+				F44683BEBA28F81AB0767BD7AB1BFC18 /* Headers */,
+				A74C7A775F0438C36B1B8F0A1D6D5D11 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -371,8 +395,42 @@
 			);
 			name = DMSwipeCards;
 			productName = DMSwipeCards;
-			productReference = ADA194231AC855C0B333E713A43D1932 /* DMSwipeCards.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 6FF7CE50067ACE31F104A0796390FBBC /* libDMSwipeCards.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		97941850ECFF7CCD38C8606FE14A9932 /* Pods-True Dare or shotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26ABB0879623D8AD77C1039F403D5A9 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsUITests" */;
+			buildPhases = (
+				22EA37B8ED92C7AE9B591D9D86B2A537 /* Sources */,
+				2A017E0C8D2BF302178BE129BD4FE4DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C156DB781D469444AD2A4F97C5AFEFE /* PBXTargetDependency */,
+			);
+			name = "Pods-True Dare or shotsUITests";
+			productName = "Pods-True Dare or shotsUITests";
+			productReference = 7A46E0484827AED868B79BC08CE31017 /* libPods-True Dare or shotsUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC221EC4E26BD8D4EE1531FC53161DEF /* Pods-True Dare or shotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C168E59268ED1F867CB85A3EE62625 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsTests" */;
+			buildPhases = (
+				7C20A629AF4558F62610683E35AE1D66 /* Sources */,
+				BF326DD42F5B74E8CE67E96AEC50660C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C14662AC81374165EC3A0C82160554E /* PBXTargetDependency */,
+			);
+			name = "Pods-True Dare or shotsTests";
+			productName = "Pods-True Dare or shotsTests";
+			productReference = BBF33A641AB1C4B3F2DE8B126D6B7224 /* libPods-True Dare or shotsTests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -391,143 +449,164 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C7154F074C998DCF34A327AEB3B1785B /* Products */;
+			productRefGroup = 68CA8CADA27A212FE35EC8C4F3B3B704 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */,
-				42FC40EFC2E01B721586AB8005E58798 /* Pods-True Dare or shots */,
-				B715173774F0426BE949F08AEE3AE628 /* Pods-True Dare or shotsTests */,
-				B71C8C187E5D60701E3D19C0503566FD /* Pods-True Dare or shotsUITests */,
+				5323A3D949C49242D58FAB096737C198 /* DMSwipeCards */,
+				494D8986642A179FA2FB992AD2D89916 /* Pods-True Dare or shots */,
+				CC221EC4E26BD8D4EE1531FC53161DEF /* Pods-True Dare or shotsTests */,
+				97941850ECFF7CCD38C8606FE14A9932 /* Pods-True Dare or shotsUITests */,
+				3039D39E58C6F953B76F33E90339D220 /* SwipeableTabBarController */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43245138EF5A5A19568A3E6CE74BB8C0 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwipeableTabBarController/SwipeableTabBarController.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwipeableTabBarController/SwipeableTabBarController-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwipeableTabBarController-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwipeableTabBarController/SwipeableTabBarController.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwipeableTabBarController/SwipeableTabBarController-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		A74C7A775F0438C36B1B8F0A1D6D5D11 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/DMSwipeCards/DMSwipeCards.modulemap",
+				"${PODS_ROOT}/Headers/Public/DMSwipeCards/DMSwipeCards-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/DMSwipeCards-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DMSwipeCards/DMSwipeCards.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DMSwipeCards/DMSwipeCards-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0C4BD64D335F6E792B32208592B85459 /* Sources */ = {
+		22EA37B8ED92C7AE9B591D9D86B2A537 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E384101F344B0B1C5F1CC769F07CB4 /* Pods-True Dare or shotsTests-dummy.m in Sources */,
+				E430BFAB44952AD07C8A466FD262C112 /* Pods-True Dare or shotsUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A7DA1C5CC80B2A05322969FE32DB743 /* Sources */ = {
+		6AC1188949A4EA36171AC6C37AFCCC42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FDD0DEFAB9E47BAB0699EBFBA8F4B0 /* Pods-True Dare or shotsUITests-dummy.m in Sources */,
+				0020DC251DECB24D9CF5D45C79B5B90A /* SwipeableTabBarController-dummy.m in Sources */,
+				45E7D5F9994604FCD598877C463EBD2A /* SwipeableTabBarController.swift in Sources */,
+				F6C0B17B4C3096EC2E4BFCC398826727 /* SwipeAnimation.swift in Sources */,
+				CB8C20D75AE97D6274DFDECD552158BF /* SwipeAnimationType.swift in Sources */,
+				6748C554DB89F3C53EEC5E95E8471F9F /* SwipeInteractor.swift in Sources */,
+				1C14F4189E69537C28C66ACA4D85755D /* SwipeTransitioningProtocol.swift in Sources */,
+				A16B3833C50EFF15882AD204C1717449 /* UIKit+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F52F4DF3D6D32E67D1E76C470A45E22 /* Sources */ = {
+		7C20A629AF4558F62610683E35AE1D66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE166075E26A2232FEB9B60A6B044C0 /* DMSwipeCard.swift in Sources */,
-				8ECF4FC3FD8C4261D7F4FDED858709C1 /* DMSwipeCards-dummy.m in Sources */,
-				59C86BDAFBAC6F5A3B1F275A8FEBCB31 /* DMSwipeCardsView.swift in Sources */,
+				C81755C681A6928B20BBD13C97B66469 /* Pods-True Dare or shotsTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3756266484884B48E164395790C9B2D /* Sources */ = {
+		8FD90883765CDF656A55EEA2F9910ADC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E73E4249B0D0676F7045D34D4E946C3 /* Pods-True Dare or shots-dummy.m in Sources */,
+				E6E5635B3BEAD9BF30B20B7F781B95A1 /* Pods-True Dare or shots-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD697B4715A901AAD934CC46211BB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B3E635F0D6AC938DA936DD075B1A9A /* DMSwipeCard.swift in Sources */,
+				B11E4D0FA24BD38F383FE5C5F480BFE8 /* DMSwipeCards-dummy.m in Sources */,
+				B4089F1047F381390A6F92E678655D43 /* DMSwipeCardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AF777A4FD45FB750CF02F574C62865B /* PBXTargetDependency */ = {
+		3C156DB781D469444AD2A4F97C5AFEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-True Dare or shots";
+			target = 494D8986642A179FA2FB992AD2D89916 /* Pods-True Dare or shots */;
+			targetProxy = B3E62D8A3A9260B486B3341DE59FEE16 /* PBXContainerItemProxy */;
+		};
+		66B01E155A7A8827720C68C5B6069DFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DMSwipeCards;
-			target = FA0071A399690B9A95DB23C23FC8F072 /* DMSwipeCards */;
-			targetProxy = D2E7F6E04EFF4CF2B90C7B7F0D2E729E /* PBXContainerItemProxy */;
+			target = 5323A3D949C49242D58FAB096737C198 /* DMSwipeCards */;
+			targetProxy = C8435FE8C41023808213104D164E2E2C /* PBXContainerItemProxy */;
 		};
-		C2150D5080AD3BC293A29D2F21AFE455 /* PBXTargetDependency */ = {
+		7D59890F102983CBCAEB55B4F7CE6285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeableTabBarController;
+			target = 3039D39E58C6F953B76F33E90339D220 /* SwipeableTabBarController */;
+			targetProxy = D2719ACC7FDAF79EB57DAEB1F8168011 /* PBXContainerItemProxy */;
+		};
+		9C14662AC81374165EC3A0C82160554E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-True Dare or shots";
-			target = 42FC40EFC2E01B721586AB8005E58798 /* Pods-True Dare or shots */;
-			targetProxy = 00C33FC37EBE077A5E3451BCE1ABD938 /* PBXContainerItemProxy */;
-		};
-		FF8B3EAB5A08E05D81602D14F7D22B6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-True Dare or shots";
-			target = 42FC40EFC2E01B721586AB8005E58798 /* Pods-True Dare or shots */;
-			targetProxy = D6038671C60707BDFDE0B72A86736908 /* PBXContainerItemProxy */;
+			target = 494D8986642A179FA2FB992AD2D89916 /* Pods-True Dare or shots */;
+			targetProxy = 69E48F713DE345273441A2CAECB3CC8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		071085A4160450A7DF0837D0B7092683 /* Debug */ = {
+		2BB4D7DD84764ADD22D26A16F3F49716 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B1FCB07A3F9D5174439B38636B0FE03 /* Pods-True Dare or shotsUITests.debug.xcconfig */;
+			baseConfigurationReference = E7ED804D61F9C77544395264657C65C4 /* Pods-True Dare or shotsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-True Dare or shotsUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		19F2815462E05E187049645D4CC11887 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08BF244A763AB17F32955E96F8B57B83 /* DMSwipeCards.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DMSwipeCards/DMSwipeCards-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DMSwipeCards/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DMSwipeCards/DMSwipeCards.modulemap";
-				PRODUCT_MODULE_NAME = DMSwipeCards;
-				PRODUCT_NAME = DMSwipeCards;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -587,178 +666,134 @@
 			};
 			name = Release;
 		};
-		31117DE5696647636FF31D4164DF3496 /* Debug */ = {
+		3A8047E1E05668C7F3AB20683D901760 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46B93F20C5369B52C5A4D3094BC2B031 /* Pods-True Dare or shotsTests.debug.xcconfig */;
+			baseConfigurationReference = F91327B59B1E368BF892405A681AD2E7 /* DMSwipeCards.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-True Dare or shotsTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		46064E3B033B84A74A7DBA53E9717630 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58BF5DD2DB60C26B22AFC9D327BC047F /* Pods-True Dare or shots.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-True Dare or shots/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6585B9686A0304A4697A12EF6DA6A23C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A0B7A85687F58A6EEB6BAFEBD757A93 /* Pods-True Dare or shotsUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-True Dare or shotsUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		909BDE7F7E2FD55F75EF74561DEA6F8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08BF244A763AB17F32955E96F8B57B83 /* DMSwipeCards.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/DMSwipeCards/DMSwipeCards-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DMSwipeCards/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DMSwipeCards/DMSwipeCards.modulemap";
+				MODULEMAP_FILE = Headers/Public/DMSwipeCards/DMSwipeCards.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = DMSwipeCards;
 				PRODUCT_NAME = DMSwipeCards;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		937039F58ABD9D22A86C14E5C18E5BF0 /* Release */ = {
+		47339F6E6A7C3B9E5F17FFA0F32C1F8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 017534ED46089A1994200927A6CE6E58 /* Pods-True Dare or shots.release.xcconfig */;
+			baseConfigurationReference = 50B8426259C145A0748911F50D4D901E /* Pods-True Dare or shotsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-True Dare or shots/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		58B7E96ECBBC6FEE131314DC5AE6F9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91327B59B1E368BF892405A681AD2E7 /* DMSwipeCards.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMSwipeCards/DMSwipeCards-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/DMSwipeCards/DMSwipeCards.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMSwipeCards;
+				PRODUCT_NAME = DMSwipeCards;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE8B168CEB98C61AE4FB578A7A4FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F261A50BB8EC0AD267AC5F274CFC4615 /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwipeableTabBarController/SwipeableTabBarController.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B4302C46DAF5D5AA514205BCABCF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F261A50BB8EC0AD267AC5F274CFC4615 /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwipeableTabBarController/SwipeableTabBarController.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -823,53 +858,104 @@
 			};
 			name = Debug;
 		};
-		EB8B060026BDB8CE639E7A2A2BEFA8A5 /* Release */ = {
+		C4B8EAF7B6231C5AEF133E1DBCA676AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35ADE2A28880BBAA87BA4E8BCBB35200 /* Pods-True Dare or shotsTests.release.xcconfig */;
+			baseConfigurationReference = 9D872F4B48086A40DFA541780B28C840 /* Pods-True Dare or shotsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-True Dare or shotsTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CB5E3F20455E12098E11A2CF6919C6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839CEBD4109A06F6B0FC0CDBB62780C /* Pods-True Dare or shotsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA8DDB33E42FD869D65223D594BDF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A10FCE067C6A48840CADCBC26ACB56 /* Pods-True Dare or shots.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA18338CA772724227D0ACE16722C39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4744B38860F097F630D133BC6CD5A404 /* Pods-True Dare or shots.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B50516CD2A729E2A6569C462AEF963B /* Build configuration list for PBXNativeTarget "Pods-True Dare or shots" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46064E3B033B84A74A7DBA53E9717630 /* Debug */,
-				937039F58ABD9D22A86C14E5C18E5BF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -879,29 +965,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		354293B850292694E1F3B6321B05E31C /* Build configuration list for PBXNativeTarget "DMSwipeCards" */ = {
+		319BCEDAE82795D9164E80C9F27D8240 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909BDE7F7E2FD55F75EF74561DEA6F8F /* Debug */,
-				19F2815462E05E187049645D4CC11887 /* Release */,
+				FA18338CA772724227D0ACE16722C39D /* Debug */,
+				CEA8DDB33E42FD869D65223D594BDF5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6F5AC038EF2D8358CA4F239EBE15E40 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsTests" */ = {
+		472CFC8AE17403A8A371CD8FCED1CBDB /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31117DE5696647636FF31D4164DF3496 /* Debug */,
-				EB8B060026BDB8CE639E7A2A2BEFA8A5 /* Release */,
+				99B4302C46DAF5D5AA514205BCABCF68 /* Debug */,
+				5BE8B168CEB98C61AE4FB578A7A4FBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F91D558BB4BFAAABD993BF7378BE6A31 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsUITests" */ = {
+		A44B293CCE7FAAF10E487CF882E559B0 /* Build configuration list for PBXNativeTarget "DMSwipeCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				071085A4160450A7DF0837D0B7092683 /* Debug */,
-				6585B9686A0304A4697A12EF6DA6A23C /* Release */,
+				3A8047E1E05668C7F3AB20683D901760 /* Debug */,
+				58B7E96ECBBC6FEE131314DC5AE6F9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C168E59268ED1F867CB85A3EE62625 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4D7DD84764ADD22D26A16F3F49716 /* Debug */,
+				C4B8EAF7B6231C5AEF133E1DBCA676AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26ABB0879623D8AD77C1039F403D5A9 /* Build configuration list for PBXNativeTarget "Pods-True Dare or shotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5E3F20455E12098E11A2CF6919C6F6 /* Debug */,
+				47339F6E6A7C3B9E5F17FFA0F32C1F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

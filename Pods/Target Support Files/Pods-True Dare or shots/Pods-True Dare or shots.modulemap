@@ -1,4 +1,4 @@
-framework module Pods_True_Dare_or_shots {
+module Pods_True_Dare_or_shots [system] {
   umbrella header "Pods-True Dare or shots-umbrella.h"
 
   export *

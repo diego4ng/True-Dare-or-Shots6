@@ -3,11 +3,12 @@
 
 target 'True Dare or shots' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+ 
 
   # Pods for True Dare or shots
 	#pod 'KKSwipeCards'
 	pod 'DMSwipeCards'
+    pod 'SwipeableTabBarController'
 	
 	
 
@@ -15,12 +16,12 @@ target 'True Dare or shots' do
 
   target 'True Dare or shotsTests' do
     inherit! :search_paths
-    # Pods for testing
+   
   end
 
   target 'True Dare or shotsUITests' do
     inherit! :search_paths
-    # Pods for testing
+    
   end
 
 end

@@ -602,7 +602,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="hoR-3B-KFL">
             <objects>
-                <tabBarController id="Fhh-gp-6Io" sceneMemberID="viewController">
+                <tabBarController id="Fhh-gp-6Io" customClass="TabBarController" customModule="True_Dare_or_shots" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="bottom 2" id="xjQ-Cg-kfi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

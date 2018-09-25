@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA0071A399690B9A95DB23C23FC8F072"
+               BlueprintIdentifier = "5323A3D949C49242D58FAB096737C198"
                BlueprintName = "DMSwipeCards"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "DMSwipeCards.framework">
+               BuildableName = "libDMSwipeCards.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
