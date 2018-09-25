@@ -171,9 +171,9 @@ func conexion () -> NSManagedObjectContext{
     }
     
     func addPreguntas(){
-        let p1 = Preguntas.init(id: 1, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "¿Como te llamas?")
+        let p1 = Preguntas.init(id: 1, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Encontrar el amor verdadero pero ser pobre 👍🏽 \n Bajen un dedo los que prefieren ser multimillonario pero no encontrar su alma gemela 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro")
         preguntas.append(p1)
-        let p2 = Preguntas.init(id: 2, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "Como estas?")
+        let p2 = Preguntas.init(id: 2, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Encontrar el amor verdadero pero ser pobre 👍🏽 \n Bajen un dedo los que prefieren ser multimillonario pero no encontrar su alma gemela 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro")
         preguntas.append(p2)
     }
     

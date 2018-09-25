@@ -25,7 +25,7 @@
 		F169E526211933AF0070CD41 /* True_Dare_or_shotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E525211933AF0070CD41 /* True_Dare_or_shotsTests.swift */; };
 		F169E531211933AF0070CD41 /* True_Dare_or_shotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */; };
 		F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */; };
-		F19F8158215432E60000392E /* StringVerdadReto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8157215432E60000392E /* StringVerdadReto.swift */; };
+		F19F8158215432E60000392E /* StringVerdad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8157215432E60000392E /* StringVerdad.swift */; };
 		F19F815E21594B030000392E /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815D21594B030000392E /* CircleMenu.swift */; };
 		F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815F21594B3B0000392E /* CircleMenuLoader.swift */; };
 		F19F816221594B710000392E /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816121594B710000392E /* CircleMenuButton.swift */; };
@@ -80,7 +80,7 @@
 		F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_Dare_or_shotsUITests.swift; sourceTree = "<group>"; };
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
-		F19F8157215432E60000392E /* StringVerdadReto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringVerdadReto.swift; path = ../StringVerdadReto.swift; sourceTree = "<group>"; };
+		F19F8157215432E60000392E /* StringVerdad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringVerdad.swift; path = ../StringVerdad.swift; sourceTree = "<group>"; };
 		F19F815D21594B030000392E /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
 		F19F815F21594B3B0000392E /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
 		F19F816121594B710000392E /* CircleMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				F169E50D211933AF0070CD41 /* AppDelegate.swift */,
-				F19F8157215432E60000392E /* StringVerdadReto.swift */,
+				F19F8157215432E60000392E /* StringVerdad.swift */,
 				F169E50F211933AF0070CD41 /* ViewController.swift */,
 				F169E511211933AF0070CD41 /* Main.storyboard */,
 				F169E517211933AF0070CD41 /* Assets.xcassets */,
@@ -436,7 +436,7 @@
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,
 				F19F815E21594B030000392E /* CircleMenu.swift in Sources */,
 				F19F816221594B710000392E /* CircleMenuButton.swift in Sources */,
-				F19F8158215432E60000392E /* StringVerdadReto.swift in Sources */,
+				F19F8158215432E60000392E /* StringVerdad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

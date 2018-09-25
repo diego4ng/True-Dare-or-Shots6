@@ -8,7 +8,11 @@
 
 import Foundation
 
-
+//arreglos verdad
+// arrayverdad1
+// arrayverdad2
+// arrayverdad3
+// arrayverdad4
 
 
 
@@ -356,32 +360,32 @@ let arrayverdad3 = [
 
 //Prohibidas
 let arrayverdad4 = [
-    "1.-",
-    "2.-",
-    "3.-",
-    "4.-",
-    "5.-",
-    "6.-",
-    "7.-",
-    "8.-",
-    "9.-",
-    "10.-",
-    "11.-",
-    "12.-",
-    "13.-",
-    "14.-",
-    "15.-",
-    "16.-",
-    "17.-",
-    "18.-",
-    "19.-",
-    "20.-",
-    "21.-",
-    "22.-",
-    "23.-",
-    "24.-",
-    "25.-",
-    "26.-",
+    "BONUS\n\n  Redirije una pregunta de verdad cuando tu desees",
+    "BONUS\n\n  Puedes redirigir una pregunta de la categoria 'verdad' en tus proximos 5 turnos",
+    "CONDENA\n\n  Recibe un zape del jugador de la derecha cada vez que el considere que estas mintiendo",
+    "CONDENA\n\n  Recibe un zape del jugador de la izquierda cada vez que el considere que estas mintiendo",
+    "CONDENA\n\n  Recibe un zape del jugador de  al frente cada vez que el considere que estas mintiendo",
+    "BONUS\n\n Menciona la cantidad exacta de dinero que llevas contigo si lo logras podrás librarte de una CONDENA",
+    "BONUS\n\n  En este turno puedes librarte de una CONDENA solo si otro jugador te da un calcetin ",
+    "CONDENA\n\n  Recibe un zape del jugador de la derecha cada vez que el considere que estas mintiendo",
+    "BONUS\n\n Puedes Filmar una Verdad antes de que el jugador la conteste",
+    "TODOS JUEGAN\n\n Levanten el dedo si prefieren blanco 👍🏽 y bajen un dedo los que prefieren negro 👎🏽 .La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren No poder tener hijos y adoptar 2 👍🏽 y bajen un dedo los que prefieren tener 4 hijos propios 👎🏽 .La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Encontrar el amor verdadero pero ser pobre 👍🏽 \n Bajen un dedo los que prefieren ser multimillonario pero no encontrar su alma gemela 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "BONUS\n\n Toma la mitad del dinero del Centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Que te cuenten que te han puesto el cuerno👍🏽 \n Bajen un dedo los que prefieren nunca enterarse 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Tener 10 años toda tu vida👍🏽 \n Bajen un dedo los que prefieren tener 50 años toda su vida 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren que tu pareja vea un vídeo en el que le pones los cuernos 👍🏽 \n Bajen un dedo los que prefieren ver un vídeo en el que tu pareja te pone los cuernos 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren tener una noche de sexo con un desconocido 👍🏽 \n Bajen un dedo los que prefieren tener una noche de sexo con tu mejor amig@ 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren no volver a usar ropa intrior 👍🏽 \n Bajen un dedo los que prefieren solo poder usar ropa interior usada 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren no poder volver a besar a tu pareja 👍🏽 \n Bajen un dedo los que prefieren no poder volver a abrazar a tu pareja 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren ser listo pero muy feo 👍🏽 \n Bajen un dedo los que prefieren ser guapísimo pero muy tonto 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren sólo ser capaz de susurrar👍🏽 \n Bajen un dedo los que prefieren sólo ser capaz de gritar 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren vivir una vida del mejor sexo pero comiendo fatal 👍🏽 \n Bajen un dedo los que prefieren vivir una vida comiendo los manjares sero sin sexo 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren vivir eternamente y ver morir a tus seres queridos 👍🏽 \n Bajen un dedo los que prefieren morir antes de los 70 años pero vivir una vida perfecta 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren que no vaya nadie a tu boda 👍🏽 \n Bajen un dedo los que prefieren que no vaya nadie a tu funeral👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren perder 10000 varos 👍🏽 \n Bajen un dedo los que prefieren que la persona que mas odias gane 1,000,000 de pesos 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
+    "TODOS JUEGAN\n\n Levanten el dedo los que prefieren que te cachen  👍🏽 \n Bajen un dedo los que prefieren morir antes de los 70 años pero vivir una vida perfecta 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro",
     "27.-",
     "28.-",
     "29.-",
