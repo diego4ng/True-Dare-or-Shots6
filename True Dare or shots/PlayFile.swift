@@ -15,13 +15,7 @@ import CoreData
 
 // Struct de Retos del juego
 
-struct Categorias {
-    
-    let categoria_name : String
-    let status_categoria : BooleanLiteralType
-    let subCategorias: [Preguntas]
-    
-}
+
 
 class PlayFile: UIViewController {
     
@@ -35,13 +29,11 @@ class PlayFile: UIViewController {
     
     
     
-    // Array de Preguntas
+
     
-    var preguntas = [Preguntas]()
+    //obejto de Categorias
     
-    // Array de Categorias (del juego, Verdad , shot, retos )
-    
-    var categorias = [Categorias]()
+    var categorias = Categorias()
     
     
     var aux = 0
@@ -73,7 +65,6 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Play"
         Name.text = ""
         retolabel.text = "Un botón te espera 😏"
-        addPreguntas()
     }
     
 
@@ -81,12 +72,7 @@ func conexion () -> NSManagedObjectContext{
         sender.pulsate()
         etiqueta.text = "Verdad"
         Name.text = callUsers()
-        
-        configuracionPreguntas()
-        let randomnumber = Int(arc4random_uniform(UInt32()))
-        retolabel.text = showPreguntas(randomNumber: randomnumber)
-        
-        
+        checkStatusSwitch()
     }
     
     
@@ -170,23 +156,23 @@ func conexion () -> NSManagedObjectContext{
         }
     }
     
-    func addPreguntas(){
-        let p1 = Preguntas.init(id: 1, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Encontrar el amor verdadero pero ser pobre 👍🏽 \n Bajen un dedo los que prefieren ser multimillonario pero no encontrar su alma gemela 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro")
-        preguntas.append(p1)
-        let p2 = Preguntas.init(id: 2, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Encontrar el amor verdadero pero ser pobre 👍🏽 \n Bajen un dedo los que prefieren ser multimillonario pero no encontrar su alma gemela 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro")
-        preguntas.append(p2)
-    }
-    
-    func addCategoria(status : Bool){
-        let verdad = Categorias.init(categoria_name: "verdad", status_categoria: status, subCategorias: preguntas)
-        categorias.append(verdad)
-    }
+//    func addPreguntas(){
+//        let p1 = Preguntas.init(id: 1, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Encontrar el amor verdadero pero ser pobre 👍🏽 \n Bajen un dedo los que prefieren ser multimillonario pero no encontrar su alma gemela 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro")
+//        preguntas.append(p1)
+//        let p2 = Preguntas.init(id: 2, status: (True != nil), categoria: "verdad", subcategoria: "infantil", pregunta: "TODOS JUEGAN\n\n Levanten el dedo los que prefieren Encontrar el amor verdadero pero ser pobre 👍🏽 \n Bajen un dedo los que prefieren ser multimillonario pero no encontrar su alma gemela 👎🏽. \n La minoria deberá aportar la moneda mas chica que tenga al centro")
+//        preguntas.append(p2)
+//    }
+//
+//    func addCategoria(status : Bool){
+//        let verdad = Categorias.init(categoria_name: "verdad", status_categoria: status, subCategorias: preguntas)
+//        categorias.append(verdad)
+//    }
     
     func configuracionPreguntas ()
     {
         switchestado1 = UserDefaults.standard.bool(forKey: "valor1")
         if  switchestado1! {
-            addCategoria(status: switchestado1!)
+            //addCategoria(status: switchestado1!)
         }else{
             print("ERROR Switch 1 false")
             let alert = UIAlertController(title: "Alerta",
@@ -208,14 +194,29 @@ func conexion () -> NSManagedObjectContext{
         }
     }
     
-    func showPreguntas(randomNumber : Int)-> String{
-        for cp in categorias {
-            if cp.status_categoria {
-                let question = preguntas[randomNumber].pregunta
-                return question
+    func showQuestions(randomnumber: Int){
+            if categorias.preguntas[randomnumber].status{
+                retolabel.text = categorias.preguntas[randomnumber].pregunta
             }
+            else {
+                checkStatusSwitch()
         }
-        return "Switch desactivado"
+        }
+    func checkStatusSwitch() {
+        let randomnumber = Int(arc4random_uniform(UInt32(categorias.preguntas.count)))
+        switchestado1 = UserDefaults.standard.bool(forKey: "valor1")
+        if  !switchestado1! {
+            categorias.changeStatusVerdad(status: false)
+            showQuestions(randomnumber: randomnumber)
+        }else{
+            categorias.changeStatusVerdad(status: true)
+            if categorias.preguntas[randomnumber].status{
+                showQuestions(randomnumber: randomnumber)
+            }else{
+                checkStatusSwitch()
+            }
+            
+        }
     }
     
     

@@ -12,13 +12,26 @@ import Foundation
 
 class Preguntas {
     
+    enum categories {
+        case Verdad
+        case Reto
+        case Shot
+    }
+    
+    enum subcategori{
+        case Inocentes
+        case Amigables
+        case Sexuales
+        case Prohibidas
+    }
+    
     let id: Int
-    let status : Bool
-    let categoria : String
-    let subcategoria : String
+    var status : Bool
+    let categoria : categories
+    let subcategoria : subcategori
     var pregunta : String
     
-    init(id: Int, status: Bool, categoria: String, subcategoria : String, pregunta: String) {
+    init(id: Int, status: Bool, categoria: categories, subcategoria : subcategori, pregunta: String) {
         self.id = id
         self.status = status
         self.categoria = categoria
@@ -26,7 +39,10 @@ class Preguntas {
         self.pregunta = pregunta
     }
     
+    
     func desactivar(){
         print("holaa mundo")
     }
 }
+
+
