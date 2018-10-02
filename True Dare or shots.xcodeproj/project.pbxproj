@@ -32,6 +32,7 @@
 		F19F816821599A3C0000392E /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816721599A3C0000392E /* Designable.swift */; };
 		F19F816A21599A730000392E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816921599A730000392E /* TabBarController.swift */; };
 		F1D15212213F968200D269E0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D15211213F968200D269E0 /* CardView.swift */; };
+		F1F96A7B21630D5900C7C287 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1F96A7A21630D5800C7C287 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		F19F816721599A3C0000392E /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
 		F19F816921599A730000392E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F1D15211213F968200D269E0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F1F96A7A21630D5800C7C287 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD7FD8377A6B7CE2275A08EE /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7B2DBBB2D65A055D43AAC7 /* Pods-True Dare or shotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 				F169E517211933AF0070CD41 /* Assets.xcassets */,
 				F169E519211933AF0070CD41 /* LaunchScreen.storyboard */,
 				F169E51C211933AF0070CD41 /* Info.plist */,
+				F1F96A7A21630D5800C7C287 /* GoogleService-Info.plist */,
 				F169E514211933AF0070CD41 /* True_Dare_or_shots.xcdatamodeld */,
 				F14FCB9B211A32520023D48F /* infofile.swift */,
 				F14FCB9D211A32B10023D48F /* playersfile.swift */,
@@ -337,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F169E51B211933AF0070CD41 /* LaunchScreen.storyboard in Resources */,
+				F1F96A7B21630D5900C7C287 /* GoogleService-Info.plist in Resources */,
 				F169E518211933AF0070CD41 /* Assets.xcassets in Resources */,
 				F169E513211933AF0070CD41 /* Main.storyboard in Resources */,
 			);
@@ -607,7 +611,7 @@
 				DEVELOPMENT_TEAM = 3JGRCHFGFN;
 				INFOPLIST_FILE = "True Dare or shots/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Diegocorp.True-Dare-or-shots";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Diegocorp.True-Dare-or-shots";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,7 +627,7 @@
 				DEVELOPMENT_TEAM = 3JGRCHFGFN;
 				INFOPLIST_FILE = "True Dare or shots/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Diegocorp.True-Dare-or-shots";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Diegocorp.True-Dare-or-shots";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

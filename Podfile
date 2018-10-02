@@ -9,7 +9,7 @@ target 'True Dare or shots' do
 	#pod 'KKSwipeCards'
 	pod 'DMSwipeCards'
     pod 'SwipeableTabBarController'
-	
+	pod 'Firebase/Core'
 	
 
         
