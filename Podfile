@@ -10,6 +10,7 @@ target 'True Dare or shots' do
 	pod 'DMSwipeCards'
     pod 'SwipeableTabBarController'
 	pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
 	
 
         
