@@ -1,6 +1,0 @@
-module Pods_True_Dare_or_shots {
-  umbrella header "Pods-True Dare or shots-umbrella.h"
-
-  export *
-  module * { export * }
-}
