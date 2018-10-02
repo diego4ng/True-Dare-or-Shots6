@@ -1,5 +1,18 @@
 DerivedData/
 Pods/
 *.xcuserstate
-.DS_Store
-.xcuserstate
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.xcuserstate
+*.json.gz
+.idea/workspace.xml
+.DS_STORE
+xcschememanagement.plis
+UserInterfaceState.xcuserstate
+Pods/
+node_modules/
+Podfile.lock
+iMusica/Resources/Images/Images.xcassets/About/GraceNoteInfo.imageset/ícono GRacenote.png
+.idea/
