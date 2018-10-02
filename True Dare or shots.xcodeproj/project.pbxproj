@@ -31,6 +31,8 @@
 		F19F816221594B710000392E /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816121594B710000392E /* CircleMenuButton.swift */; };
 		F19F816821599A3C0000392E /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816721599A3C0000392E /* Designable.swift */; };
 		F19F816A21599A730000392E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F816921599A730000392E /* TabBarController.swift */; };
+		F1BD5E2A2163E15000A3F851 /* Donativoclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BD5E292163E15000A3F851 /* Donativoclass.swift */; };
+		F1BD5E2C2163F56D00A3F851 /* Storeitemcollectionviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BD5E2B2163F56D00A3F851 /* Storeitemcollectionviewcell.swift */; };
 		F1D15212213F968200D269E0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D15211213F968200D269E0 /* CardView.swift */; };
 		F1F96A7B21630D5900C7C287 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1F96A7A21630D5800C7C287 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -88,6 +90,8 @@
 		F19F816721599A3C0000392E /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
 		F19F816921599A730000392E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F1BD5E272163C53C00A3F851 /* True Dare or shots.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "True Dare or shots.entitlements"; sourceTree = "<group>"; };
+		F1BD5E292163E15000A3F851 /* Donativoclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donativoclass.swift; sourceTree = "<group>"; };
+		F1BD5E2B2163F56D00A3F851 /* Storeitemcollectionviewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storeitemcollectionviewcell.swift; sourceTree = "<group>"; };
 		F1D15211213F968200D269E0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F1F96A7A21630D5800C7C287 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD7FD8377A6B7CE2275A08EE /* Pods-True Dare or shotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +191,9 @@
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
 				F1D15211213F968200D269E0 /* CardView.swift */,
 				7B8272502155821B006D11E5 /* Preguntas.swift */,
+				F1BD5E292163E15000A3F851 /* Donativoclass.swift */,
+				F1BD5E2B2163F56D00A3F851 /* Storeitemcollectionviewcell.swift */,
+				F1BD5E282163E11200A3F851 /* Donativo Classes */,
 				F19F816621599A070000392E /* swipetapbar */,
 				F19F815C21594ACC0000392E /* Add dare circle */,
 			);
@@ -229,6 +236,13 @@
 				F19F816921599A730000392E /* TabBarController.swift */,
 			);
 			path = swipetapbar;
+			sourceTree = "<group>";
+		};
+		F1BD5E282163E11200A3F851 /* Donativo Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Donativo Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BD5E2A2163E15000A3F851 /* Donativoclass.swift in Sources */,
 				F169E516211933AF0070CD41 /* True_Dare_or_shots.xcdatamodeld in Sources */,
 				7B8272512155821B006D11E5 /* Preguntas.swift in Sources */,
 				F14FCB9C211A32520023D48F /* infofile.swift in Sources */,
@@ -443,6 +458,7 @@
 				F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */,
 				F19F816821599A3C0000392E /* Designable.swift in Sources */,
 				F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */,
+				F1BD5E2C2163F56D00A3F851 /* Storeitemcollectionviewcell.swift in Sources */,
 				F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */,
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,
 				F19F815E21594B030000392E /* CircleMenu.swift in Sources */,
