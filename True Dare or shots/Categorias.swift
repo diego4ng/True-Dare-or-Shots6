@@ -89,7 +89,35 @@ class Categorias {
     func changeStatusVerdad(status : Bool) -> Void {
         for pregunta in preguntas{
             if (pregunta.subcategoria == .Inocentes){
-                print("pregunta: \(pregunta.pregunta) Status : \(pregunta.status)" )
+                pregunta.status = status
+            }
+            
+        }
+        
+    }
+    func changeStatusAmigables(status : Bool) -> Void {
+        for pregunta in preguntas{
+            if (pregunta.subcategoria == .Amigables){
+                pregunta.status = status
+            }
+            
+        }
+        
+    }
+    
+    func changeStatusSexuales(status : Bool) -> Void {
+        for pregunta in preguntas{
+            if (pregunta.subcategoria == .Sexuales){
+                pregunta.status = status
+            }
+            
+        }
+        
+    }
+    
+    func changeStatusProhibidas(status : Bool) -> Void {
+        for pregunta in preguntas{
+            if (pregunta.subcategoria == .Prohibidas){
                 pregunta.status = status
             }
             

@@ -38,11 +38,7 @@ class Preguntas {
         self.subcategoria = subcategoria
         self.pregunta = pregunta
     }
-    
-    
-    func desactivar(){
-        print("holaa mundo")
-    }
+
 }
 
 
