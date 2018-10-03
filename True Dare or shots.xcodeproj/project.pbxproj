@@ -25,6 +25,8 @@
 		F169E526211933AF0070CD41 /* True_Dare_or_shotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E525211933AF0070CD41 /* True_Dare_or_shotsTests.swift */; };
 		F169E531211933AF0070CD41 /* True_Dare_or_shotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */; };
 		F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */; };
+		F191E617216524AB00A43861 /* StoreItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */; };
+		F191E618216524AB00A43861 /* StoreItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */; };
 		F19F8158215432E60000392E /* StringVerdad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8157215432E60000392E /* StringVerdad.swift */; };
 		F19F815E21594B030000392E /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815D21594B030000392E /* CircleMenu.swift */; };
 		F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815F21594B3B0000392E /* CircleMenuLoader.swift */; };
@@ -83,6 +85,8 @@
 		F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_Dare_or_shotsUITests.swift; sourceTree = "<group>"; };
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
+		F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StoreItem+CoreDataProperties.swift"; path = "/Users/diego/Documents/True-Dare-or-Shots6/True Dare or shots/StoreItem/StoreItem+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StoreItem+CoreDataClass.swift"; path = "/Users/diego/Documents/True-Dare-or-Shots6/True Dare or shots/StoreItem/StoreItem+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		F19F8157215432E60000392E /* StringVerdad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringVerdad.swift; path = ../StringVerdad.swift; sourceTree = "<group>"; };
 		F19F815D21594B030000392E /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
 		F19F815F21594B3B0000392E /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
@@ -191,9 +195,7 @@
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
 				F1D15211213F968200D269E0 /* CardView.swift */,
 				7B8272502155821B006D11E5 /* Preguntas.swift */,
-				F1BD5E292163E15000A3F851 /* Donativoclass.swift */,
-				F1BD5E2B2163F56D00A3F851 /* Storeitemcollectionviewcell.swift */,
-				F1BD5E282163E11200A3F851 /* Donativo Classes */,
+				F191E5FE21651E4C00A43861 /* StoreItem */,
 				F19F816621599A070000392E /* swipetapbar */,
 				F19F815C21594ACC0000392E /* Add dare circle */,
 			);
@@ -218,6 +220,17 @@
 			path = "True Dare or shotsUITests";
 			sourceTree = "<group>";
 		};
+		F191E5FE21651E4C00A43861 /* StoreItem */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD5E292163E15000A3F851 /* Donativoclass.swift */,
+				F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */,
+				F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */,
+				F1BD5E2B2163F56D00A3F851 /* Storeitemcollectionviewcell.swift */,
+			);
+			path = StoreItem;
+			sourceTree = "<group>";
+		};
 		F19F815C21594ACC0000392E /* Add dare circle */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,13 +249,6 @@
 				F19F816921599A730000392E /* TabBarController.swift */,
 			);
 			path = swipetapbar;
-			sourceTree = "<group>";
-		};
-		F1BD5E282163E11200A3F851 /* Donativo Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Donativo Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,12 +459,14 @@
 				F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */,
 				F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */,
 				F19F816A21599A730000392E /* TabBarController.swift in Sources */,
+				F191E617216524AB00A43861 /* StoreItem+CoreDataProperties.swift in Sources */,
 				F1D15212213F968200D269E0 /* CardView.swift in Sources */,
 				F14FCB9E211A32B10023D48F /* playersfile.swift in Sources */,
 				F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */,
 				F19F816821599A3C0000392E /* Designable.swift in Sources */,
 				F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */,
 				F1BD5E2C2163F56D00A3F851 /* Storeitemcollectionviewcell.swift in Sources */,
+				F191E618216524AB00A43861 /* StoreItem+CoreDataClass.swift in Sources */,
 				F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */,
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,
 				F19F815E21594B030000392E /* CircleMenu.swift in Sources */,
