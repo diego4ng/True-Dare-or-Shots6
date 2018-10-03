@@ -22,10 +22,10 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         updateStore()
         
         if self.storeCollection.count == 0{
-            createItemStore(title: "10 varos", imagename: "moneda.jpeg", purchased: false, productIdentifier: "")
-            createItemStore(title: "20 varos", imagename: "moneda2.jepg", purchased: false, productIdentifier: "")
-            createItemStore(title: "30 varos", imagename: "moneda3.jepg", purchased: false, productIdentifier: "")
-            createItemStore(title: "50 varos", imagename: "moneda4.jepg", purchased: false, productIdentifier: "")
+            createItemStore(title: "Dona 10 pesos", imagename: "moneda.jpeg", purchased: true, productIdentifier: "")
+            createItemStore(title: "Dona 20 pesos", imagename: "moneda2.jepg", purchased: false, productIdentifier: "")
+            createItemStore(title: "Dona 30 pesos", imagename: "moneda3.jepg", purchased: false, productIdentifier: "")
+            createItemStore(title: "Dona 50 peso", imagename: "moneda4.jepg", purchased: false, productIdentifier: "")
            
             updateStore()
             self.collectionView.reloadData()
@@ -88,6 +88,23 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         let storeItem = self.storeCollection[indexPath.row]
         cell.imageview.image = UIImage(named: storeItem.imagename!)
         cell.label.text = storeItem.name
+        
+        
+        for subview in cell.imageview.subviews{
+            subview.removeFromSuperview()
+        }
+        
+        if storeItem.purchase{
+            cell.purchasedlabel.isHidden = true
+        }else {
+            cell.purchasedlabel.isHidden = false
+            
+            let blurEffect = UIBlurEffect(style: .dark)
+            let viewBlur = UIVisualEffectView(effect: blurEffect)
+            cell.layoutIfNeeded()
+            viewBlur.frame = cell.imageview.bounds
+            cell.imageview.addSubview(viewBlur)
+        }
         return cell
     }
     
@@ -107,7 +124,7 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         
         let size = self.collectionView.bounds.size
         
-        return CGSize(width: size.width-35, height: size.height-50)
+        return CGSize(width: size.width-15, height: size.height-50)
 
     }
     

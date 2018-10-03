@@ -14,4 +14,5 @@ class Storeitemcollectionviewcell: UICollectionViewCell {
 
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var purchasedlabel: UILabel!
 }
