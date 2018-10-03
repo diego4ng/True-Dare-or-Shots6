@@ -18,6 +18,7 @@ class playersfile: UIViewController, UITableViewDataSource ,UITableViewDelegate 
     @IBOutlet weak var usertable: UITableView!
     
     @IBAction func adduser(_ sender: UIButton) {
+        sender.pulsate()
         //Creamos el UIAlertController
         let alert = UIAlertController(title: "Jugadores",
                                       message: "Añade un nuevo Jugador",
