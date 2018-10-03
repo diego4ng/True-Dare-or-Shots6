@@ -173,6 +173,48 @@ usertable.reloadData()
         
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Elimina jugador")
+        let contexto = conexion()
+        let persona = users[indexPath.row]
+        
+        
+        
+        
+        let alert = UIAlertController(title: "Eliminar",
+                                      message: "Desea borrar a  \(users[indexPath.row].value(forKey: "name") ?? String.self)",
+                                      preferredStyle: .alert)
+        
+        let deleteAction = UIAlertAction(title: "Eliminar",
+                                       style: .default,
+                                       handler: { (action:UIAlertAction) -> Void in
+                                        contexto.delete(persona)
+                                        
+                                        do{
+                                            try contexto.save()
+                                        }catch let error as NSError {
+                                            print("no se borro", error)
+                                        }
+                                        
+                                        
+                                        self.mostrarDatos()
+                                        self.usertable.reloadData()
+                                        
+        })
+        
+        let cancelAction = UIAlertAction(title: "Cancelar",
+                                         style: .default) { (action: UIAlertAction) -> Void in
+        }
+        
+        //Añadimos las dos UIAlertAction que hemos creado al UIAlertController
+        alert.addAction(deleteAction)
+        alert.addAction(cancelAction)
+        
+        //Lanzamos el UIAlertController
+        present(alert,
+                animated: true,
+                completion: nil)
+
+    }
 
 }
