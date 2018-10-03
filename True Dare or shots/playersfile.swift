@@ -119,6 +119,13 @@ class playersfile: UIViewController, UITableViewDataSource ,UITableViewDelegate 
 usertable.reloadData()
     }
     
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         usertable.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")

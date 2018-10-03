@@ -10,4 +10,8 @@ import UIKit
 
 class Storeitemcollectionviewcell: UICollectionViewCell {
     
+    @IBOutlet weak var imageview: UIImageView!
+
+    @IBOutlet weak var label: UILabel!
+    
 }
