@@ -9,8 +9,9 @@
 import Foundation
 import UIKit
 import CoreData
+import StoreKit
 
-class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate , UICollectionViewDelegateFlowLayout{
+class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate , UICollectionViewDelegateFlowLayout,SKProductsRequestDelegate{
     //
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,13 +23,14 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         updateStore()
         
         if self.storeCollection.count == 0{
-            createItemStore(title: "Dona 10 pesos", imagename: "moneda.jpeg", purchased: true, productIdentifier: "")
-            createItemStore(title: "Dona 20 pesos", imagename: "moneda2.jepg", purchased: false, productIdentifier: "")
-            createItemStore(title: "Dona 30 pesos", imagename: "moneda3.jepg", purchased: false, productIdentifier: "")
-            createItemStore(title: "Dona 50 peso", imagename: "moneda4.jepg", purchased: false, productIdentifier: "")
+            createItemStore(title: "Dona 10 pesos", imagename: "moneda.jpeg", purchased: true, productIdentifier: "com.diegocorp.true.dare.or.shots9mx")
+            createItemStore(title: "Dona 20 pesos", imagename: "moneda2.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots19mx")
+            createItemStore(title: "Dona 30 pesos", imagename: "moneda3.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots39mx")
+            createItemStore(title: "Dona 50 peso", imagename: "moneda4.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots99mx")
            
             updateStore()
             self.collectionView.reloadData()
+            requestatappleproducts()
         }
     }//viewDidload corchete
     
@@ -52,8 +54,31 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         do{
             try context.save()
         }catch{}
-        
     }//creareItemStore corchete
+    
+    func requestatappleproducts(){
+        // generar un conjunto de ID de "product identifier"
+        var productidentifiers = Set<String>()
+        // Utilizaremos un for para recorrer core data"product identifier"
+        for storeItem in self.storeCollection{
+            if storeItem.productidentifier != "" {
+                if let myID = storeItem.productidentifier{
+                    productidentifiers.insert(myID)
+                }
+            }
+        }
+        
+        let productsRequest = SKProductsRequest(productIdentifiers: productidentifiers)
+        productsRequest.delegate = self
+        productsRequest.start()
+        }//corchete respuestaappleproducs
+    
+    func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+        print ("hemos recibido respuesta de la appstore")
+        print("productos disponibles \(response.products.count)")
+        print("productos invalidos\(response.invalidProductIdentifiers)")
+    }
+    
     
 
     var storeCollection = [StoreItem]()
@@ -88,6 +113,7 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         let storeItem = self.storeCollection[indexPath.row]
         cell.imageview.image = UIImage(named: storeItem.imagename!)
         cell.label.text = storeItem.name
+        cell.purchasedlabel.text = storeItem.productidentifier
         
         
         for subview in cell.imageview.subviews{
