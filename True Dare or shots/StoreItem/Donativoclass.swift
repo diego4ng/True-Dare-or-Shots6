@@ -11,7 +11,7 @@ import UIKit
 import CoreData
 import StoreKit
 
-class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate , UICollectionViewDelegateFlowLayout,SKProductsRequestDelegate{
+class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate , UICollectionViewDelegateFlowLayout,SKProductsRequestDelegate ,SKPaymentTransactionObserver{
     //
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,15 +23,17 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         updateStore()
         
         if self.storeCollection.count == 0{
-            createItemStore(title: "Dona 10 pesos", imagename: "moneda.jpeg", purchased: true, productIdentifier: "com.diegocorp.true.dare.or.shots9mx")
-            createItemStore(title: "Dona 20 pesos", imagename: "moneda2.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots19mx")
-            createItemStore(title: "Dona 30 pesos", imagename: "moneda3.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots39mx")
-            createItemStore(title: "Dona 50 peso", imagename: "moneda4.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots99mx")
+            createItemStore(title: "Para un Boing", imagename: "moneda.jpeg", purchased: true, productIdentifier: "com.diegocorp.true.dare.or.shots9mx")
+            createItemStore(title: "Pal chesco", imagename: "moneda2.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots19mx")
+            createItemStore(title: "Pa la cheve", imagename: "moneda3.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots39mx")
+            createItemStore(title: "pa la morra", imagename: "moneda4.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots99mx")
            
             updateStore()
             self.collectionView.reloadData()
-            requestatappleproducts()
+            
         }
+        requestatappleproducts()
+        
     }//viewDidload corchete
     
     func createItemStore(title:String,imagename:String,purchased:Bool,productIdentifier:String)
@@ -75,13 +77,22 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
     
     func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
         print ("hemos recibido respuesta de la appstore")
-        print("productos disponibles \(response.products.count)")
-        print("productos invalidos\(response.invalidProductIdentifiers)")
+       print("productos disponibles \(response.products.count)")
+      print("productos invalidos\(response.invalidProductIdentifiers)")
+        //sincronizar los productos recibidos por itunnes conect con  coredata array
+        self.products = response.products
+        
+        for product in response.products{
+            print("\(product.localizedTitle):\(product.price)")
+        }
+        self.collectionView.reloadData()
     }
     
-    
+   
+
 
     var storeCollection = [StoreItem]()
+    var products = [SKProduct]()
 
     func updateStore (){
         
@@ -113,7 +124,7 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         let storeItem = self.storeCollection[indexPath.row]
         cell.imageview.image = UIImage(named: storeItem.imagename!)
         cell.label.text = storeItem.name
-        cell.purchasedlabel.text = storeItem.productidentifier
+        
         
         
         for subview in cell.imageview.subviews{
@@ -130,6 +141,19 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
             cell.layoutIfNeeded()
             viewBlur.frame = cell.imageview.bounds
             cell.imageview.addSubview(viewBlur)
+            
+            for productos in self.products{
+                if productos.productIdentifier == storeItem.productidentifier{
+                    //ASIGNAR IDIOMA
+                    let formatter = NumberFormatter()
+                    formatter.numberStyle = NumberFormatter.Style.currency
+                    formatter.locale = productos.priceLocale
+                    if let price = formatter.string(from: productos.price)
+                    {cell.purchasedlabel.text = "Donativo por \(price)"}
+                    
+                }
+            }
+            
         }
         return cell
     }
@@ -153,6 +177,57 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         return CGSize(width: size.width-15, height: size.height-50)
 
     }
+    
+    //seleccionar una cell
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storeitem = self.storeCollection[indexPath.row]
+        
+        if !storeitem.purchase{
+            for product in self.products{
+            
+                if product.productIdentifier == storeitem.productidentifier{
+            SKPaymentQueue.default().add(self)
+                    let payment = SKPayment(product: product)
+                    SKPaymentQueue.default().add(payment)
+                }
+            }
+        }
+    }
+    
+    
+    func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
+        
+        for transacion in transactions {
+            
+            switch transacion.transactionState{
+                // case deferred
+            case.deferred:
+                print("deferred")
+                break
+                // case purchasing
+            case .purchasing:
+                print("purchasing")
+                break
+                // case purchased
+            case .purchased:
+                print("purchased")
+                break
+                // case failed
+            case .failed:
+                print("failed")
+                break
+                // case restored
+            case .restored:
+                print("restored")
+                break
+
+            }
+            
+            
+        }
+    
+    }
+    
     
 }
 
