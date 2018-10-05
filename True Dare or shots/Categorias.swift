@@ -10,6 +10,7 @@ import Foundation
 
 class Categorias {
     
+    
     enum categories {
         case Verdad
         case Reto
