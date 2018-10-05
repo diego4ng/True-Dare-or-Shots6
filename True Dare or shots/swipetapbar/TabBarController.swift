@@ -15,17 +15,17 @@ class TabBarController: SwipeableTabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //        selectedIndex = 1
-        selectedViewController = viewControllers![1]
+        selectedViewController = viewControllers![0]
         /// Set the animation type for swipe
         setSwipeAnimation(type: SwipeAnimationType.sideBySide)
         /// Set the animation type for tap
         setTapAnimation(type: SwipeAnimationType.sideBySide)
         
         /// Disable custom transition on tap.
-        //        setTapTransitioning(transition: nil)
-        
+        //        setTapTransitioning(transition: true)
+        //setTabBarSwipe(enabled: true)
         /// Set swipe to only work when strictly horizontal.
-        setDiagonalSwipe(enabled: false)
+        setDiagonalSwipe(enabled: true)
     }
     
 //    override func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
