@@ -79,6 +79,24 @@ func conexion () -> NSManagedObjectContext{
     
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        switchestado1 = UserDefaults.standard.bool(forKey: "valor1")
+        switchestado2 = UserDefaults.standard.bool(forKey: "valor2")
+        switchestado3 = UserDefaults.standard.bool(forKey: "valor3")
+        switchestado4 = UserDefaults.standard.bool(forKey: "valor4")
+        
+        if (switchestado1! || switchestado2! || switchestado3! || switchestado4!) {
+            True.isEnabled = true
+        }
+        if (!switchestado1! && !switchestado2! && !switchestado3! && !switchestado4!) {
+            True.isEnabled = false
+            
+        }
+        super.viewWillAppear(animated) // No need for semicolon
+    }
+    
+  
+    
     //MANDA EL JUGADOR
     func callUsers () -> String{
         let contexto = conexion()
@@ -113,14 +131,7 @@ func conexion () -> NSManagedObjectContext{
         }
     func checkStatusSwitch() {
         let randomnumber = Int(arc4random_uniform(UInt32(categorias.preguntas.count)))
-        switchestado1 = UserDefaults.standard.bool(forKey: "valor1")
-        switchestado2 = UserDefaults.standard.bool(forKey: "valor2")
-        switchestado3 = UserDefaults.standard.bool(forKey: "valor3")
-        switchestado4 = UserDefaults.standard.bool(forKey: "valor4")
-        if (!switchestado1! && !switchestado2! && !switchestado3! && !switchestado4!) {
-            True.isEnabled = false
-           
-        }else{
+
             if !switchestado2! {
                 categorias.changeStatusAmigables(status: false)
             }else{
@@ -143,7 +154,5 @@ func conexion () -> NSManagedObjectContext{
             }
             showQuestions(randomnumber: randomnumber)
         }
-    }
-    
     
 }
