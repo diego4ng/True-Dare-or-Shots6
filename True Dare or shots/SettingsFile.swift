@@ -30,53 +30,69 @@ class SettingsFile: UIViewController {
     
     
     @IBAction func switch1tapped(_ sender: UISwitch) {
-        print("el valor del switch 1 es: \(updateswitch1())")
+        print("el valor del switch 1 -VERDAD es: \(updateswitch1())")
         UserDefaults.standard.set(updateswitch1(), forKey:"valor1")
     }
     
     
     @IBAction func switch2tapped(_ sender: UISwitch) {
-        print("el valor del switch 2 es: \(updateswitch2())")
+        print("el valor del switch 2 -VERDADes: \(updateswitch2())")
         UserDefaults.standard.set(updateswitch2(), forKey:"valor2")
     }
     
     @IBAction func switch3tapped(_ sender: UISwitch) {
         
-       print("el valor del switch 3 es: \(updateswitch3())")
+       print("el valor del switch 3 -VERDAD es: \(updateswitch3())")
         UserDefaults.standard.set(updateswitch3(), forKey:"valor3")
     }
     
     @IBAction func switch4tapped(_ sender: UISwitch) {
-        print("el valor del switch 4 es: \(updateswitch4())")
+        print("el valor del switch 4 -VERDAD es: \(updateswitch4())")
         UserDefaults.standard.set(updateswitch4(), forKey:"valor4")
     }
     
     
     
     @IBAction func switch1_reto_tapped(_ sender: UISwitch) {
+        print("el valor del switch 1 -RETO es: \(updateswitch5())")
+        UserDefaults.standard.set(updateswitch5(), forKey:"valor5")
     }
     
     @IBAction func switch2_reto_tapped(_ sender: UISwitch) {
+        print("el valor del switch 2 -RETO es: \(updateswitch6())")
+        UserDefaults.standard.set(updateswitch6(), forKey:"valor6")
     }
     
     @IBAction func switch3_reto_tapped(_ sender: UISwitch) {
+        print("el valor del switch 3 -RETO es: \(updateswitch7())")
+        UserDefaults.standard.set(updateswitch7(), forKey:"valor7")
     }
     
     @IBAction func switch4_reto_tapped(_ sender: UISwitch) {
+        print("el valor del switch 4 -RETO es: \(updateswitch8())")
+        UserDefaults.standard.set(updateswitch8(), forKey:"valor8")
     }
     
     
     
     @IBAction func switch1_shot_tapped(_ sender: UISwitch) {
+        print("el valor del switch 1 -SHOT es: \(updateswitch9())")
+        UserDefaults.standard.set(updateswitch9(), forKey:"valor9")
     }
     
     @IBAction func switch2_shot_tapped(_ sender: UISwitch) {
+        print("el valor del switch 2 -SHOT es: \(updateswitch10())")
+        UserDefaults.standard.set(updateswitch10(), forKey:"valor10")
     }
     
     @IBAction func switch3_shot_tapped(_ sender: UISwitch) {
+        print("el valor del switch 3 -SHOT es: \(updateswitch11())")
+        UserDefaults.standard.set(updateswitch11(), forKey:"valor11")
     }
     
     @IBAction func switch4_shot_tapped(_ sender: UISwitch) {
+        print("el valor del switch 4 -SHOT es: \(updateswitch12())")
+        UserDefaults.standard.set(updateswitch12(), forKey:"valor12")
     }
     
     
@@ -188,100 +204,100 @@ class SettingsFile: UIViewController {
     
     
     func updateswitch5() -> Bool {
-        let valor4 :Bool
+        let valor5 :Bool
         
         if switch1_reto.isOn
         {
-            valor4 = true
+            valor5 = true
         }else{
-            valor4 = false
+            valor5 = false
         }
-        return valor4
+        return valor5
     }
     
     func updateswitch6() -> Bool {
-        let valor4 :Bool
+        let valor6 :Bool
         
         if switch2_reto.isOn
         {
-            valor4 = true
+            valor6 = true
         }else{
-            valor4 = false
+            valor6 = false
         }
-        return valor4
+        return valor6
     }
     
     func updateswitch7() -> Bool {
-        let valor4 :Bool
+        let valor7 :Bool
         
         if switch3_reto.isOn
         {
-            valor4 = true
+            valor7 = true
         }else{
-            valor4 = false
+            valor7 = false
         }
-        return valor4
+        return valor7
     }
     
     
     func updateswitch8() -> Bool {
-        let valor4 :Bool
+        let valor7 :Bool
         
         if switch4_reto.isOn
         {
-            valor4 = true
+            valor7 = true
         }else{
-            valor4 = false
+            valor7 = false
         }
-        return valor4
+        return valor7
     }
     
     func updateswitch9() -> Bool {
-        let valor4 :Bool
+        let valor9 :Bool
         
         if switch1_shot.isOn
         {
-            valor4 = true
+            valor9 = true
         }else{
-            valor4 = false
+            valor9 = false
         }
-        return valor4
+        return valor9
     }
     
     func updateswitch10() -> Bool {
-        let valor4 :Bool
+        let valor10 :Bool
         
         if switch2_shot.isOn
         {
-            valor4 = true
+            valor10 = true
         }else{
-            valor4 = false
+            valor10 = false
         }
-        return valor4
+        return valor10
     }
     
     func updateswitch11() -> Bool {
-        let valor4 :Bool
+        let valor11 :Bool
         
         if switch3_shot.isOn
         {
-            valor4 = true
+            valor11 = true
         }else{
-            valor4 = false
+            valor11 = false
         }
-        return valor4
+        return valor11
     }
     
     func updateswitch12() -> Bool {
-        let valor4 :Bool
+        let valor12 :Bool
         
         if switch4_shot.isOn
         {
-            valor4 = true
+            valor12 = true
         }else{
-            valor4 = false
+            valor12 = false
         }
-        return valor4
+        return valor12
     }
 
 }
