@@ -25,6 +25,10 @@ class Preguntas {
         case Prohibidas
         case Prendas
         case Ñero
+        case AlgoTranqui
+        case Normal
+        case Extremo
+        case A_morir
     }
     
     let id: Int

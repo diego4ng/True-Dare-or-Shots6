@@ -32,6 +32,7 @@ class PlayFile: UIViewController {
     
     var categorias = CategoriasVerdad()
     var categoriasRetos = CategoriasRet()
+    var categoriasShot = CategoriasShot()
     
     var aux = 0
     var nombrejugador : String?
@@ -43,6 +44,11 @@ class PlayFile: UIViewController {
     var switchestado6 : Bool? = nil
     var switchestado7 : Bool? = nil
     var switchestado8 : Bool? = nil
+    var switchestado9 : Bool? = nil
+    var switchestado10 : Bool? = nil
+    var switchestado11 : Bool? = nil
+    var switchestado12 : Bool? = nil
+    
     
     
     //conexion con coreData
@@ -81,7 +87,7 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Shot"
         sender.shake()
         Name.text = callUsers()
-    
+        checkStatusSwitchShot()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -111,6 +117,18 @@ func conexion () -> NSManagedObjectContext{
             Dare.isEnabled = false
         }
         
+        switchestado9 = UserDefaults.standard.bool(forKey: "valor9")
+        switchestado10 = UserDefaults.standard.bool(forKey: "valor10")
+        switchestado11 = UserDefaults.standard.bool(forKey: "valor11")
+        switchestado12 = UserDefaults.standard.bool(forKey: "valor12")
+        
+        if (switchestado9! || switchestado10! || switchestado11! || switchestado12!) {
+            Shot.isEnabled = true
+        }
+        if (!switchestado9! && !switchestado10! && !switchestado11! && !switchestado12!) {
+            Shot.isEnabled = false
+        }
+        
        
         super.viewWillAppear(animated) // No need for semicolon
     }
@@ -134,10 +152,46 @@ func conexion () -> NSManagedObjectContext{
                     aux = 0
                 }
             }
-        } catch let error as NSError{
-            print ("no mostro datos", error)
+        } catch {
+            let alert = UIAlertController(title: "Jugadores",
+                                          message: "Añade un nuevo Jugador",
+                                          preferredStyle: .alert)
+            
+            //Creamos el UIAlertAction que nos permitirá cancelar
+            let cancelAction = UIAlertAction(title: "Aceptar",
+                                             style: .default) { (action: UIAlertAction) -> Void in
+            }
+            
+            
+            //Añadimos las dos UIAlertAction que hemos creado al UIAlertController
+            alert.addAction(cancelAction)
+            
+            //Lanzamos el UIAlertController
+            present(alert,
+                    animated: true,
+                    completion: nil)
         }
-        return nombrejugador!
+        guard let name = nombrejugador else {
+            let alert = UIAlertController(title: "Jugadores",
+                                          message: "Añade un nuevo Jugador",
+                                          preferredStyle: .alert)
+            
+            //Creamos el UIAlertAction que nos permitirá cancelar
+            let cancelAction = UIAlertAction(title: "Aceptar",
+                                             style: .default) { (action: UIAlertAction) -> Void in
+            }
+            
+            
+            //Añadimos las dos UIAlertAction que hemos creado al UIAlertController
+            alert.addAction(cancelAction)
+            
+            //Lanzamos el UIAlertController
+            present(alert,
+                    animated: true,
+                    completion: nil)
+            return "Añade un jugador"
+        }
+        return name
     }
     
     
@@ -155,6 +209,15 @@ func conexion () -> NSManagedObjectContext{
         }
         else {
             checkStatusSwitchReto()
+        }
+    }
+    
+    func showQuestionsShot(randomnumber: Int){
+        if categoriasShot.preguntas[randomnumber].status{
+            retolabel.text = categoriasShot.preguntas[randomnumber].pregunta
+        }
+        else {
+            checkStatusSwitchShot()
         }
     }
     func checkStatusSwitch() {
@@ -207,6 +270,33 @@ func conexion () -> NSManagedObjectContext{
             categoriasRetos.changeStatusVerdad(status: true)
         }
         showQuestionsReto(randomnumber: randomnumber)
+    }
+    
+    
+    func checkStatusSwitchShot() {
+        let randomnumber = Int(arc4random_uniform(UInt32(categoriasShot.preguntas.count)))
+        
+        if !switchestado10! {
+            categoriasShot.changeStatusNormal(status: false)
+        }else{
+            categoriasShot.changeStatusNormal(status: true)
+        }
+        if !switchestado11! {
+            categoriasShot.changeStatusExtremo(status: false)
+        }else{
+            categoriasShot.changeStatusExtremo(status: true)
+        }
+        if !switchestado12! {
+            categoriasShot.changeStatusAmorir(status: false)
+        }else{
+            categoriasShot.changeStatusAmorir(status: true)
+        }
+        if  !switchestado9! {
+            categoriasShot.changeStatusTranqui(status: false)
+        }else{
+            categoriasShot.changeStatusTranqui(status: true)
+        }
+        showQuestionsShot(randomnumber: randomnumber)
     }
     
 }
