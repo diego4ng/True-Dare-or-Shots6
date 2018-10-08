@@ -25,6 +25,7 @@
 		F169E526211933AF0070CD41 /* True_Dare_or_shotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E525211933AF0070CD41 /* True_Dare_or_shotsTests.swift */; };
 		F169E531211933AF0070CD41 /* True_Dare_or_shotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */; };
 		F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */; };
+		F190FA28216BB34600CA9D6D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190FA27216BB34600CA9D6D /* StoreKit.framework */; };
 		F191E617216524AB00A43861 /* StoreItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */; };
 		F191E618216524AB00A43861 /* StoreItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */; };
 		F19F8158215432E60000392E /* StringVerdad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8157215432E60000392E /* StringVerdad.swift */; };
@@ -85,6 +86,7 @@
 		F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_Dare_or_shotsUITests.swift; sourceTree = "<group>"; };
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
+		F190FA27216BB34600CA9D6D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StoreItem+CoreDataProperties.swift"; path = "/Users/diego/Documents/True-Dare-or-Shots6/True Dare or shots/StoreItem/StoreItem+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StoreItem+CoreDataClass.swift"; path = "/Users/diego/Documents/True-Dare-or-Shots6/True Dare or shots/StoreItem/StoreItem+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		F19F8157215432E60000392E /* StringVerdad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringVerdad.swift; path = ../StringVerdad.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F3D0D773527C0E040ADC56 /* libPods-True Dare or shots.a in Frameworks */,
+				F190FA28216BB34600CA9D6D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +136,7 @@
 		06915452D0E1ACB2150054CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F190FA27216BB34600CA9D6D /* StoreKit.framework */,
 				D59737BAD33BB20A94ECB974 /* libPods-True Dare or shots.a */,
 				967B3217E0E08F8C2994F1F2 /* libPods-True Dare or shotsTests.a */,
 				14F79EECB2B20DF59E543834 /* libPods-True Dare or shotsUITests.a */,
@@ -324,6 +328,12 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};

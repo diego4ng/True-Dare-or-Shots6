@@ -207,17 +207,23 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
                 // case purchasing
             case .purchasing:
                 print("purchasing")
+                SKPaymentQueue.default().finishTransaction(transacion)
                 break
                 // case purchased
             case .purchased:
                 print("purchased")
+                unlockStoreItem(productIdentier: transacion.payment.productIdentifier)
+                SKPaymentQueue.default().finishTransaction(transacion)
                 break
                 // case failed
             case .failed:
                 print("failed")
+                SKPaymentQueue.default().finishTransaction(transacion)
                 break
                 // case restored
             case .restored:
+                unlockStoreItem(productIdentier: transacion.payment.productIdentifier)
+                SKPaymentQueue.default().finishTransaction(transacion)
                 print("restored")
                 break
 
@@ -227,6 +233,34 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         }
     
     }
+    
+    
+    func unlockStoreItem(productIdentier:String){
+        for item in self.storeCollection{
+            if item.productidentifier == productIdentier {
+                
+                item.purchase = true
+                
+                let appDelegate = UIApplication.shared.delegate as! AppDelegate
+                let managedContext = appDelegate.persistentContainer.viewContext
+                let context = managedContext
+                
+                do{
+                    try context.save()
+                }catch{}
+                self.collectionView.reloadData()
+            }
+            
+        }
+    
+    }
+    
+    @IBAction func restaurarcompra(_ sender: UIButton) {
+SKPaymentQueue.default().restoreCompletedTransactions()
+    }
+    
+    
+    
     
     
 }
