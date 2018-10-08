@@ -23,6 +23,8 @@ class Preguntas {
         case Amigables
         case Sexuales
         case Prohibidas
+        case Prendas
+        case Ñero
     }
     
     let id: Int

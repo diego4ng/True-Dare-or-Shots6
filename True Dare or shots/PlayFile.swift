@@ -30,7 +30,8 @@ class PlayFile: UIViewController {
     
     //obejto de Categorias
     
-    var categorias = Categorias()
+    var categorias = CategoriasVerdad()
+    var categoriasRetos = CategoriasRet()
     
     var aux = 0
     var nombrejugador : String?
@@ -38,6 +39,10 @@ class PlayFile: UIViewController {
     var switchestado2 : Bool? = nil
     var switchestado3 : Bool? = nil
     var switchestado4 : Bool? = nil
+    var switchestado5 : Bool? = nil
+    var switchestado6 : Bool? = nil
+    var switchestado7 : Bool? = nil
+    var switchestado8 : Bool? = nil
     
     
     //conexion con coreData
@@ -68,7 +73,7 @@ func conexion () -> NSManagedObjectContext{
         etiqueta.text = "Reto"
         sender.flash()
         Name.text = callUsers()
-
+        checkStatusSwitchReto()
     }
     
    
@@ -90,8 +95,23 @@ func conexion () -> NSManagedObjectContext{
         }
         if (!switchestado1! && !switchestado2! && !switchestado3! && !switchestado4!) {
             True.isEnabled = false
-            
         }
+        
+        // switches Reto
+        
+        switchestado5 = UserDefaults.standard.bool(forKey: "valor5")
+        switchestado6 = UserDefaults.standard.bool(forKey: "valor6")
+        switchestado7 = UserDefaults.standard.bool(forKey: "valor7")
+        switchestado8 = UserDefaults.standard.bool(forKey: "valor8")
+        
+        if (switchestado5! || switchestado6! || switchestado7! || switchestado8!) {
+            Dare.isEnabled = true
+        }
+        if (!switchestado5! && !switchestado6! && !switchestado7! && !switchestado8!) {
+            Dare.isEnabled = false
+        }
+        
+       
         super.viewWillAppear(animated) // No need for semicolon
     }
     
@@ -129,6 +149,14 @@ func conexion () -> NSManagedObjectContext{
                 checkStatusSwitch()
         }
         }
+    func showQuestionsReto(randomnumber: Int){
+        if categoriasRetos.preguntas[randomnumber].status{
+            retolabel.text = categoriasRetos.preguntas[randomnumber].pregunta
+        }
+        else {
+            checkStatusSwitchReto()
+        }
+    }
     func checkStatusSwitch() {
         let randomnumber = Int(arc4random_uniform(UInt32(categorias.preguntas.count)))
 
@@ -154,5 +182,31 @@ func conexion () -> NSManagedObjectContext{
             }
             showQuestions(randomnumber: randomnumber)
         }
+    
+    func checkStatusSwitchReto() {
+        let randomnumber = Int(arc4random_uniform(UInt32(categoriasRetos.preguntas.count)))
+        
+        if !switchestado6! {
+            categoriasRetos.changeStatusAmigables(status: false)
+        }else{
+            categoriasRetos.changeStatusAmigables(status: true)
+        }
+        if !switchestado7! {
+            categoriasRetos.changeStatusPrenda(status: false)
+        }else{
+            categoriasRetos.changeStatusPrenda(status: true)
+        }
+        if !switchestado8! {
+            categoriasRetos.changeStatusÑero(status: false)
+        }else{
+            categoriasRetos.changeStatusÑero(status: true)
+        }
+        if  !switchestado5! {
+            categoriasRetos.changeStatusVerdad(status: false)
+        }else{
+            categoriasRetos.changeStatusVerdad(status: true)
+        }
+        showQuestionsReto(randomnumber: randomnumber)
+    }
     
 }
