@@ -19,7 +19,6 @@
 		F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCBA1211A335A0023D48F /* SettingsFile.swift */; };
 		F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FCBA3211A336E0023D48F /* AddDare.swift */; };
 		F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E50D211933AF0070CD41 /* AppDelegate.swift */; };
-		F169E510211933AF0070CD41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E50F211933AF0070CD41 /* ViewController.swift */; };
 		F169E513211933AF0070CD41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F169E511211933AF0070CD41 /* Main.storyboard */; };
 		F169E516211933AF0070CD41 /* True_Dare_or_shots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F169E514211933AF0070CD41 /* True_Dare_or_shots.xcdatamodeld */; };
 		F169E518211933AF0070CD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F169E517211933AF0070CD41 /* Assets.xcassets */; };
@@ -77,7 +76,6 @@
 		F14FCBA3211A336E0023D48F /* AddDare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDare.swift; sourceTree = "<group>"; };
 		F169E50A211933AF0070CD41 /* True Dare or shots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "True Dare or shots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F169E50D211933AF0070CD41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F169E50F211933AF0070CD41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F169E512211933AF0070CD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F169E515211933AF0070CD41 /* True_Dare_or_shots.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = True_Dare_or_shots.xcdatamodel; sourceTree = "<group>"; };
 		F169E517211933AF0070CD41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +89,7 @@
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
 		F190FA29216BBF7400CA9D6D /* CategoriasVerdad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriasVerdad.swift; sourceTree = "<group>"; };
-		F19F8157215432E60000392E /* StringVerdad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringVerdad.swift; path = ../StringVerdad.swift; sourceTree = "<group>"; };
+		F19F8157215432E60000392E /* StringVerdad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringVerdad.swift; sourceTree = "<group>"; };
 		F19F815D21594B030000392E /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
 		F19F815F21594B3B0000392E /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
 		F19F816121594B710000392E /* CircleMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
@@ -184,13 +182,8 @@
 		F169E50C211933AF0070CD41 /* True Dare or shots */ = {
 			isa = PBXGroup;
 			children = (
-				F190FA29216BBF7400CA9D6D /* CategoriasVerdad.swift */,
-				7B7471CF216BCC1000C4D12B /* CategoriasRet.swift */,
-				7B7471D1216BE17400C4D12B /* CategoriasShot.swift */,
 				F1BD5E272163C53C00A3F851 /* True Dare or shots.entitlements */,
 				F169E50D211933AF0070CD41 /* AppDelegate.swift */,
-				F19F8157215432E60000392E /* StringVerdad.swift */,
-				F169E50F211933AF0070CD41 /* ViewController.swift */,
 				F169E511211933AF0070CD41 /* Main.storyboard */,
 				F169E517211933AF0070CD41 /* Assets.xcassets */,
 				F169E519211933AF0070CD41 /* LaunchScreen.storyboard */,
@@ -204,6 +197,7 @@
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
 				F1D15211213F968200D269E0 /* CardView.swift */,
 				7B8272502155821B006D11E5 /* Preguntas.swift */,
+				F1F96A8B216C5CFD00C7C287 /* Preguntas */,
 				F1BD5E282163E11200A3F851 /* Donativo Classes */,
 				F19F816621599A070000392E /* swipetapbar */,
 				F19F815C21594ACC0000392E /* Add dare circle */,
@@ -258,6 +252,17 @@
 				F1F96A84216C5B5400C7C287 /* Storeitemcollectionviewcell.swift */,
 			);
 			path = "Donativo Classes";
+			sourceTree = "<group>";
+		};
+		F1F96A8B216C5CFD00C7C287 /* Preguntas */ = {
+			isa = PBXGroup;
+			children = (
+				F19F8157215432E60000392E /* StringVerdad.swift */,
+				F190FA29216BBF7400CA9D6D /* CategoriasVerdad.swift */,
+				7B7471CF216BCC1000C4D12B /* CategoriasRet.swift */,
+				7B7471D1216BE17400C4D12B /* CategoriasShot.swift */,
+			);
+			path = Preguntas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,7 +469,6 @@
 				F169E516211933AF0070CD41 /* True_Dare_or_shots.xcdatamodeld in Sources */,
 				7B8272512155821B006D11E5 /* Preguntas.swift in Sources */,
 				F14FCB9C211A32520023D48F /* infofile.swift in Sources */,
-				F169E510211933AF0070CD41 /* ViewController.swift in Sources */,
 				F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */,
 				F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */,
 				7B7471D0216BCC1000C4D12B /* CategoriasRet.swift in Sources */,
