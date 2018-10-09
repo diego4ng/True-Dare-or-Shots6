@@ -23,7 +23,7 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         updateStore()
         
         if self.storeCollection.count == 0{
-            createItemStore(title: "Para un Boing", imagename: "moneda.jpeg", purchased: true, productIdentifier: "com.diegocorp.true.dare.or.shots9mx")
+            createItemStore(title: "Para un Boing", imagename: "moneda.jpeg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots9mx")
             createItemStore(title: "Pal chesco", imagename: "moneda2.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots19mx")
             createItemStore(title: "Pa la cheve", imagename: "moneda3.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots39mx")
             createItemStore(title: "pa la morra", imagename: "moneda4.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots99mx")
@@ -211,14 +211,19 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
                 // case purchased
             case .purchased:
                 print("purchased")
+                 unlockStoreItem(productIdentier: transacion.payment.productIdentifier)
+                 SKPaymentQueue.default().finishTransaction(transacion)
                 break
                 // case failed
             case .failed:
                 print("failed")
+                 SKPaymentQueue.default().finishTransaction(transacion)
                 break
                 // case restored
             case .restored:
                 print("restored")
+                unlockStoreItem(productIdentier: transacion.payment.productIdentifier)
+                 SKPaymentQueue.default().finishTransaction(transacion)
                 break
 
             }
@@ -228,6 +233,29 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
     
     }
     
+    @IBAction func restore(_ sender: UIButton) {
+        SKPaymentQueue.default().restoreCompletedTransactions()
+    }
+    
+    func unlockStoreItem(productIdentier:String){
+        for item in self.storeCollection{
+            if item.productidentifier == productIdentier {
+                
+                item.purchase = true
+                
+                let appDelegate = UIApplication.shared.delegate as! AppDelegate
+                let managedContext = appDelegate.persistentContainer.viewContext
+                let context = managedContext
+                
+                do{
+                    try context.save()
+                }catch{}
+                self.collectionView.reloadData()
+            }
+            
+        }
+        
+    }
     
 }
 
