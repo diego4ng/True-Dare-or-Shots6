@@ -109,9 +109,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UjF-SA-hru">
                                 <rect key="frame" x="122" y="599.5" width="131" height="34.5"/>
                                 <state key="normal" title="Restaurar Donativo"/>
-                                <connections>
-                                    <action selector="restaurarcompra:" destination="cl4-kK-DdK" eventType="touchUpInside" id="Ycg-se-Pw9"/>
-                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rsh-vx-PTW">
                                 <rect key="frame" x="0.0" y="111.5" width="375" height="464"/>
@@ -380,10 +377,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="951"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rhq-7j-dxy" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="938"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="951"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="Hv6-bM-Mja">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                                <rect key="frame" x="0.0" y="13" width="375" height="618"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="Hdv-vY-wQP"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="618" id="M2Z-Nk-aYp"/>
@@ -411,21 +408,21 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="botton verdadX" translatesAutoresizingMaskIntoConstraints="NO" id="8cw-AL-Lk8">
-                                                <rect key="frame" x="106" y="15" width="163" height="82"/>
+                                                <rect key="frame" x="106" y="28" width="163" height="82"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="82" id="M2T-nr-vEj"/>
                                                     <constraint firstAttribute="width" constant="163" id="fqJ-JF-xc3"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="botton RetoX" translatesAutoresizingMaskIntoConstraints="NO" id="5JE-yl-ia1">
-                                                <rect key="frame" x="106" y="318" width="161" height="85"/>
+                                                <rect key="frame" x="106" y="331" width="161" height="85"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="161" id="99m-HN-JaR"/>
                                                     <constraint firstAttribute="height" constant="85" id="PjH-w8-UOM"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="botton ShotX" translatesAutoresizingMaskIntoConstraints="NO" id="mrg-xr-ksy">
-                                                <rect key="frame" x="106" y="618" width="161" height="85"/>
+                                                <rect key="frame" x="106" y="631" width="161" height="85"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="161" id="ErA-l2-fdU"/>
                                                     <constraint firstAttribute="height" constant="85" id="SvW-hT-X9b"/>
