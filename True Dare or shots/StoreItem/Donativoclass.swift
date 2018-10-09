@@ -23,6 +23,7 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         updateStore()
         
         if self.storeCollection.count == 0{
+
             createItemStore(title: "Para un Boing", imagename: "moneda.jpeg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots9mx")
             createItemStore(title: "Pal chesco", imagename: "moneda2.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots19mx")
             createItemStore(title: "Pa la cheve", imagename: "moneda3.jepg", purchased: false, productIdentifier: "com.diegocorp.true.dare.or.shots39mx")
@@ -211,19 +212,25 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
                 // case purchased
             case .purchased:
                 print("purchased")
+
                  unlockStoreItem(productIdentier: transacion.payment.productIdentifier)
                  SKPaymentQueue.default().finishTransaction(transacion)
+
                 break
                 // case failed
             case .failed:
                 print("failed")
+
                  SKPaymentQueue.default().finishTransaction(transacion)
+
                 break
                 // case restored
             case .restored:
                 print("restored")
+
                 unlockStoreItem(productIdentier: transacion.payment.productIdentifier)
                  SKPaymentQueue.default().finishTransaction(transacion)
+
                 break
 
             }
@@ -233,6 +240,7 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
     
     }
     
+
     @IBAction func restore(_ sender: UIButton) {
         SKPaymentQueue.default().restoreCompletedTransactions()
     }
@@ -256,6 +264,7 @@ class Donativoclass: UIViewController,UICollectionViewDataSource, UICollectionVi
         }
         
     }
+
     
 }
 

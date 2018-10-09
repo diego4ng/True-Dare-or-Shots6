@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		78BCF7C13C93620209DBBC92 /* libPods-True Dare or shotsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F79EECB2B20DF59E543834 /* libPods-True Dare or shotsUITests.a */; };
+		7B7471D0216BCC1000C4D12B /* CategoriasRet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7471CF216BCC1000C4D12B /* CategoriasRet.swift */; };
+		7B7471D2216BE17400C4D12B /* CategoriasShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7471D1216BE17400C4D12B /* CategoriasShot.swift */; };
 		7B8272512155821B006D11E5 /* Preguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8272502155821B006D11E5 /* Preguntas.swift */; };
 		CB183E96FC960EDD81FBB9DC /* libPods-True Dare or shotsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 967B3217E0E08F8C2994F1F2 /* libPods-True Dare or shotsTests.a */; };
 		D2F3D0D773527C0E040ADC56 /* libPods-True Dare or shots.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D59737BAD33BB20A94ECB974 /* libPods-True Dare or shots.a */; };
@@ -25,8 +27,7 @@
 		F169E526211933AF0070CD41 /* True_Dare_or_shotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E525211933AF0070CD41 /* True_Dare_or_shotsTests.swift */; };
 		F169E531211933AF0070CD41 /* True_Dare_or_shotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */; };
 		F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */; };
-		F191E617216524AB00A43861 /* StoreItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */; };
-		F191E618216524AB00A43861 /* StoreItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */; };
+		F190FA2A216BBF7400CA9D6D /* CategoriasVerdad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190FA29216BBF7400CA9D6D /* CategoriasVerdad.swift */; };
 		F19F8158215432E60000392E /* StringVerdad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F8157215432E60000392E /* StringVerdad.swift */; };
 		F19F815E21594B030000392E /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815D21594B030000392E /* CircleMenu.swift */; };
 		F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F815F21594B3B0000392E /* CircleMenuLoader.swift */; };
@@ -60,6 +61,8 @@
 		14F79EECB2B20DF59E543834 /* libPods-True Dare or shotsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-True Dare or shotsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6380387C4143658CF2267A /* Pods-True Dare or shotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsTests/Pods-True Dare or shotsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C6D60D2326B1530093CAE85 /* Pods-True Dare or shots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shots.release.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shots/Pods-True Dare or shots.release.xcconfig"; sourceTree = "<group>"; };
+		7B7471CF216BCC1000C4D12B /* CategoriasRet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasRet.swift; sourceTree = "<group>"; };
+		7B7471D1216BE17400C4D12B /* CategoriasShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasShot.swift; sourceTree = "<group>"; };
 		7B8272502155821B006D11E5 /* Preguntas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preguntas.swift; sourceTree = "<group>"; };
 		7D5020453076FEC312370FC6 /* Pods-True Dare or shotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-True Dare or shotsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-True Dare or shotsUITests/Pods-True Dare or shotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		967B3217E0E08F8C2994F1F2 /* libPods-True Dare or shotsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-True Dare or shotsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,8 +88,7 @@
 		F169E530211933AF0070CD41 /* True_Dare_or_shotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_Dare_or_shotsUITests.swift; sourceTree = "<group>"; };
 		F169E532211933AF0070CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18727F2213DCC6800E9EFB2 /* UIbottonextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbottonextension.swift; sourceTree = "<group>"; };
-		F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StoreItem+CoreDataProperties.swift"; path = "/Users/diego/Documents/True-Dare-or-Shots6/True Dare or shots/StoreItem/StoreItem+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
-		F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StoreItem+CoreDataClass.swift"; path = "/Users/diego/Documents/True-Dare-or-Shots6/True Dare or shots/StoreItem/StoreItem+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		F190FA29216BBF7400CA9D6D /* CategoriasVerdad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriasVerdad.swift; sourceTree = "<group>"; };
 		F19F8157215432E60000392E /* StringVerdad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringVerdad.swift; path = ../StringVerdad.swift; sourceTree = "<group>"; };
 		F19F815D21594B030000392E /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
 		F19F815F21594B3B0000392E /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
@@ -178,6 +180,9 @@
 		F169E50C211933AF0070CD41 /* True Dare or shots */ = {
 			isa = PBXGroup;
 			children = (
+				F190FA29216BBF7400CA9D6D /* CategoriasVerdad.swift */,
+				7B7471CF216BCC1000C4D12B /* CategoriasRet.swift */,
+				7B7471D1216BE17400C4D12B /* CategoriasShot.swift */,
 				F1BD5E272163C53C00A3F851 /* True Dare or shots.entitlements */,
 				F169E50D211933AF0070CD41 /* AppDelegate.swift */,
 				F19F8157215432E60000392E /* StringVerdad.swift */,
@@ -195,7 +200,9 @@
 				F14FCBA3211A336E0023D48F /* AddDare.swift */,
 				F1D15211213F968200D269E0 /* CardView.swift */,
 				7B8272502155821B006D11E5 /* Preguntas.swift */,
-				F191E5FE21651E4C00A43861 /* StoreItem */,
+				F1BD5E292163E15000A3F851 /* Donativoclass.swift */,
+				F1BD5E2B2163F56D00A3F851 /* Storeitemcollectionviewcell.swift */,
+				F1BD5E282163E11200A3F851 /* Donativo Classes */,
 				F19F816621599A070000392E /* swipetapbar */,
 				F19F815C21594ACC0000392E /* Add dare circle */,
 			);
@@ -220,17 +227,6 @@
 			path = "True Dare or shotsUITests";
 			sourceTree = "<group>";
 		};
-		F191E5FE21651E4C00A43861 /* StoreItem */ = {
-			isa = PBXGroup;
-			children = (
-				F1BD5E292163E15000A3F851 /* Donativoclass.swift */,
-				F191E616216524AB00A43861 /* StoreItem+CoreDataClass.swift */,
-				F191E615216524AB00A43861 /* StoreItem+CoreDataProperties.swift */,
-				F1BD5E2B2163F56D00A3F851 /* Storeitemcollectionviewcell.swift */,
-			);
-			path = StoreItem;
-			sourceTree = "<group>";
-		};
 		F19F815C21594ACC0000392E /* Add dare circle */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +245,13 @@
 				F19F816921599A730000392E /* TabBarController.swift */,
 			);
 			path = swipetapbar;
+			sourceTree = "<group>";
+		};
+		F1BD5E282163E11200A3F851 /* Donativo Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Donativo Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,16 +461,17 @@
 				F169E510211933AF0070CD41 /* ViewController.swift in Sources */,
 				F14FCBA0211A33030023D48F /* PlayFile.swift in Sources */,
 				F19F816021594B3B0000392E /* CircleMenuLoader.swift in Sources */,
+				7B7471D0216BCC1000C4D12B /* CategoriasRet.swift in Sources */,
 				F19F816A21599A730000392E /* TabBarController.swift in Sources */,
-				F191E617216524AB00A43861 /* StoreItem+CoreDataProperties.swift in Sources */,
 				F1D15212213F968200D269E0 /* CardView.swift in Sources */,
 				F14FCB9E211A32B10023D48F /* playersfile.swift in Sources */,
 				F14FCBA4211A336E0023D48F /* AddDare.swift in Sources */,
 				F19F816821599A3C0000392E /* Designable.swift in Sources */,
 				F169E50E211933AF0070CD41 /* AppDelegate.swift in Sources */,
+				F190FA2A216BBF7400CA9D6D /* CategoriasVerdad.swift in Sources */,
 				F1BD5E2C2163F56D00A3F851 /* Storeitemcollectionviewcell.swift in Sources */,
-				F191E618216524AB00A43861 /* StoreItem+CoreDataClass.swift in Sources */,
 				F18727F3213DCC6900E9EFB2 /* UIbottonextension.swift in Sources */,
+				7B7471D2216BE17400C4D12B /* CategoriasShot.swift in Sources */,
 				F14FCBA2211A335A0023D48F /* SettingsFile.swift in Sources */,
 				F19F815E21594B030000392E /* CircleMenu.swift in Sources */,
 				F19F816221594B710000392E /* CircleMenuButton.swift in Sources */,
