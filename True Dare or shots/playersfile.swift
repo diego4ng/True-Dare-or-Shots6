@@ -193,6 +193,11 @@ usertable.reloadData()
                                       message: "Desea borrar a  \(users[indexPath.row].value(forKey: "name") ?? String.self)",
                                       preferredStyle: .alert)
         
+        
+        let cancelAction = UIAlertAction(title: "Cancelar",
+                                         style: .default) { (action: UIAlertAction) -> Void in
+        }
+        
         let deleteAction = UIAlertAction(title: "Eliminar",
                                        style: .default,
                                        handler: { (action:UIAlertAction) -> Void in
@@ -210,9 +215,7 @@ usertable.reloadData()
                                         
         })
         
-        let cancelAction = UIAlertAction(title: "Cancelar",
-                                         style: .default) { (action: UIAlertAction) -> Void in
-        }
+        
         
         //Añadimos las dos UIAlertAction que hemos creado al UIAlertController
         alert.addAction(deleteAction)

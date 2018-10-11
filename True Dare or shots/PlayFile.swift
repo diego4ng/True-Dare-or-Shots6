@@ -61,7 +61,7 @@ func conexion () -> NSManagedObjectContext{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        etiqueta.text = "Play"
+        etiqueta.text = "Jugar"
         Name.text = ""
         retolabel.text = "Un botón te espera 😏"
     }
